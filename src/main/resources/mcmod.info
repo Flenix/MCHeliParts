@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mcheliparts",
+  "name": "MCHeli Parts",
+  "description": "Lots of parts used in modified MCHeli recipes.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Flenix"],
+  "credits": "surferconor425 for making textures, EMB4 for making MCHeli",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
