@@ -189,7 +189,7 @@ public class MCHeliParts {
         //hugeAluminiumAirframe = new MCHPItems(64).setUnlocalizedName("hugeAluminiumAirframe");
         //smallCompositeAirframe = new MCHPItems(64).setUnlocalizedName("smallCompositeAirframe");
         //mediumCompositeAirframe = new MCHPItems(64).setUnlocalizedName("mediumCompositeAirframe");
-        //largeCompositeAirframe = new MCHPItems(64).setUnlocalizedName("largeCompositeAirframe");
+        largeCompositeAirframe = new MCHPItems(64).setUnlocalizedName("largeCompositeAirframe");
         //hugeCompositeAirframe = new MCHPItems(64).setUnlocalizedName("hugeCompositeAirframe");
         //smallTitaniumAirframe = new MCHPItems(64).setUnlocalizedName("smallTitaniumAirframe");
         //mediumTitaniumAirframe = new MCHPItems(64).setUnlocalizedName("mediumTitaniumAirframe");
@@ -198,11 +198,11 @@ public class MCHeliParts {
         
         //smallNichromeFuselage = new MCHPItems(64).setUnlocalizedName("smallNichromeFuselage");
         //mediumNichromeFuselage = new MCHPItems(64).setUnlocalizedName("mediumNichromeFuselage");
-        //largeNichromeFuselage = new MCHPItems(64).setUnlocalizedName("largeNichromeFuselage");
+        largeNichromeFuselage = new MCHPItems(64).setUnlocalizedName("largeNichromeFuselage");
         //hugeNichromeFuselage = new MCHPItems(64).setUnlocalizedName("hugeNichromeFuselage");
         //smallAluminiumFuselage = new MCHPItems(64).setUnlocalizedName("smallAluminiumFuselage");
         //mediumAluminiumFuselage = new MCHPItems(64).setUnlocalizedName("mediumAluminiumFuselage");
-        //largeAluminiumFuselage = new MCHPItems(64).setUnlocalizedName("largeAluminiumFuselage");
+        largeAluminiumFuselage = new MCHPItems(64).setUnlocalizedName("largeAluminiumFuselage");
         //hugeAluminiumFuselage = new MCHPItems(64).setUnlocalizedName("hugeAluminiumFuselage");
         //smallCompositeFuselage = new MCHPItems(64).setUnlocalizedName("smallCompositeFuselage");
         //mediumCompositeFuselage = new MCHPItems(64).setUnlocalizedName("mediumCompositeFuselage");
@@ -210,16 +210,16 @@ public class MCHeliParts {
         //hugeCompositeFuselage = new MCHPItems(64).setUnlocalizedName("hugeCompositeFuselage");
         //smallTitaniumFuselage = new MCHPItems(64).setUnlocalizedName("smallTitaniumFuselage");
         //mediumTitaniumFuselage = new MCHPItems(64).setUnlocalizedName("mediumTitaniumFuselage");
-        //largeTitaniumFuselage = new MCHPItems(64).setUnlocalizedName("largeTitaniumFuselage");
+        largeTitaniumFuselage = new MCHPItems(64).setUnlocalizedName("largeTitaniumFuselage");
         //hugeTitaniumFuselage = new MCHPItems(64).setUnlocalizedName("hugeTitaniumFuselage");
         
         //smallNichromeCockpit = new MCHPItems(64).setUnlocalizedName("smallNichromeCockpit");
         //mediumNichromeCockpit = new MCHPItems(64).setUnlocalizedName("mediumNichromeCockpit");
-        //largeNichromeCockpit = new MCHPItems(64).setUnlocalizedName("largeNichromeCockpit");
+        largeNichromeCockpit = new MCHPItems(64).setUnlocalizedName("largeNichromeCockpit");
         //hugeNichromeCockpit = new MCHPItems(64).setUnlocalizedName("hugeNichromeCockpit");
         //smallAluminiumCockpit = new MCHPItems(64).setUnlocalizedName("smallAluminiumCockpit");
         //mediumAluminiumCockpit = new MCHPItems(64).setUnlocalizedName("mediumAluminiumCockpit");
-        //largeAluminiumCockpit = new MCHPItems(64).setUnlocalizedName("largeAluminiumCockpit");
+        largeAluminiumCockpit = new MCHPItems(64).setUnlocalizedName("largeAluminiumCockpit");
         //hugeAluminiumCockpit = new MCHPItems(64).setUnlocalizedName("hugeAluminiumCockpit");
         //smallCompositeCockpit = new MCHPItems(64).setUnlocalizedName("smallCompositeCockpit");
         //mediumCompositeCockpit = new MCHPItems(64).setUnlocalizedName("mediumCompositeCockpit");
@@ -227,7 +227,7 @@ public class MCHeliParts {
         //hugeCompositeCockpit = new MCHPItems(64).setUnlocalizedName("hugeCompositeCockpit");
         //smallTitaniumCockpit = new MCHPItems(64).setUnlocalizedName("smallTitaniumCockpit");
         //mediumTitaniumCockpit = new MCHPItems(64).setUnlocalizedName("mediumTitaniumCockpit");
-        //largeTitaniumCockpit = new MCHPItems(64).setUnlocalizedName("largeTitaniumCockpit");
+        largeTitaniumCockpit = new MCHPItems(64).setUnlocalizedName("largeTitaniumCockpit");
         //hugeTitaniumCockpit = new MCHPItems(64).setUnlocalizedName("hugeTitaniumCockpit");
         
         steelSeat1 = new MCHPLoreItem("1x Config", 1, "steelSeat1").setUnlocalizedName("steelSeat1");
@@ -265,10 +265,10 @@ public class MCHeliParts {
         ospreyEngineCasing = new MCHPItems(64).setUnlocalizedName("ospreyEngineCasing");
         ospreyCockpit = new MCHPItems(64).setUnlocalizedName("ospreyCockpit");
         ospreyControlBay = new MCHPItems(64).setUnlocalizedName("ospreyControlBay");
-        //ospreyTailPiece = new MCHPItems(64).setUnlocalizedName("ospreyTailPiece");
+        ospreyTailPiece = new MCHPItems(64).setUnlocalizedName("ospreyTailPiece");
         v22Fuselage = new MCHPItems(64).setUnlocalizedName("v22Fuselage");
         mv22Fuselage = new MCHPItems(64).setUnlocalizedName("mv22Fuselage");
-        //v22WeaponsSystem = new MCHPItems(64).setUnlocalizedName("v22WeaponsSystem");
+        v22WeaponsSystem = new MCHPItems(64).setUnlocalizedName("v22WeaponsSystem");
         
         //Towns
         //valthraxusToken = new TokenItem().setUnlocalizedName("valthraxusToken");
