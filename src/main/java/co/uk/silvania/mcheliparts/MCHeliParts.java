@@ -300,7 +300,7 @@ public class MCHeliParts {
     
     @EventHandler
     public void init(FMLInitializationEvent event) {
-    	//recipes
+    	proxy.registerItems();
     }
     
     @EventHandler
