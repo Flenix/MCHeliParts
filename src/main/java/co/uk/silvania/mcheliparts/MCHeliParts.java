@@ -94,10 +94,6 @@ public class MCHeliParts {
     public static Item mediumAluminiumCockpit;
     public static Item largeAluminiumCockpit;
     public static Item hugeAluminiumCockpit;
-    public static Item smallSteelCockpit;
-    public static Item mediumSteelCockpit;
-    public static Item largeSteelCockpit;
-    public static Item hugeSteelCockpit;
     public static Item smallCompositeCockpit;
     public static Item mediumCompositeCockpit;
     public static Item largeCompositeCockpit;
@@ -106,10 +102,6 @@ public class MCHeliParts {
     public static Item mediumTitaniumCockpit;
     public static Item largeTitaniumCockpit;
     public static Item hugeTitaniumCockpit;
-    public static Item smallCarbonCockpit;
-    public static Item mediumCarbonCockpit;
-    public static Item largeCarbonCockpit;
-    public static Item hugeCarbonCockpit;
     
     public static Item steelSeat1;
     public static Item steelSeat2;
