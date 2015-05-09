@@ -20,6 +20,7 @@ public class MCHPLoreItem extends Item {
 		txtr = texture;
 		lore = str;
 		value = val;
+		this.setCreativeTab(MCHeliParts.tabMCHP);
 	}
 	
 	@Override

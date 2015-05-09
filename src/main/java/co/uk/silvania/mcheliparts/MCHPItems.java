@@ -10,6 +10,7 @@ public class MCHPItems extends Item {
 	public MCHPItems(int stack) {
 		super();
 		this.maxStackSize = stack;
+		this.setCreativeTab(MCHeliParts.tabMCHP);
 	}
 	
 	@SideOnly(Side.CLIENT)

@@ -9,6 +9,7 @@ public class TokenItem extends Item {
 	
 	public TokenItem() {
 		super();
+		this.setCreativeTab(MCHeliParts.tabMCHP);
 	}
 	
 	@SideOnly(Side.CLIENT)
