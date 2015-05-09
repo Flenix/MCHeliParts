@@ -10,7 +10,7 @@ public class CommonProxy {
 	
 	public void registerItems() {
 		GameRegistry.registerItem(MCHeliParts.lowTorqueEngine, "lowTorqueEngine");
-		GameRegistry.registerItem(MCHeliParts.mediumTorqueEngine, "highTorqueEngine");
+		GameRegistry.registerItem(MCHeliParts.mediumTorqueEngine, "mediumTorqueEngine");
 		GameRegistry.registerItem(MCHeliParts.highTorqueEngine, "highTorqueEngine");
 		
 		GameRegistry.registerItem(MCHeliParts.smallNichromeWing, "smallNichromeWing");
