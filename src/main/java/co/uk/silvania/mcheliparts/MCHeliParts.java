@@ -482,7 +482,7 @@ public class MCHeliParts {
         fourBladeRotor = new MCHPItems(64).setUnlocalizedName("fourBladeRotor");
         fiveBladeRotor = new MCHPItems(64).setUnlocalizedName("fiveBladeRotor");
         sixBladeRotor = new MCHPItems(64).setUnlocalizedName("sixBladeRotor");
-        lowTorqueHeliEngine = new MCHPItems(64).setUnlocalizedName("loqTorqueHeliEngine");
+        lowTorqueHeliEngine = new MCHPItems(64).setUnlocalizedName("lowTorqueHeliEngine");
         medTorqueHeliEngine = new MCHPItems(64).setUnlocalizedName("medTorqueHeliEngine");
         highTorqueHeliEngine = new MCHPItems(64).setUnlocalizedName("highTorqueHeliEngine");
         
