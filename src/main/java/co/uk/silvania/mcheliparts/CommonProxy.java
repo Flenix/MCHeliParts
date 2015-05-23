@@ -30,62 +30,97 @@ public class CommonProxy {
 		GameRegistry.registerItem(MCHeliParts.largeTitaniumWing, "largeTitaniumWing");
 		GameRegistry.registerItem(MCHeliParts.hugeTitaniumWing, "hugeTitaniumWing");
 		
-		//GameRegistry.registerItem(MCHeliParts.smallNichromeAirframe, "smallNichromeAirframe");
-        //GameRegistry.registerItem(MCHeliParts.mediumNichromeAirframe, "mediumNichromeAirframe");
+		GameRegistry.registerItem(MCHeliParts.smallNichromeAirframe, "smallNichromeAirframe");
+        GameRegistry.registerItem(MCHeliParts.mediumNichromeAirframe, "mediumNichromeAirframe");
 		GameRegistry.registerItem(MCHeliParts.largeNichromeAirframe, "largeNichromeAirframe");
-        //GameRegistry.registerItem(MCHeliParts.hugeNichromeAirframe, "hugeNichromeAirframe");
-        //GameRegistry.registerItem(MCHeliParts.smallAluminiumAirframe, "smallAluminiumAirframe");
-        //GameRegistry.registerItem(MCHeliParts.mediumAluminiumAirframe, "mediumAluminiumAirframe");
+        GameRegistry.registerItem(MCHeliParts.hugeNichromeAirframe, "hugeNichromeAirframe");
+        GameRegistry.registerItem(MCHeliParts.smallAluminiumAirframe, "smallAluminiumAirframe");
+        GameRegistry.registerItem(MCHeliParts.mediumAluminiumAirframe, "mediumAluminiumAirframe");
 		GameRegistry.registerItem(MCHeliParts.largeAluminiumAirframe, "largeAluminiumAirframe");
-        //GameRegistry.registerItem(MCHeliParts.hugeAluminiumAirframe, "hugeAluminiumAirframe");
-        //GameRegistry.registerItem(MCHeliParts.smallCompositeAirframe, "smallCompositeAirframe");
-        //GameRegistry.registerItem(MCHeliParts.mediumCompositeAirframe, "mediumCompositeAirframe");
+        GameRegistry.registerItem(MCHeliParts.hugeAluminiumAirframe, "hugeAluminiumAirframe");
+        GameRegistry.registerItem(MCHeliParts.smallCompositeAirframe, "smallCompositeAirframe");
+        GameRegistry.registerItem(MCHeliParts.mediumCompositeAirframe, "mediumCompositeAirframe");
 		GameRegistry.registerItem(MCHeliParts.largeCompositeAirframe, "largeCompositeAirframe");
-        //GameRegistry.registerItem(MCHeliParts.hugeCompositeAirframe, "hugeCompositeAirframe");
-        //GameRegistry.registerItem(MCHeliParts.smallTitaniumAirframe, "smallTitaniumAirframe");
-        //GameRegistry.registerItem(MCHeliParts.mediumTitaniumAirframe, "mediumTitaniumAirframe");
+        GameRegistry.registerItem(MCHeliParts.hugeCompositeAirframe, "hugeCompositeAirframe");
+        GameRegistry.registerItem(MCHeliParts.smallTitaniumAirframe, "smallTitaniumAirframe");
+        GameRegistry.registerItem(MCHeliParts.mediumTitaniumAirframe, "mediumTitaniumAirframe");
 		GameRegistry.registerItem(MCHeliParts.largeTitaniumAirframe, "largeTitaniumAirframe");
-        //GameRegistry.registerItem(MCHeliParts.hugeTitaniumAirframe, "hugeTitaniumAirframe");
+        GameRegistry.registerItem(MCHeliParts.hugeTitaniumAirframe, "hugeTitaniumAirframe");
         
-        //GameRegistry.registerItem(MCHeliParts.smallNichromeFuselage, "smallNichromeFuselage");
-        //GameRegistry.registerItem(MCHeliParts.mediumNichromeFuselage, "mediumNichromeFuselage");
+        GameRegistry.registerItem(MCHeliParts.smallNichromeFuselage, "smallNichromeFuselage");
+        GameRegistry.registerItem(MCHeliParts.mediumNichromeFuselage, "mediumNichromeFuselage");
 		GameRegistry.registerItem(MCHeliParts.largeNichromeFuselage, "largeNichromeFuselage");
-        //GameRegistry.registerItem(MCHeliParts.hugeNichromeFuselage, "hugeNichromeFuselage");
-        //GameRegistry.registerItem(MCHeliParts.smallAluminiumFuselage, "smallAluminiumFuselage");
-        //GameRegistry.registerItem(MCHeliParts.mediumAluminiumFuselage, "mediumAluminiumFuselage");
+        GameRegistry.registerItem(MCHeliParts.hugeNichromeFuselage, "hugeNichromeFuselage");
+        GameRegistry.registerItem(MCHeliParts.smallAluminiumFuselage, "smallAluminiumFuselage");
+        GameRegistry.registerItem(MCHeliParts.mediumAluminiumFuselage, "mediumAluminiumFuselage");
 		GameRegistry.registerItem(MCHeliParts.largeAluminiumFuselage, "largeAluminiumFuselage");
-        //GameRegistry.registerItem(MCHeliParts.hugeAluminiumFuselage, "hugeAluminiumFuselage");
-        //GameRegistry.registerItem(MCHeliParts.smallCompositeFuselage, "smallCompositeFuselage");
-        //GameRegistry.registerItem(MCHeliParts.mediumCompositeFuselage, "mediumCompositeFuselage");
+        GameRegistry.registerItem(MCHeliParts.hugeAluminiumFuselage, "hugeAluminiumFuselage");
+        GameRegistry.registerItem(MCHeliParts.smallCompositeFuselage, "smallCompositeFuselage");
+        GameRegistry.registerItem(MCHeliParts.mediumCompositeFuselage, "mediumCompositeFuselage");
 		GameRegistry.registerItem(MCHeliParts.largeCompositeFuselage, "largeCompositeFuselage");
-        //GameRegistry.registerItem(MCHeliParts.hugeCompositeFuselage, "hugeCompositeFuselage");
-        //GameRegistry.registerItem(MCHeliParts.smallTitaniumFuselage, "smallTitaniumFuselage");
-        //GameRegistry.registerItem(MCHeliParts.mediumTitaniumFuselage, "mediumTitaniumFuselage");
+        GameRegistry.registerItem(MCHeliParts.hugeCompositeFuselage, "hugeCompositeFuselage");
+        GameRegistry.registerItem(MCHeliParts.smallTitaniumFuselage, "smallTitaniumFuselage");
+        GameRegistry.registerItem(MCHeliParts.mediumTitaniumFuselage, "mediumTitaniumFuselage");
 		GameRegistry.registerItem(MCHeliParts.largeTitaniumFuselage, "largeTitaniumFuselage");
-        //GameRegistry.registerItem(MCHeliParts.hugeTitaniumFuselage, "hugeTitaniumFuselage");
+        GameRegistry.registerItem(MCHeliParts.hugeTitaniumFuselage, "hugeTitaniumFuselage");
         
-        //GameRegistry.registerItem(MCHeliParts.smallNichromeCockpit, "smallNichromeCockpit");
-        //GameRegistry.registerItem(MCHeliParts.mediumNichromeCockpit, "mediumNichromeCockpit");
+        GameRegistry.registerItem(MCHeliParts.smallNichromeCockpit, "smallNichromeCockpit");
+        GameRegistry.registerItem(MCHeliParts.mediumNichromeCockpit, "mediumNichromeCockpit");
 		GameRegistry.registerItem(MCHeliParts.largeNichromeCockpit, "largeNichromeCockpit");
-        //GameRegistry.registerItem(MCHeliParts.hugeNichromeCockpit, "hugeNichromeCockpit");
-        //GameRegistry.registerItem(MCHeliParts.smallAluminiumCockpit, "smallAluminiumCockpit");
-        //GameRegistry.registerItem(MCHeliParts.mediumAluminiumCockpit, "mediumAluminiumCockpit");
+        GameRegistry.registerItem(MCHeliParts.hugeNichromeCockpit, "hugeNichromeCockpit");
+        GameRegistry.registerItem(MCHeliParts.smallAluminiumCockpit, "smallAluminiumCockpit");
+        GameRegistry.registerItem(MCHeliParts.mediumAluminiumCockpit, "mediumAluminiumCockpit");
 		GameRegistry.registerItem(MCHeliParts.largeAluminiumCockpit, "largeAluminiumCockpit");
-        //GameRegistry.registerItem(MCHeliParts.hugeAluminiumCockpit, "hugeAluminiumCockpit");
-        //GameRegistry.registerItem(MCHeliParts.smallCompositeCockpit, "smallCompositeCockpit");
-        //GameRegistry.registerItem(MCHeliParts.mediumCompositeCockpit, "mediumCompositeCockpit");
+        GameRegistry.registerItem(MCHeliParts.hugeAluminiumCockpit, "hugeAluminiumCockpit");
+        GameRegistry.registerItem(MCHeliParts.smallCompositeCockpit, "smallCompositeCockpit");
+        GameRegistry.registerItem(MCHeliParts.mediumCompositeCockpit, "mediumCompositeCockpit");
 		GameRegistry.registerItem(MCHeliParts.largeCompositeCockpit, "largeCompositeCockpit");
-        //GameRegistry.registerItem(MCHeliParts.hugeCompositeCockpit, "hugeCompositeCockpit");
-        //GameRegistry.registerItem(MCHeliParts.smallTitaniumCockpit, "smallTitaniumCockpit");
-        //GameRegistry.registerItem(MCHeliParts.mediumTitaniumCockpit, "mediumTitaniumCockpit");
+        GameRegistry.registerItem(MCHeliParts.hugeCompositeCockpit, "hugeCompositeCockpit");
+        GameRegistry.registerItem(MCHeliParts.smallTitaniumCockpit, "smallTitaniumCockpit");
+        GameRegistry.registerItem(MCHeliParts.mediumTitaniumCockpit, "mediumTitaniumCockpit");
 		GameRegistry.registerItem(MCHeliParts.largeTitaniumCockpit, "largeTitaniumCockpit");
-        //GameRegistry.registerItem(MCHeliParts.hugeTitaniumCockpit, "hugeTitaniumCockpit");
+        GameRegistry.registerItem(MCHeliParts.hugeTitaniumCockpit, "hugeTitaniumCockpit");
+		
+		GameRegistry.registerItem(MCHeliParts.smallAluminiumSupportBeam, "smallAluminiumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.mediumAluminiumSupportBeam, "mediumAluminiumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.largeAluminiumSupportBeam, "largeAluminiumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.hugeAluminiumSupportBeam, "hugeAluminiumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.smallTitaniumSupportBeam, "smallTitaniumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.mediumTitaniumSupportBeam, "mediumTitaniumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.largeTitaniumSupportBeam, "largeTitaniumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.hugeTitaniumSupportBeam, "hugeTitaniumSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.smallNichromeSupportBeam, "smallNichromeSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.mediumNichromeSupportBeam, "mediumNichromeSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.largeNichromeSupportBeam, "largeNichromeSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.hugeNichromeSupportBeam, "hugeNichromeSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.smallCompositeSupportBeam, "smallCompositeSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.mediumCompositeSupportBeam, "mediumCompositeSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.largeCompositeSupportBeam, "largeCompositeSupportBeam");
+		GameRegistry.registerItem(MCHeliParts.hugeCompositeSupportBeam, "hugeCompositeSupportBeam");
 		
 		GameRegistry.registerItem(MCHeliParts.steelSeat1, "steelSeat1");
 		GameRegistry.registerItem(MCHeliParts.steelSeat2, "steelSeat2");
 		GameRegistry.registerItem(MCHeliParts.steelSeat3, "steelSeat3");
 		GameRegistry.registerItem(MCHeliParts.steelSeat4, "steelSeat4");
 		GameRegistry.registerItem(MCHeliParts.steelSeat5, "steelSeat5");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat1, "leather1");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat2, "leather2");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat3, "leather3");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat4, "leather4");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat5, "leather5");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat1, "padded1");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat2, "padded2");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat3, "padded3");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat4, "padded4");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat5, "padded5");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat1, "airliner1");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat2, "airliner2");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat3, "airliner3");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat4, "airliner4");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat5, "airliner5");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat10, "airliner10");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat50, "airliner50");
+		GameRegistry.registerItem(MCHeliParts.foldingTray, "foldingTray");
         
 		GameRegistry.registerItem(MCHeliParts.fuelTank100, "fuelTank100");
 		GameRegistry.registerItem(MCHeliParts.fuelTank200, "fuelTank200");
@@ -107,6 +142,37 @@ public class CommonProxy {
         
         GameRegistry.registerItem(MCHeliParts.reinforcedPiston, "reinforcedPiston");
         GameRegistry.registerItem(MCHeliParts.titaniumReinforcedPiston, "titaniumReinforcedPiston");
+        GameRegistry.registerItem(MCHeliParts.propellorBlade, "propellorBlade");
+        GameRegistry.registerItem(MCHeliParts.twoBladePropellor, "twoBladePropellor");
+        GameRegistry.registerItem(MCHeliParts.threeBladePropellor, "threeBladePropellor");
+        GameRegistry.registerItem(MCHeliParts.fourBladePropellor, "fourBladePropellor");
+        GameRegistry.registerItem(MCHeliParts.fiveBladePropellor, "fiveBladePropellor");
+        GameRegistry.registerItem(MCHeliParts.smallWheel, "smallWheel");
+        GameRegistry.registerItem(MCHeliParts.mediumWheel, "mediumWheel");
+        GameRegistry.registerItem(MCHeliParts.largeWheel, "largeWheel");
+        GameRegistry.registerItem(MCHeliParts.smallDoubleWheel, "smallDoubleWheel");
+        GameRegistry.registerItem(MCHeliParts.mediumDoubleWheel, "mediumDoubleWheel");
+        GameRegistry.registerItem(MCHeliParts.largeDoubleWheel, "largeDoubleWheel");
+        GameRegistry.registerItem(MCHeliParts.smallFloat, "smallFloat");
+        GameRegistry.registerItem(MCHeliParts.mediumFloat, "mediumFloat");
+        GameRegistry.registerItem(MCHeliParts.largeFloat, "largeFloat");
+        GameRegistry.registerItem(MCHeliParts.lowTorquePropEngine, "lowTorquePropEngine");
+        GameRegistry.registerItem(MCHeliParts.medTorquePropEngine, "medTorquePropEngine");
+        GameRegistry.registerItem(MCHeliParts.highTorquePropEngine, "highTorquePropEngine");
+        GameRegistry.registerItem(MCHeliParts.lowTorqueJetEngine, "lowTorqueJetEngine");
+        GameRegistry.registerItem(MCHeliParts.medTorqueJetEngine, "medTorqueJetEngine");
+        GameRegistry.registerItem(MCHeliParts.highTorqueJetEngine, "highTorqueJetEngine");
+        GameRegistry.registerItem(MCHeliParts.lowTorqueLPJetEngine, "lowTorqueLPJetEngine");
+        GameRegistry.registerItem(MCHeliParts.medTorqueLPJetEngine, "medTorqueLPJetEngine");
+        GameRegistry.registerItem(MCHeliParts.highTorqueLPJetEngine, "highTorqueLPJetEngine");
+        GameRegistry.registerItem(MCHeliParts.stealthEngine, "stealthEngine");
+        GameRegistry.registerItem(MCHeliParts.lowTorqueIonThruster, "lowTorqueIonThruster");
+        GameRegistry.registerItem(MCHeliParts.medTorqueIonThruster, "medTorqueIonThruster");
+        GameRegistry.registerItem(MCHeliParts.highTorqueIonThruster, "highTorqueIonThruster");
+        GameRegistry.registerItem(MCHeliParts.pressurizedCabinGlass, "pressurizedCabinGlass");
+        GameRegistry.registerItem(MCHeliParts.rawPressurizedCabinGlass, "rawPressurizedCabinGlass");
+        GameRegistry.registerItem(MCHeliParts.oxygenMaskSet, "oxygenMaskSet");
+        GameRegistry.registerItem(MCHeliParts.oxygenMask, "oxygenMask");
         
         GameRegistry.registerItem(MCHeliParts.compositeMaterialSet, "compositeMaterialSet");
         GameRegistry.registerItem(MCHeliParts.compositeMaterialMixture, "compositeMaterialMixture");
@@ -116,6 +182,19 @@ public class CommonProxy {
         
         //Electronics
         GameRegistry.registerItem(MCHeliParts.nightVisionSystem, "nightVisionSystem");
+        
+        //Heli parts
+        GameRegistry.registerItem(MCHeliParts.heliRunners, "heliRunners");
+        GameRegistry.registerItem(MCHeliParts.heliFloatRunners, "heliFloatRunners");
+        GameRegistry.registerItem(MCHeliParts.heliRotorBlade, "heliRotorBlade");
+        GameRegistry.registerItem(MCHeliParts.twoBladeRotor, "twoBladeRotor");
+        GameRegistry.registerItem(MCHeliParts.threeBladeRotor, "threeBladeRotor");
+        GameRegistry.registerItem(MCHeliParts.fourBladeRotor, "fourBladeRotor");
+        GameRegistry.registerItem(MCHeliParts.fiveBladeRotor, "fiveBladeRotor");
+        GameRegistry.registerItem(MCHeliParts.sixBladeRotor, "sixBladeRotor");
+        GameRegistry.registerItem(MCHeliParts.lowTorqueHeliEngine, "lowTorqueHeliEngine");
+        GameRegistry.registerItem(MCHeliParts.medTorqueHeliEngine, "medTorqueHeliEngine");
+        GameRegistry.registerItem(MCHeliParts.highTorqueHeliEngine, "highTorqueHeliEngine");
         
         //Specifics
         
@@ -129,6 +208,64 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.v22Fuselage, "v22Fuselage");
         GameRegistry.registerItem(MCHeliParts.mv22Fuselage, "mv22Fuselage");
         GameRegistry.registerItem(MCHeliParts.v22WeaponsSystem, "v22WeaponsSystem");
+        
+        //Civillian Helis
+        GameRegistry.registerItem(MCHeliParts.longRangerFuselage, "longRangerFuselage");
+        GameRegistry.registerItem(MCHeliParts.longRangerTail, "longRangerTail");
+        GameRegistry.registerItem(MCHeliParts.fl282Fuselage, "fl282Fuselage");
+        GameRegistry.registerItem(MCHeliParts.fl282Tail, "fl282Tail");
+        GameRegistry.registerItem(MCHeliParts.bell47gFuselage, "bell47gFuselage");
+        GameRegistry.registerItem(MCHeliParts.bell47gTail, "bell47GTail");
+        GameRegistry.registerItem(MCHeliParts.bell47gWeaponSystem, "bell47GWeaponSystem");
+        GameRegistry.registerItem(MCHeliParts.robinsonFuselage, "robinsonFuselage");
+        GameRegistry.registerItem(MCHeliParts.robinsonTail, "robinsonTail");
+        GameRegistry.registerItem(MCHeliParts.s76Fuselage, "s76Fuselage");
+        GameRegistry.registerItem(MCHeliParts.s76Tail, "s76Tail");
+        GameRegistry.registerItem(MCHeliParts.s76FancyShit, "s76FancyShit");
+        
+        
+        //Civillian Planes
+        GameRegistry.registerItem(MCHeliParts.an2sFuselage, "an2sFuselage");
+        GameRegistry.registerItem(MCHeliParts.an2sTail, "an2sTail");
+        GameRegistry.registerItem(MCHeliParts.an2sEngine, "an2sEngine");
+        GameRegistry.registerItem(MCHeliParts.an2sWing, "an2sWing");
+        GameRegistry.registerItem(MCHeliParts.t4Fuselage, "t4Fuselage");
+        GameRegistry.registerItem(MCHeliParts.t4Tail, "t4Tail");
+        GameRegistry.registerItem(MCHeliParts.t4Engine, "t4Engine");
+        GameRegistry.registerItem(MCHeliParts.t4Wing, "t4Wing");
+        GameRegistry.registerItem(MCHeliParts.m18Fuselage, "m18Fuselage");
+        GameRegistry.registerItem(MCHeliParts.m18Tail, "m18Tail");
+        GameRegistry.registerItem(MCHeliParts.m18Engine, "m18Engine");
+        GameRegistry.registerItem(MCHeliParts.m18Wing, "m18Wing");
+        GameRegistry.registerItem(MCHeliParts.p180Fuselage, "p180Fuselage");
+        GameRegistry.registerItem(MCHeliParts.p180Cockpit, "p180Cockpit");
+        GameRegistry.registerItem(MCHeliParts.p180Tail, "p180Tail");
+        GameRegistry.registerItem(MCHeliParts.p180Engine, "p180Engine");
+        GameRegistry.registerItem(MCHeliParts.p180Wing, "p180Wing");
+        GameRegistry.registerItem(MCHeliParts.md90Fuselage, "md90Fuselage");
+        GameRegistry.registerItem(MCHeliParts.md90Cockpit, "md90Cockpit");
+        GameRegistry.registerItem(MCHeliParts.md90Tail, "md90Tail");
+        GameRegistry.registerItem(MCHeliParts.md90Engine, "md90Engine");
+        GameRegistry.registerItem(MCHeliParts.md90Wing, "md90Wing");
+        GameRegistry.registerItem(MCHeliParts.mc72Fuselage, "mc72Fuselage");
+        GameRegistry.registerItem(MCHeliParts.mc72Tail, "mc72Tail");
+        GameRegistry.registerItem(MCHeliParts.mc72Engine, "mc72Engine");
+        GameRegistry.registerItem(MCHeliParts.mc72Wing, "mc72Wing");
+        GameRegistry.registerItem(MCHeliParts.mc72Floater, "mc72Floater");
+        GameRegistry.registerItem(MCHeliParts.m33Fuselage, "m33Fuselage");
+        GameRegistry.registerItem(MCHeliParts.m33Tail, "m33Tail");
+        GameRegistry.registerItem(MCHeliParts.m33Engine, "m33Engine");
+        GameRegistry.registerItem(MCHeliParts.m33Wing, "m33Wing");
+        GameRegistry.registerItem(MCHeliParts.m33Floater, "m33Floater");
+        GameRegistry.registerItem(MCHeliParts.cessna172Fuselage, "cessna172Fuselage");
+        GameRegistry.registerItem(MCHeliParts.cessna172Tail, "cessna172Tail");
+        GameRegistry.registerItem(MCHeliParts.cessna172Engine, "cessna172Engine");
+        GameRegistry.registerItem(MCHeliParts.cessna172Wing, "cessna172Wing");
+        GameRegistry.registerItem(MCHeliParts.cessna172Floater, "cessna172Floater");
+        GameRegistry.registerItem(MCHeliParts.cessna152Fuselage, "cessna152Fuselage");
+        GameRegistry.registerItem(MCHeliParts.cessna152Tail, "cessna152Tail");
+        GameRegistry.registerItem(MCHeliParts.cessna152Engine, "cessna152Engine");
+        GameRegistry.registerItem(MCHeliParts.cessna152Wing, "cessna152Wing");
         
         //Towns
         GameRegistry.registerItem(MCHeliParts.valthraxusToken, "valthraxusToken");
