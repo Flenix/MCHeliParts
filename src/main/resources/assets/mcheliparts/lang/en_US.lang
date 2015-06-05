@@ -81,6 +81,8 @@ item.smallCompositeSupportBeam.name=Small Composite Support Beam
 item.mediumCompositeSupportBeam.name=Medium Composite Support Beam
 item.largeCompositeSupportBeam.name=Large Composite Support Beam
 item.hugeCompositeSupportBeam.name=Huge Composite Support Beam
+
+item.ironSeatFrame.name=Iron Seat Frame
 item.steelSeat1.name=Steel Seat
 item.steelSeat2.name=Steel Seat
 item.steelSeat3.name=Steel Seat
@@ -164,6 +166,7 @@ item.compositeMaterialPlate.name=Composite Material Plate
 item.compositeMaterialFuselagePlate.name=Composite Material Fuselage Plate
 
 item.nightVisionSystem.name=Night Vision System
+item.stealthSystem.name=Stealth System
 
 item.ospreyWing.name=Osprey Wing
 item.ospreyEngine.name=Osprey Engine
@@ -243,6 +246,33 @@ item.cessna152Fuselage.name=Cessna 152 Fuselage
 item.cessna152Tail.name=Cessna 152 Tail
 item.cessna152Engine.name=Cessna 152 Engine
 item.cessna152Wing.name=Cessna 152 Wing
+
+item.hornetFuselage.name=Hornet Fuselage
+item.hornetEngine.name=Hornet Engine
+item.hornetWing.name=Hornet Wing
+item.hornetStandWing.name=Hornet Stand Wing
+item.hornetControlSystem.name=Hornet Control System
+item.hornetWeaponSystem.name=Hornet Weapon System
+item.ghostFuselage.name=Ghost Fuselage
+item.ghostControlSystem.name=Ghost Control System
+item.ghostEngine.name=Ghost Engine
+item.ghostExhaust.name=Ghost Exhaust
+item.ghostWeaponSystem.name=Ghost Weapon System
+item.bansheeLowerFuselage.name=Banshee Lower Fuselage
+item.bansheeUpperFuselage.name=Banshee Upper Fuselage
+item.bansheeControlSystem.name=Banshee Control System
+item.bansheeWing.name=Banshee Wing
+item.bansheeEngine.name=Banshee Engine
+item.bansheeWeaponSystem.name=Banshee Weapon System
+
+item.unscVulcan.name=M41 Vulcan
+item.unscVulcanRounds.name=M41 Vulcan Ammunition
+item.unscRocketLauncher.name=Class-2 Guided Munition Launch Systems
+item.unscRocket.name=Class-2 Rocket
+item.covenantPlasmaCannon.name=Class-2 Plasma Cannon
+item.covenantPlasmaCharger.name=Plasma Cell
+item.covenantFuelRodCannon.name=Class-2 Fuel Rod Cannon
+item.covenantFuelRod.name=Fuel Rod
 
 item.valthraxusToken.name=Token of Valthraxus
 item.larchToken.name=Token of Larch

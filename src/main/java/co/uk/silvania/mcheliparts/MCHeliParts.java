@@ -10,6 +10,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 
 @Mod(modid = MCHeliParts.modid, version = MCHeliParts.version)
@@ -117,6 +118,7 @@ public class MCHeliParts {
     public static Item largeCompositeSupportBeam;
     public static Item hugeCompositeSupportBeam;
     
+    public static Item ironSeatFrame;
     public static Item steelSeat1;
     public static Item steelSeat2;
     public static Item steelSeat3;
@@ -168,6 +170,7 @@ public class MCHeliParts {
     
     //Electronics
     public static Item nightVisionSystem;
+    public static Item stealthSystem;
     
     //Smaller parts
     public static Item lowTorqueEngine;
@@ -233,7 +236,7 @@ public class MCHeliParts {
     public static Item mv22Fuselage;
     public static Item v22WeaponsSystem;
     
-    //Civillian Helicopters TODO
+    //Civillian Helicopters
     public static Item longRangerFuselage;
     public static Item longRangerTail;
     public static Item fl282Fuselage;
@@ -248,7 +251,7 @@ public class MCHeliParts {
     public static Item s76FancyShit;
     
     
-    //Civillian Planes TODO
+    //Civillian Planes
     public static Item an2sFuselage;
     public static Item an2sTail;
     public static Item an2sEngine;
@@ -290,6 +293,143 @@ public class MCHeliParts {
     public static Item cessna152Tail;
     public static Item cessna152Engine;
     public static Item cessna152Wing;
+    
+    //Halo items
+    public static Item hornetFuselage;
+    public static Item hornetEngine;
+    public static Item hornetWing;
+    public static Item hornetStandWing;
+    public static Item hornetControlSystem;
+    public static Item hornetWeaponSystem;
+    public static Item ghostFuselage;
+    public static Item ghostControlSystem;
+    public static Item ghostEngine;
+    public static Item ghostExhaust;
+    public static Item ghostWeaponSystem;
+    public static Item bansheeLowerFuselage;
+    public static Item bansheeUpperFuselage;
+    public static Item bansheeControlSystem;
+    public static Item bansheeWing;
+    public static Item bansheeEngine;
+    public static Item bansheeWeaponSystem;
+    
+    public static Item unscVulcan;
+    public static Item unscVulcanRounds;
+    public static Item unscRocketLauncher;
+    public static Item unscRocket;
+    public static Item covenantPlasmaCannon;
+    public static Item covenantPlasmaCharger;
+    public static Item covenantFuelRodCannon;
+    public static Item covenantFuelRod;
+    
+    
+    //Weapon Parts
+    
+    //Ammunition Parts
+    public static Item smallBullet;
+    public static Item mediumBullet;
+    public static Item largeBullet;
+    public static Item cannonBullet;
+    public static Item blackPowder;
+    public static Item cartridgePrimer;
+    public static Item case5mm;
+    public static Item case5_56mm;
+    public static Item case6mm;
+    public static Item case6_35mm;
+    public static Item case6_5mm;
+    public static Item case6_8mm;
+    public static Item case7mm;
+    public static Item case7_62mm;
+    public static Item case7_8mm;
+    public static Item case7_9mm;
+    public static Item case8mm;
+    public static Item case8_6mm;
+    public static Item case9mm;
+    public static Item case10mm;
+    public static Item case10_9mm;
+    public static Item case11_43mm;
+    public static Item case12_7mm;
+    public static Item case30mm;
+    
+    //Weapons (Guns)
+    public static Item weaponGSh_23_2;
+    public static Item weaponYakB_12_7;
+    public static Item weaponGShG_7_62;
+    public static Item weaponM3M;
+    public static Item weaponM60;
+    public static Item weaponM134;
+    public static Item weaponM134D;
+    public static Item weaponM197;
+    public static Item weaponM230;
+    public static Item weaponM240;
+    public static Item weapon20mm_GunPod; //Explosive rounds! No item yet
+    
+    //Weapons (Missiles etc)
+    public static Item weaponAGM_114_Hellfire; //
+    public static Item weaponAGM_119B_Penguin; //
+    public static Item weaponMark46_Torpedo; //
+    public static Item weaponS_5M_57mmRocketLauncher; //
+    public static Item weaponS_8_80mmRocket; //
+    public static Item weaponS_8DM_80mmRocket; //
+    public static Item weaponS_8SFrenchet; //
+    public static Item weaponS_8TsMMarker; //
+    public static Item weapon9K38_Igla; //
+    public static Item weapon9K118_Sheksna; //TV MODE! Laser Guided, 9M117 Bastion
+    public static Item weapon9K121_Vikhr; //TV MODE! ^^
+    public static Item weapon9M114; //TV MODE! ^^^
+    public static Item weaponPLAB_250_120_DC; //
+    public static Item weaponKh_35;//
+    public static Item weaponType91_SAM_2; //Laser guidance system
+    public static Item weaponGBU38B_JDAM; //Airstrike system
+    public static Item weaponHydra_70mmRocketLauncher; //
+    public static Item weaponM75GrenadeLauncher; //
+    public static Item weapon2A42_30mmCannon; //
+    public static Item weaponRMK30_Revolver_Cannon; //
+    public static Item weaponTrigat_LR; //
+    public static Item weaponAIM_9_Sidewinder; //
+    public static Item weaponAIM_92_Stinger; //
+    public static Item weaponMGM_21A; //
+    public static Item weaponA_10_GAU_8_Avenger; //30mm cannon
+    
+    //Ammunition
+    public static Item cartridge5mm;
+    public static Item cartridge5_56mm;
+    public static Item cartridge6mm;
+    public static Item cartridge6_35mm;
+    public static Item cartridge6_5mm;
+    public static Item cartridge6_8mm;
+    public static Item cartridge7mm;
+    public static Item cartridge7_62mm;
+    public static Item cartridge7_8mm;
+    public static Item cartridge7_9mm;
+    public static Item cartridge8mm;
+    public static Item cartridge8_6mm;
+    public static Item cartridge9mm;
+    public static Item cartridge10mm;
+    public static Item cartridge10_9mm;
+    public static Item cartridge11_43mm;
+    public static Item cartridge12_7mm; //.50 cal
+    
+    public static Item cartridge30mm;
+    
+    public static Item airstrikeJDAM;
+    public static Item missileHellfireMissile; //TV
+    public static Item missilePenguinMissile; //Guided
+    public static Item missileMark46Torpedo; //Sonar guided
+    public static Item missile9M39Igla;
+    public static Item missileKh_35; //Radar guided
+    public static Item missileType91SAM; //Laser guided
+    public static Item missile9M117_Bastion; //Laser/TV
+    public static Item missileTrigat_LR;
+    public static Item missileAIM_9_Sidewinder; //Infrared
+    public static Item missileAIM_92_Stinger; //Stinger missile //TODO check MCHeli's built-in one
+    public static Item rocket57mm;
+    public static Item rocket70mm;
+    public static Item rocket80mm;
+    public static Item rocket80mmThermobaric;
+    public static Item rocket80mmMarker;
+    public static Item grenade40mm;
+    public static Item bombPLAB_250_120;
     
     //Tokens
     public static Item valthraxusToken;
@@ -388,28 +528,29 @@ public class MCHeliParts {
         largeCompositeSupportBeam = new MCHPItems(16).setUnlocalizedName("largeCompositeSupportBeam");
         hugeCompositeSupportBeam = new MCHPItems(16).setUnlocalizedName("hugeCompositeSupportBeam");
         
+        ironSeatFrame = new MCHPItems(64).setUnlocalizedName("ironSeatFrame");
         steelSeat1 = new MCHPLoreItem("1x Config", 1, "steelSeat1").setUnlocalizedName("steelSeat1");
         steelSeat2 = new MCHPLoreItem("2x Config", 2, "steelSeat2").setUnlocalizedName("steelSeat2");
         steelSeat3 = new MCHPLoreItem("3x Config", 3, "steelSeat3").setUnlocalizedName("steelSeat3");
         steelSeat4 = new MCHPLoreItem("4x Config", 4, "steelSeat4").setUnlocalizedName("steelSeat4");
         steelSeat5 = new MCHPLoreItem("5x Config", 5, "steelSeat5").setUnlocalizedName("steelSeat5");
-        leatherSeat1 = new MCHPLoreItem("1x Config", 1, "leatherSeat5").setUnlocalizedName("leather1");
-        leatherSeat2 = new MCHPLoreItem("2x Config", 2, "leatherSeat5").setUnlocalizedName("leather2");
-        leatherSeat3 = new MCHPLoreItem("3x Config", 3, "leatherSeat5").setUnlocalizedName("leather3");
-        leatherSeat4 = new MCHPLoreItem("4x Config", 4, "leatherSeat5").setUnlocalizedName("leather4");
-        leatherSeat5 = new MCHPLoreItem("5x Config", 5, "leatherSeat5").setUnlocalizedName("leather5");
-        paddedSeat1 = new MCHPLoreItem("1x Config", 1, "paddedSeat5").setUnlocalizedName("padded1");
-        paddedSeat2 = new MCHPLoreItem("2x Config", 2, "paddedSeat5").setUnlocalizedName("padded2");
-        paddedSeat3 = new MCHPLoreItem("3x Config", 3, "paddedSeat5").setUnlocalizedName("padded3");
-        paddedSeat4 = new MCHPLoreItem("4x Config", 4, "paddedSeat5").setUnlocalizedName("padded4");
-        paddedSeat5 = new MCHPLoreItem("5x Config", 5, "paddedSeat5").setUnlocalizedName("padded5");
-        airlinerSeat1 = new MCHPLoreItem("1x Config", 1, "airlinerSeat5").setUnlocalizedName("airliner1");
-        airlinerSeat2 = new MCHPLoreItem("2x Config", 2, "airlinerSeat5").setUnlocalizedName("airliner2");
-        airlinerSeat3 = new MCHPLoreItem("3x Config", 3, "airlinerSeat5").setUnlocalizedName("airliner3");
-        airlinerSeat4 = new MCHPLoreItem("4x Config", 4, "airlinerSeat5").setUnlocalizedName("airliner4");
-        airlinerSeat5 = new MCHPLoreItem("5x Config", 5, "airlinerSeat5").setUnlocalizedName("airliner5");
-        airlinerSeat10 = new MCHPLoreItem("10x Config", 10, "airlinerSeat5").setUnlocalizedName("airliner10");
-        airlinerSeat50 = new MCHPLoreItem("50x Config", 50, "airlinerSeat5").setUnlocalizedName("airliner50");
+        leatherSeat1 = new MCHPLoreItem("1x Config", 1, "leatherSeat1").setUnlocalizedName("leatherSeat1");
+        leatherSeat2 = new MCHPLoreItem("2x Config", 2, "leatherSeat2").setUnlocalizedName("leatherSeat2");
+        leatherSeat3 = new MCHPLoreItem("3x Config", 3, "leatherSeat3").setUnlocalizedName("leatherSeat3");
+        leatherSeat4 = new MCHPLoreItem("4x Config", 4, "leatherSeat4").setUnlocalizedName("leatherSeat4");
+        leatherSeat5 = new MCHPLoreItem("5x Config", 5, "leatherSeat5").setUnlocalizedName("leatherSeat5");
+        paddedSeat1 = new MCHPLoreItem("1x Config", 1, "paddedSeat1").setUnlocalizedName("paddedSeat1");
+        paddedSeat2 = new MCHPLoreItem("2x Config", 2, "paddedSeat2").setUnlocalizedName("paddedSeat2");
+        paddedSeat3 = new MCHPLoreItem("3x Config", 3, "paddedSeat3").setUnlocalizedName("paddedSeat3");
+        paddedSeat4 = new MCHPLoreItem("4x Config", 4, "paddedSeat4").setUnlocalizedName("paddedSeat4");
+        paddedSeat5 = new MCHPLoreItem("5x Config", 5, "paddedSeat5").setUnlocalizedName("paddedSeat5");
+        airlinerSeat1 = new MCHPLoreItem("1x Config", 1, "airlinerSeat1").setUnlocalizedName("airlinerSeat1");
+        airlinerSeat2 = new MCHPLoreItem("2x Config", 2, "airlinerSeat2").setUnlocalizedName("airlinerSeat2");
+        airlinerSeat3 = new MCHPLoreItem("3x Config", 3, "airlinerSeat3").setUnlocalizedName("airlinerSeat3");
+        airlinerSeat4 = new MCHPLoreItem("4x Config", 4, "airlinerSeat4").setUnlocalizedName("airlinerSeat4");
+        airlinerSeat5 = new MCHPLoreItem("5x Config", 5, "airlinerSeat5").setUnlocalizedName("airlinerSeat5");
+        airlinerSeat10 = new MCHPLoreItem("10x Config", 10, "airlinerSeat10").setUnlocalizedName("airlinerSeat10");
+        airlinerSeat50 = new MCHPLoreItem("50x Config", 50, "airlinerSeat50").setUnlocalizedName("airlinerSeat50");
         foldingTray = new MCHPItems(64).setUnlocalizedName("foldingTray");
         
         fuelTank100 = new MCHPLoreItem("100 B", 100, "fuelTank").setUnlocalizedName("fuelTank100");
@@ -432,6 +573,7 @@ public class MCHeliParts {
         
         reinforcedPiston = new MCHPItems(64).setUnlocalizedName("reinforcedPiston");
         titaniumReinforcedPiston = new MCHPItems(64).setUnlocalizedName("titaniumReinforcedPiston");
+        //TODO textures!
         propellorBlade = new MCHPItems(64).setUnlocalizedName("propellorBlade");
         twoBladePropellor = new MCHPItems(64).setUnlocalizedName("twoBladePropellor");
         threeBladePropellor = new MCHPItems(64).setUnlocalizedName("threeBladePropellor");
@@ -472,6 +614,7 @@ public class MCHeliParts {
         
         //Electronics
         nightVisionSystem = new MCHPItems(64).setUnlocalizedName("nightVisionSystem");
+        stealthSystem = new MCHPItems(64).setUnlocalizedName("stealthSystem");
         
         //Heli parts
         heliRunners = new MCHPItems(64).setUnlocalizedName("heliRunners");
@@ -489,73 +632,103 @@ public class MCHeliParts {
         //Specifics
         
         //Osprey
-        ospreyWing = new MCHPItems(64).setUnlocalizedName("ospreyWing");
-        ospreyEngine = new MCHPItems(64).setUnlocalizedName("ospreyEngine");
-        ospreyEngineCasing = new MCHPItems(64).setUnlocalizedName("ospreyEngineCasing");
-        ospreyCockpit = new MCHPItems(64).setUnlocalizedName("ospreyCockpit");
-        ospreyControlBay = new MCHPItems(64).setUnlocalizedName("ospreyControlBay");
-        ospreyTailPiece = new MCHPItems(64).setUnlocalizedName("ospreyTailPiece");
-        v22Fuselage = new MCHPItems(64).setUnlocalizedName("v22Fuselage");
-        mv22Fuselage = new MCHPItems(64).setUnlocalizedName("mv22Fuselage");
-        v22WeaponsSystem = new MCHPItems(64).setUnlocalizedName("v22WeaponsSystem");
+        ospreyWing = new MCHPItems(8).setUnlocalizedName("ospreyWing");
+        ospreyEngine = new MCHPItems(8).setUnlocalizedName("ospreyEngine");
+        ospreyEngineCasing = new MCHPItems(16).setUnlocalizedName("ospreyEngineCasing");
+        ospreyCockpit = new MCHPItems(4).setUnlocalizedName("ospreyCockpit");
+        ospreyControlBay = new MCHPItems(16).setUnlocalizedName("ospreyControlBay");
+        ospreyTailPiece = new MCHPItems(8).setUnlocalizedName("ospreyTailPiece");
+        v22Fuselage = new MCHPItems(4).setUnlocalizedName("v22Fuselage");
+        mv22Fuselage = new MCHPItems(4).setUnlocalizedName("mv22Fuselage");
+        v22WeaponsSystem = new MCHPItems(16).setUnlocalizedName("v22WeaponsSystem");
         
         //Civillian Helicopters
-        longRangerFuselage = new MCHPItems(64).setUnlocalizedName("longRangerFuselage");
-        longRangerTail = new MCHPItems(64).setUnlocalizedName("longRangerTail");
-        fl282Fuselage = new MCHPItems(64).setUnlocalizedName("fl282Fuselage");
-        fl282Tail = new MCHPItems(64).setUnlocalizedName("fl282Tail");
-        bell47gFuselage = new MCHPItems(64).setUnlocalizedName("bell47gFuselage");
-        bell47gTail = new MCHPItems(64).setUnlocalizedName("bell47GTail");
-        bell47gWeaponSystem = new MCHPItems(64).setUnlocalizedName("bell47GWeaponSystem");
-        robinsonFuselage = new MCHPItems(64).setUnlocalizedName("robinsonFuselage");
-        robinsonTail = new MCHPItems(64).setUnlocalizedName("robinsonTail");
-        s76Fuselage = new MCHPItems(64).setUnlocalizedName("s76Fuselage");
-        s76Tail = new MCHPItems(64).setUnlocalizedName("s76Tail");
-        s76FancyShit = new MCHPItems(64).setUnlocalizedName("s76FancyShit");
+        longRangerFuselage = new MCHPItems(4).setUnlocalizedName("longRangerFuselage");
+        longRangerTail = new MCHPItems(8).setUnlocalizedName("longRangerTail");
+        fl282Fuselage = new MCHPItems(4).setUnlocalizedName("fl282Fuselage");
+        fl282Tail = new MCHPItems(8).setUnlocalizedName("fl282Tail");
+        bell47gFuselage = new MCHPItems(4).setUnlocalizedName("bell47gFuselage");
+        bell47gTail = new MCHPItems(8).setUnlocalizedName("bell47GTail");
+        bell47gWeaponSystem = new MCHPItems(16).setUnlocalizedName("bell47GWeaponSystem");
+        robinsonFuselage = new MCHPItems(4).setUnlocalizedName("robinsonFuselage");
+        robinsonTail = new MCHPItems(8).setUnlocalizedName("robinsonTail");
+        s76Fuselage = new MCHPItems(4).setUnlocalizedName("s76Fuselage");
+        s76Tail = new MCHPItems(8).setUnlocalizedName("s76Tail");
+        s76FancyShit = new MCHPItems(8).setUnlocalizedName("s76FancyShit");
         
         
         //Civillian Planes
-        an2sFuselage = new MCHPItems(64).setUnlocalizedName("an2sFuselage");
-        an2sTail = new MCHPItems(64).setUnlocalizedName("an2sTail");
-        an2sEngine = new MCHPItems(64).setUnlocalizedName("an2sEngine");
-        an2sWing = new MCHPItems(64).setUnlocalizedName("an2sWing");
-        t4Fuselage = new MCHPItems(64).setUnlocalizedName("t4Fuselage");
-        t4Tail = new MCHPItems(64).setUnlocalizedName("t4Tail");
-        t4Engine = new MCHPItems(64).setUnlocalizedName("t4Engine");
-        t4Wing = new MCHPItems(64).setUnlocalizedName("t4Wing");
-        m18Fuselage = new MCHPItems(64).setUnlocalizedName("m18Fuselage");
-        m18Tail = new MCHPItems(64).setUnlocalizedName("m18Tail");
-        m18Engine = new MCHPItems(64).setUnlocalizedName("m18Engine");
-        m18Wing = new MCHPItems(64).setUnlocalizedName("m18Wing");
-        p180Fuselage = new MCHPItems(64).setUnlocalizedName("p180Fuselage");
-        p180Cockpit = new MCHPItems(64).setUnlocalizedName("p180Cockpit");
-        p180Tail = new MCHPItems(64).setUnlocalizedName("p180Tail");
-        p180Engine = new MCHPItems(64).setUnlocalizedName("p180Engine");
-        p180Wing = new MCHPItems(64).setUnlocalizedName("p180Wing");
-        md90Fuselage = new MCHPItems(64).setUnlocalizedName("md90Fuselage");
-        md90Cockpit = new MCHPItems(64).setUnlocalizedName("md90Cockpit");
-        md90Tail = new MCHPItems(64).setUnlocalizedName("md90Tail");
-        md90Engine = new MCHPItems(64).setUnlocalizedName("md90Engine");
-        md90Wing = new MCHPItems(64).setUnlocalizedName("md90Wing");
-        mc72Fuselage = new MCHPItems(64).setUnlocalizedName("mc72Fuselage");
-        mc72Tail = new MCHPItems(64).setUnlocalizedName("mc72Tail");
-        mc72Engine = new MCHPItems(64).setUnlocalizedName("mc72Engine");
-        mc72Wing = new MCHPItems(64).setUnlocalizedName("mc72Wing");
-        mc72Floater = new MCHPItems(64).setUnlocalizedName("mc72Floater");
-        m33Fuselage = new MCHPItems(64).setUnlocalizedName("m33Fuselage");
-        m33Tail = new MCHPItems(64).setUnlocalizedName("m33Tail");
-        m33Engine = new MCHPItems(64).setUnlocalizedName("m33Engine");
-        m33Wing = new MCHPItems(64).setUnlocalizedName("m33Wing");
-        m33Floater = new MCHPItems(64).setUnlocalizedName("m33Floater");
-        cessna172Fuselage = new MCHPItems(64).setUnlocalizedName("cessna172Fuselage");
-        cessna172Tail = new MCHPItems(64).setUnlocalizedName("cessna172Tail");
-        cessna172Engine = new MCHPItems(64).setUnlocalizedName("cessna172Engine");
-        cessna172Wing = new MCHPItems(64).setUnlocalizedName("cessna172Wing");
-        cessna172Floater = new MCHPItems(64).setUnlocalizedName("cessna172Floater");
-        cessna152Fuselage = new MCHPItems(64).setUnlocalizedName("cessna152Fuselage");
-        cessna152Tail = new MCHPItems(64).setUnlocalizedName("cessna152Tail");
-        cessna152Engine = new MCHPItems(64).setUnlocalizedName("cessna152Engine");
-        cessna152Wing = new MCHPItems(64).setUnlocalizedName("cessna152Wing");
+        an2sFuselage = new MCHPItems(4).setUnlocalizedName("an2sFuselage");
+        an2sTail = new MCHPItems(8).setUnlocalizedName("an2sTail");
+        an2sEngine = new MCHPItems(8).setUnlocalizedName("an2sEngine");
+        an2sWing = new MCHPItems(16).setUnlocalizedName("an2sWing");
+        t4Fuselage = new MCHPItems(4).setUnlocalizedName("t4Fuselage");
+        t4Tail = new MCHPItems(8).setUnlocalizedName("t4Tail");
+        t4Engine = new MCHPItems(8).setUnlocalizedName("t4Engine");
+        t4Wing = new MCHPItems(16).setUnlocalizedName("t4Wing");
+        m18Fuselage = new MCHPItems(4).setUnlocalizedName("m18Fuselage");
+        m18Tail = new MCHPItems(8).setUnlocalizedName("m18Tail");
+        m18Engine = new MCHPItems(8).setUnlocalizedName("m18Engine");
+        m18Wing = new MCHPItems(16).setUnlocalizedName("m18Wing");
+        p180Fuselage = new MCHPItems(4).setUnlocalizedName("p180Fuselage");
+        p180Cockpit = new MCHPItems(4).setUnlocalizedName("p180Cockpit");
+        p180Tail = new MCHPItems(8).setUnlocalizedName("p180Tail");
+        p180Engine = new MCHPItems(8).setUnlocalizedName("p180Engine");
+        p180Wing = new MCHPItems(16).setUnlocalizedName("p180Wing");
+        md90Fuselage = new MCHPItems(4).setUnlocalizedName("md90Fuselage");
+        md90Cockpit = new MCHPItems(4).setUnlocalizedName("md90Cockpit");
+        md90Tail = new MCHPItems(8).setUnlocalizedName("md90Tail");
+        md90Engine = new MCHPItems(8).setUnlocalizedName("md90Engine");
+        md90Wing = new MCHPItems(16).setUnlocalizedName("md90Wing");
+        mc72Fuselage = new MCHPItems(4).setUnlocalizedName("mc72Fuselage");
+        mc72Tail = new MCHPItems(8).setUnlocalizedName("mc72Tail");
+        mc72Engine = new MCHPItems(8).setUnlocalizedName("mc72Engine");
+        mc72Wing = new MCHPItems(16).setUnlocalizedName("mc72Wing");
+        mc72Floater = new MCHPItems(16).setUnlocalizedName("mc72Floater");
+        m33Fuselage = new MCHPItems(4).setUnlocalizedName("m33Fuselage");
+        m33Tail = new MCHPItems(8).setUnlocalizedName("m33Tail");
+        m33Engine = new MCHPItems(8).setUnlocalizedName("m33Engine");
+        m33Wing = new MCHPItems(16).setUnlocalizedName("m33Wing");
+        m33Floater = new MCHPItems(16).setUnlocalizedName("m33Floater");
+        cessna172Fuselage = new MCHPItems(4).setUnlocalizedName("cessna172Fuselage");
+        cessna172Tail = new MCHPItems(8).setUnlocalizedName("cessna172Tail");
+        cessna172Engine = new MCHPItems(8).setUnlocalizedName("cessna172Engine");
+        cessna172Wing = new MCHPItems(16).setUnlocalizedName("cessna172Wing");
+        cessna172Floater = new MCHPItems(16).setUnlocalizedName("cessna172Floater");
+        cessna152Fuselage = new MCHPItems(4).setUnlocalizedName("cessna152Fuselage");
+        cessna152Tail = new MCHPItems(8).setUnlocalizedName("cessna152Tail");
+        cessna152Engine = new MCHPItems(8).setUnlocalizedName("cessna152Engine");
+        cessna152Wing = new MCHPItems(16).setUnlocalizedName("cessna152Wing");
+        
+        //Halo items
+        hornetFuselage = new MCHPItems(4).setUnlocalizedName("hornetFuselage");
+        hornetEngine = new MCHPItems(8).setUnlocalizedName("hornetEngine");
+        hornetWing = new MCHPItems(16).setUnlocalizedName("hornetWing");
+        hornetStandWing = new MCHPItems(16).setUnlocalizedName("hornetStandWing");
+        hornetControlSystem = new MCHPItems(16).setUnlocalizedName("hornetControlSystem");
+        hornetWeaponSystem = new MCHPItems(16).setUnlocalizedName("hornetWeaponSystem");
+        ghostFuselage = new MCHPItems(4).setUnlocalizedName("ghostFuselage");
+        ghostControlSystem = new MCHPItems(16).setUnlocalizedName("ghostControlSystem");
+        ghostEngine = new MCHPItems(8).setUnlocalizedName("ghostEngine");
+        ghostExhaust = new MCHPItems(8).setUnlocalizedName("ghostExhaust");
+        ghostWeaponSystem = new MCHPItems(16).setUnlocalizedName("ghostWeaponSystem");
+        bansheeLowerFuselage = new MCHPItems(4).setUnlocalizedName("bansheeLowerFuselage");
+        bansheeUpperFuselage = new MCHPItems(4).setUnlocalizedName("bansheeUpperFuselage");
+        bansheeControlSystem = new MCHPItems(16).setUnlocalizedName("bansheeControlSystem");
+        bansheeWing = new MCHPItems(16).setUnlocalizedName("bansheeWing");
+        bansheeEngine = new MCHPItems(8).setUnlocalizedName("bansheeEngine");
+        bansheeWeaponSystem = new MCHPItems(16).setUnlocalizedName("bansheeWeaponSystem");
+        
+        unscVulcan = new MCHPItems(1).setUnlocalizedName("unscVulcan");
+        unscVulcanRounds = new MCHPItems(64).setUnlocalizedName("unscVulcanRounds");
+        unscRocketLauncher = new MCHPItems(1).setUnlocalizedName("unscRocketLauncher");
+        unscRocket = new MCHPItems(16).setUnlocalizedName("unscRocket");
+        covenantPlasmaCannon = new MCHPItems(1).setUnlocalizedName("covenantPlasmaCannon");
+        covenantPlasmaCharger = new MCHPItems(1).setUnlocalizedName("covenantPlasmaCharger");
+        covenantFuelRodCannon = new MCHPItems(1).setUnlocalizedName("covenantFuelRodCannon");
+        covenantFuelRod = new MCHPItems(16).setUnlocalizedName("covenantFuelRod");
+        
+        
         
         //Towns
         valthraxusToken = new TokenItem().setUnlocalizedName("valthraxusToken");

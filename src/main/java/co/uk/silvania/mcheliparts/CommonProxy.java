@@ -98,28 +98,29 @@ public class CommonProxy {
 		GameRegistry.registerItem(MCHeliParts.largeCompositeSupportBeam, "largeCompositeSupportBeam");
 		GameRegistry.registerItem(MCHeliParts.hugeCompositeSupportBeam, "hugeCompositeSupportBeam");
 		
+		GameRegistry.registerItem(MCHeliParts.ironSeatFrame, "ironSeatFrame");
 		GameRegistry.registerItem(MCHeliParts.steelSeat1, "steelSeat1");
 		GameRegistry.registerItem(MCHeliParts.steelSeat2, "steelSeat2");
 		GameRegistry.registerItem(MCHeliParts.steelSeat3, "steelSeat3");
 		GameRegistry.registerItem(MCHeliParts.steelSeat4, "steelSeat4");
 		GameRegistry.registerItem(MCHeliParts.steelSeat5, "steelSeat5");
-		GameRegistry.registerItem(MCHeliParts.leatherSeat1, "leather1");
-		GameRegistry.registerItem(MCHeliParts.leatherSeat2, "leather2");
-		GameRegistry.registerItem(MCHeliParts.leatherSeat3, "leather3");
-		GameRegistry.registerItem(MCHeliParts.leatherSeat4, "leather4");
-		GameRegistry.registerItem(MCHeliParts.leatherSeat5, "leather5");
-		GameRegistry.registerItem(MCHeliParts.paddedSeat1, "padded1");
-		GameRegistry.registerItem(MCHeliParts.paddedSeat2, "padded2");
-		GameRegistry.registerItem(MCHeliParts.paddedSeat3, "padded3");
-		GameRegistry.registerItem(MCHeliParts.paddedSeat4, "padded4");
-		GameRegistry.registerItem(MCHeliParts.paddedSeat5, "padded5");
-		GameRegistry.registerItem(MCHeliParts.airlinerSeat1, "airliner1");
-		GameRegistry.registerItem(MCHeliParts.airlinerSeat2, "airliner2");
-		GameRegistry.registerItem(MCHeliParts.airlinerSeat3, "airliner3");
-		GameRegistry.registerItem(MCHeliParts.airlinerSeat4, "airliner4");
-		GameRegistry.registerItem(MCHeliParts.airlinerSeat5, "airliner5");
-		GameRegistry.registerItem(MCHeliParts.airlinerSeat10, "airliner10");
-		GameRegistry.registerItem(MCHeliParts.airlinerSeat50, "airliner50");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat1, "leatherSeat1");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat2, "leatherSeat2");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat3, "leatherSeat3");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat4, "leatherSeat4");
+		GameRegistry.registerItem(MCHeliParts.leatherSeat5, "leatherSeat5");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat1, "paddedSeat1");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat2, "paddedSeat2");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat3, "paddedSeat3");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat4, "paddedSeat4");
+		GameRegistry.registerItem(MCHeliParts.paddedSeat5, "paddedSeat5");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat1, "airlinerSeat1");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat2, "airlinerSeat2");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat3, "airlinerSeat3");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat4, "airlinerSeat4");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat5, "airlinerSeat5");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat10, "airlinerSeat10");
+		GameRegistry.registerItem(MCHeliParts.airlinerSeat50, "airlinerSeat50");
 		GameRegistry.registerItem(MCHeliParts.foldingTray, "foldingTray");
         
 		GameRegistry.registerItem(MCHeliParts.fuelTank100, "fuelTank100");
@@ -182,6 +183,7 @@ public class CommonProxy {
         
         //Electronics
         GameRegistry.registerItem(MCHeliParts.nightVisionSystem, "nightVisionSystem");
+        GameRegistry.registerItem(MCHeliParts.stealthSystem, "stealthSystem");
         
         //Heli parts
         GameRegistry.registerItem(MCHeliParts.heliRunners, "heliRunners");
@@ -267,21 +269,39 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.cessna152Engine, "cessna152Engine");
         GameRegistry.registerItem(MCHeliParts.cessna152Wing, "cessna152Wing");
         
+        //Halo
+        GameRegistry.registerItem(MCHeliParts.hornetFuselage, "hornetFuselage");
+        GameRegistry.registerItem(MCHeliParts.hornetEngine, "hornetEngine");
+        GameRegistry.registerItem(MCHeliParts.hornetWing, "hornetWing");
+        GameRegistry.registerItem(MCHeliParts.hornetStandWing, "hornetStandWing");
+        GameRegistry.registerItem(MCHeliParts.hornetControlSystem, "hornetControlSystem");
+        GameRegistry.registerItem(MCHeliParts.hornetWeaponSystem, "hornetWeaponSystem");
+        GameRegistry.registerItem(MCHeliParts.ghostFuselage, "ghostFuselage");
+        GameRegistry.registerItem(MCHeliParts.ghostControlSystem, "ghostControlSystem");
+        GameRegistry.registerItem(MCHeliParts.ghostEngine, "ghostEngine");
+        GameRegistry.registerItem(MCHeliParts.ghostExhaust, "ghostExhaust");
+        GameRegistry.registerItem(MCHeliParts.ghostWeaponSystem, "ghostWeaponSystem");
+        GameRegistry.registerItem(MCHeliParts.bansheeLowerFuselage, "bansheeLowerFuselage");
+        GameRegistry.registerItem(MCHeliParts.bansheeUpperFuselage, "bansheeUpperFuselage");
+        GameRegistry.registerItem(MCHeliParts.bansheeControlSystem, "bansheeControlSystem");
+        GameRegistry.registerItem(MCHeliParts.bansheeWing, "bansheeWing");
+        GameRegistry.registerItem(MCHeliParts.bansheeEngine, "bansheeEngine");
+        GameRegistry.registerItem(MCHeliParts.bansheeWeaponSystem, "bansheeWeaponSystem");
+        
+        GameRegistry.registerItem(MCHeliParts.unscVulcan, "unscVulcan");
+        GameRegistry.registerItem(MCHeliParts.unscVulcanRounds, "unscVulcanRounds");
+        GameRegistry.registerItem(MCHeliParts.unscRocketLauncher, "unscRocketLauncher");
+        GameRegistry.registerItem(MCHeliParts.unscRocket, "unscRocket");
+        GameRegistry.registerItem(MCHeliParts.covenantPlasmaCannon, "covenantPlasmaCannon");
+        GameRegistry.registerItem(MCHeliParts.covenantPlasmaCharger, "covenantPlasmaCharger");
+        GameRegistry.registerItem(MCHeliParts.covenantFuelRodCannon, "covenantFuelRodCannon");
+        GameRegistry.registerItem(MCHeliParts.covenantFuelRod, "covenantFuelRod");
+        
         //Towns
         GameRegistry.registerItem(MCHeliParts.valthraxusToken, "valthraxusToken");
         GameRegistry.registerItem(MCHeliParts.larchToken, "larchToken");
         GameRegistry.registerItem(MCHeliParts.eouToken, "eouToken");
-        GameRegistry.registerItem(MCHeliParts.vanguardsPeakToken, "vanguardsPeakToken");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+        GameRegistry.registerItem(MCHeliParts.vanguardsPeakToken, "vanguardsPeakToken");		
 	}
 
 }
