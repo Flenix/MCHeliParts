@@ -19,6 +19,8 @@ public class MCHPTextItem extends Item {
 	public MCHPTextItem(String cal, int stack, String texture) {
 		super();
 		this.cal = cal;
+		this.setCreativeTab(MCHeliParts.tabMCHP);
+		this.texture = texture;
 		if (stack > 1) {
 			this.stack = stack;
 		}
@@ -36,10 +38,10 @@ public class MCHPTextItem extends Item {
 	private IIcon multiIcon;
 	
 	@SideOnly(Side.CLIENT)
-	@Override
 	public void registerIcons(IIconRegister iconRegister) {
+		System.out.println("Registering items! Texture value read: " + texture);
 		itemIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture);
-		multiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture + "_muli");
+		multiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture + "_multi");
 	}
 	
     @SideOnly(Side.CLIENT)
