@@ -843,10 +843,10 @@ public class MCHeliParts {
         covenantFuelRodCannon = new MCHPItems(1).setUnlocalizedName("covenantFuelRodCannon");
         covenantFuelRod = new MCHPItems(16).setUnlocalizedName("covenantFuelRod");
         
-        round5_56mm = new MCHPTextItem("5.56mm", 1).setUnlocalizedName("round5_56mm");
-        round5_56mm_5x = new MCHPTextItem("5.56mm", 5).setUnlocalizedName("round5_56mm_5x");
-        round5_56mm_30x = new MCHPTextItem("5.56mm", 30).setUnlocalizedName("round5_56mm_30x");
-        round5_56mm_100x = new MCHPTextItem("5.56mm", 100).setUnlocalizedName("round5_56mm_100x");
+        round5_56mm = new MCHPTextItem("5.56mm", 1, "round556").setUnlocalizedName("round5_56mm");
+        round5_56mm_5x = new MCHPTextItem("5.56mm", 5, "round556mm").setUnlocalizedName("round5_56mm_5x");
+        round5_56mm_30x = new MCHPTextItem("5.56mm", 30, "round556mm").setUnlocalizedName("round5_56mm_30x");
+        round5_56mm_100x = new MCHPTextItem("5.56mm", 100, "round556mm").setUnlocalizedName("round5_56mm_100x");
         
         //Towns
         valthraxusToken = new TokenItem().setUnlocalizedName("valthraxusToken");
