@@ -32,7 +32,7 @@ public class TextItemRenderer implements IItemRenderer {
 		renderItem.renderIcon(0, 0, icon, 16, 16);
 		
 		//String text = MCHPTextItem.cal + ", " + MCHPTextItem.stack;
-		fontRenderer.drawString(text, 1, 1, 0xFFFFFF);
+		//fontRenderer.drawString(text, 1, 1, 0xFFFFFF);
 		
 	}
 

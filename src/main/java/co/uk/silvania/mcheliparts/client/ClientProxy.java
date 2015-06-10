@@ -8,9 +8,6 @@ public class ClientProxy extends CommonProxy {
 	
 	@Override
 	public void registerRenderers() {
-		MinecraftForgeClient.registerItemRenderer(MCHeliParts.round5_56mm, new TextItemRenderer());
-		MinecraftForgeClient.registerItemRenderer(MCHeliParts.round5_56mm_5x, new TextItemRenderer());
-		MinecraftForgeClient.registerItemRenderer(MCHeliParts.round5_56mm_30x, new TextItemRenderer());
-		MinecraftForgeClient.registerItemRenderer(MCHeliParts.round5_56mm_100x, new TextItemRenderer());
+		//MinecraftForgeClient.registerItemRenderer(MCHeliParts.round5_56mm, new TextItemRenderer());
 	}
 }
