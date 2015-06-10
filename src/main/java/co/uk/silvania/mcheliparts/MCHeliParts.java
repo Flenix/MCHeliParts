@@ -332,6 +332,22 @@ public class MCHeliParts {
     public static Item cannonBullet;
     public static Item blackPowder;
     public static Item cartridgePrimer;
+    public static Item grenadePrimer;
+    public static Item bombPrimer;
+    public static Item missilePrimer;
+    public static Item missilePlating;
+    public static Item smallMissileHousing;
+    public static Item mediumMissileHousing;
+    public static Item largeMissileHousing;
+    public static Item missileExplosiveSmall;
+    public static Item missileExplosiveMedium;
+    public static Item missileExplosiveLarge;
+    public static Item missileFin;
+    public static Item missileLaserGuidance;
+    public static Item missileCamera;
+    public static Item missilePropellant;
+    public static Item missileFuelCell;
+    
     public static Item case5mm;
     public static Item case5_56mm;
     public static Item case6mm;
@@ -340,8 +356,10 @@ public class MCHeliParts {
     public static Item case6_8mm;
     public static Item case7mm;
     public static Item case7_62mm;
+    public static Item case7_7mm;
     public static Item case7_8mm;
     public static Item case7_9mm;
+    public static Item case7_92mm;
     public static Item case8mm;
     public static Item case8_6mm;
     public static Item case9mm;
@@ -349,7 +367,168 @@ public class MCHeliParts {
     public static Item case10_9mm;
     public static Item case11_43mm;
     public static Item case12_7mm;
+    
+    public static Item round5mm;
+    public static Item round5_56mm;
+    public static Item round5_56mm_5x;
+    public static Item round5_56mm_30x;
+    public static Item round5_56mm_100x;
+    public static Item round6mm;
+    public static Item round6_35mm;
+    public static Item round6_5mm;
+    public static Item round6_8mm;
+    public static Item round7mm;
+    public static Item round7_62mm;
+    public static Item round7_7mm;
+    public static Item round7_8mm;
+    public static Item round7_9mm;
+    public static Item round7_92mm;
+    public static Item round8mm;
+    public static Item round8_6mm;
+    public static Item round9mm;
+    public static Item round10mm;
+    public static Item round10_9mm;
+    public static Item round11_43mm;
+    public static Item round12_7mm;
+    
+    
+    //----------------
+    // VEHICLES
+    //----------------
+    
+    //round parts
+    public static Item case20mm;
+    public static Item case23mm;
+    public static Item case25mm;
     public static Item case30mm;
+    public static Item case37mm;
+    public static Item case40mm;
+    public static Item case47mm;
+    public static Item case76mm;
+    public static Item case105mm;
+    public static Item case125mm;
+    
+    public static Item case12_7cm;
+    public static Item case15_5cm;
+    public static Item case35_6cm;
+    public static Item case46cm;
+    //round TODO
+    public static Item round12_7cm;
+    public static Item round12_7cm_5x;
+    public static Item round15_5cm;
+    public static Item round15_5cm_5x;
+    public static Item round35_6cm;
+    public static Item round46cm;
+    
+    public static Item round7_62mm_5x;
+    public static Item round7_62mm_25x;
+    public static Item round7_7mm_5x;
+    public static Item round7_7mm_25x;
+    public static Item round7_92_5x;
+    public static Item round7_92_25x;
+    public static Item round12_7mm_5x;
+    public static Item round12_7mm_25x;
+    public static Item round20mm;
+    public static Item round20mm_5x;
+    public static Item round20mm_25x;
+    public static Item round23mm;
+    public static Item round23mm_5x;
+    public static Item round23mm_25x;
+    public static Item round25mm;
+    public static Item round25mm_5x;
+    public static Item round25mm_25x;
+    public static Item round30mm;
+    public static Item round30mm_5x;
+    public static Item round30mm_25x;
+    public static Item round37mm;
+    public static Item round37mm_5x;
+    public static Item round37mm_25x;
+    public static Item round40mm;
+    public static Item round40mm_5x;
+    public static Item round40mm_25x;
+    public static Item round40mm_Grenade;
+    public static Item round40mm_Grenade_5x;
+    public static Item round40mm_Grenade_25x;
+    public static Item round47mm;
+    public static Item round47mm_5x;
+    public static Item round47mm_25x;
+    public static Item round76mm;
+    public static Item round76mm_5x;
+    public static Item round76mm_25x;
+    public static Item round105mm; //APFSDS
+    public static Item round105mm_5x; 
+    public static Item round125mm; //APFSDS
+    public static Item round125mm_he;
+    public static Item roundMk19Grenade;
+    
+    public static Item round120mmOrdnance;
+    public static Item round50mmOrdnance;
+    public static Item round152mmOrdnance;
+    
+    public static Item round5_25in;
+    public static Item round5_25in_5x;
+    public static Item round5_25in_25x;
+    
+    public static Item radioA_10_CAS;
+    
+    public static Item missile9M114;
+    public static Item missile9M114_TV;
+    public static Item missile57mm;
+    public static Item missile68mm;
+    public static Item missile70mm;
+    public static Item missile70mm_TV;
+    public static Item missile80mm;
+    public static Item missile80mm_thermobaric;
+    public static Item missile80mm_marker;
+    public static Item missile200mm;
+    public static Item missileAGM_65_Maverick;
+    public static Item missileAGM_84_Harpoon;
+    public static Item missileAGM_114_Hellfire;
+    public static Item missileAGM_114_Hellfire_TV;
+    public static Item missileAGM_119B_Penguin;
+    public static Item missileAGM_130;
+    public static Item missileAGM_154;
+    public static Item missileAGM_158_JASSM;
+    public static Item missileAIM_7_Sparrow;
+    public static Item missileAIM_9_Sidewinder;
+    public static Item missileAIM_9x_Sidewinder;
+    public static Item missileAIM_92_Stinger;
+    public static Item missileAIM_120_AMRAAM;
+    public static Item missileMIM_23_HAWK;
+    public static Item missileIRIS_T;
+    public static Item missileSA_2;
+    public static Item missileGeneric;
+    public static Item missileGenericTV;
+    public static Item missileGenericLaser;
+    
+    public static Item bomb50kg;
+    public static Item bomb250kg;
+    public static Item bomb250lb;
+    public static Item bomb500lb;
+    public static Item bomb540lb;
+    public static Item bomb1800kg;
+    public static Item bombAN_M17;
+    public static Item bombBanshee;
+    public static Item bombCluster;
+    public static Item bombJDAM;
+    public static Item bomb936kgTorpedo;
+    public static Item bombMk46Torpedo;
+    public static Item bombType91Torpedo;
+    public static Item bombType93Torpedo;
+    public static Item bombType97;
+    public static Item bombMk62Mine;
+    public static Item bombPlastic;
+    
+    //Weapons
+    public static Item weaponSmallCannon; //20-50mm rounds
+    public static Item weaponMediumCannon; //51-100mm rounds
+    public static Item weaponLargeCannon; //101mm-200mm rounds
+    public static Item weaponMissileLauncher;
+    public static Item weaponLaserMissileLauncher;
+    public static Item weaponTVMissileLauncher;
+    
+    public static Item weaponAGM_Launcher;
+    public static Item weaponAIM_Launcher;
     
     //Weapons (Guns)
     public static Item weaponGSh_23_2;
@@ -357,79 +536,15 @@ public class MCHeliParts {
     public static Item weaponGShG_7_62;
     public static Item weaponM3M;
     public static Item weaponM60;
+    public static Item weaponM61A1_Vulcan;
     public static Item weaponM134;
     public static Item weaponM134D;
     public static Item weaponM197;
     public static Item weaponM230;
     public static Item weaponM240;
-    public static Item weapon20mm_GunPod; //Explosive rounds! No item yet
+    public static Item weapon12_7_Machine_Gun;
+
     
-    //Weapons (Missiles etc)
-    public static Item weaponAGM_114_Hellfire; //
-    public static Item weaponAGM_119B_Penguin; //
-    public static Item weaponMark46_Torpedo; //
-    public static Item weaponS_5M_57mmRocketLauncher; //
-    public static Item weaponS_8_80mmRocket; //
-    public static Item weaponS_8DM_80mmRocket; //
-    public static Item weaponS_8SFrenchet; //
-    public static Item weaponS_8TsMMarker; //
-    public static Item weapon9K38_Igla; //
-    public static Item weapon9K118_Sheksna; //TV MODE! Laser Guided, 9M117 Bastion
-    public static Item weapon9K121_Vikhr; //TV MODE! ^^
-    public static Item weapon9M114; //TV MODE! ^^^
-    public static Item weaponPLAB_250_120_DC; //
-    public static Item weaponKh_35;//
-    public static Item weaponType91_SAM_2; //Laser guidance system
-    public static Item weaponGBU38B_JDAM; //Airstrike system
-    public static Item weaponHydra_70mmRocketLauncher; //
-    public static Item weaponM75GrenadeLauncher; //
-    public static Item weapon2A42_30mmCannon; //
-    public static Item weaponRMK30_Revolver_Cannon; //
-    public static Item weaponTrigat_LR; //
-    public static Item weaponAIM_9_Sidewinder; //
-    public static Item weaponAIM_92_Stinger; //
-    public static Item weaponMGM_21A; //
-    public static Item weaponA_10_GAU_8_Avenger; //30mm cannon
-    
-    //Ammunition
-    public static Item cartridge5mm;
-    public static Item cartridge5_56mm;
-    public static Item cartridge6mm;
-    public static Item cartridge6_35mm;
-    public static Item cartridge6_5mm;
-    public static Item cartridge6_8mm;
-    public static Item cartridge7mm;
-    public static Item cartridge7_62mm;
-    public static Item cartridge7_8mm;
-    public static Item cartridge7_9mm;
-    public static Item cartridge8mm;
-    public static Item cartridge8_6mm;
-    public static Item cartridge9mm;
-    public static Item cartridge10mm;
-    public static Item cartridge10_9mm;
-    public static Item cartridge11_43mm;
-    public static Item cartridge12_7mm; //.50 cal
-    
-    public static Item cartridge30mm;
-    
-    public static Item airstrikeJDAM;
-    public static Item missileHellfireMissile; //TV
-    public static Item missilePenguinMissile; //Guided
-    public static Item missileMark46Torpedo; //Sonar guided
-    public static Item missile9M39Igla;
-    public static Item missileKh_35; //Radar guided
-    public static Item missileType91SAM; //Laser guided
-    public static Item missile9M117_Bastion; //Laser/TV
-    public static Item missileTrigat_LR;
-    public static Item missileAIM_9_Sidewinder; //Infrared
-    public static Item missileAIM_92_Stinger; //Stinger missile //TODO check MCHeli's built-in one
-    public static Item rocket57mm;
-    public static Item rocket70mm;
-    public static Item rocket80mm;
-    public static Item rocket80mmThermobaric;
-    public static Item rocket80mmMarker;
-    public static Item grenade40mm;
-    public static Item bombPLAB_250_120;
     
     //Tokens
     public static Item valthraxusToken;
@@ -728,7 +843,10 @@ public class MCHeliParts {
         covenantFuelRodCannon = new MCHPItems(1).setUnlocalizedName("covenantFuelRodCannon");
         covenantFuelRod = new MCHPItems(16).setUnlocalizedName("covenantFuelRod");
         
-        
+        round5_56mm = new MCHPTextItem("5.56mm", 1).setUnlocalizedName("round5_56mm");
+        round5_56mm_5x = new MCHPTextItem("5.56mm", 5).setUnlocalizedName("round5_56mm_5x");
+        round5_56mm_30x = new MCHPTextItem("5.56mm", 30).setUnlocalizedName("round5_56mm_30x");
+        round5_56mm_100x = new MCHPTextItem("5.56mm", 100).setUnlocalizedName("round5_56mm_100x");
         
         //Towns
         valthraxusToken = new TokenItem().setUnlocalizedName("valthraxusToken");
@@ -739,6 +857,7 @@ public class MCHeliParts {
     
     @EventHandler
     public void init(FMLInitializationEvent event) {
+    	proxy.registerRenderers();
     	proxy.registerItems();
     }
     

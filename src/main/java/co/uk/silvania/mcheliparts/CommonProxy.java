@@ -8,6 +8,10 @@ public class CommonProxy {
 	@Instance
 	public static MCHeliParts instance;
 	
+	public void registerRenderers() {
+		
+	}
+	
 	public void registerItems() {
 		GameRegistry.registerItem(MCHeliParts.lowTorqueEngine, "lowTorqueEngine");
 		GameRegistry.registerItem(MCHeliParts.mediumTorqueEngine, "mediumTorqueEngine");
@@ -296,6 +300,11 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.covenantPlasmaCharger, "covenantPlasmaCharger");
         GameRegistry.registerItem(MCHeliParts.covenantFuelRodCannon, "covenantFuelRodCannon");
         GameRegistry.registerItem(MCHeliParts.covenantFuelRod, "covenantFuelRod");
+        
+        GameRegistry.registerItem(MCHeliParts.round5_56mm, "round5_56mm");
+        GameRegistry.registerItem(MCHeliParts.round5_56mm_5x, "round5_56mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round5_56mm_30x, "round5_56mm_30x");
+        GameRegistry.registerItem(MCHeliParts.round5_56mm_100x, "round5_56mm_100x");
         
         //Towns
         GameRegistry.registerItem(MCHeliParts.valthraxusToken, "valthraxusToken");
