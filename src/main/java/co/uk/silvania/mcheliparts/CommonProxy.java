@@ -301,10 +301,337 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.covenantFuelRodCannon, "covenantFuelRodCannon");
         GameRegistry.registerItem(MCHeliParts.covenantFuelRod, "covenantFuelRod");
         
+        GameRegistry.registerItem(MCHeliParts.smallBullet, "smallBullet");
+        GameRegistry.registerItem(MCHeliParts.mediumBullet, "mediumBullet");
+        GameRegistry.registerItem(MCHeliParts.largeBullet, "largeBullet");
+        GameRegistry.registerItem(MCHeliParts.cannonBullet, "cannonBullet");
+        GameRegistry.registerItem(MCHeliParts.blackPowder, "blackPowder");
+        GameRegistry.registerItem(MCHeliParts.cartridgePrimer, "cartridgePrimer");
+        GameRegistry.registerItem(MCHeliParts.grenadePrimer, "grenadePrimer");
+        GameRegistry.registerItem(MCHeliParts.bombPrimer, "bombPrimer");
+        GameRegistry.registerItem(MCHeliParts.missilePrimer, "missilePrimer");
+        GameRegistry.registerItem(MCHeliParts.missilePlating, "missilePlating");
+        GameRegistry.registerItem(MCHeliParts.smallMissileHousing, "smallMissileHousing");
+        GameRegistry.registerItem(MCHeliParts.mediumMissileHousing, "mediumMissileHousing");
+        GameRegistry.registerItem(MCHeliParts.largeMissileHousing, "largeMissileHousing");
+        GameRegistry.registerItem(MCHeliParts.missileExplosiveSmall, "missileExplosiveSmalll");
+        GameRegistry.registerItem(MCHeliParts.missileExplosiveMedium, "missileExplosiveMedium");
+        GameRegistry.registerItem(MCHeliParts.missileExplosiveLarge, "missileExplosiveLarge");
+        GameRegistry.registerItem(MCHeliParts.missileFin, "missileFin");
+        GameRegistry.registerItem(MCHeliParts.missileLaserGuidance, "missileLaserGuidance");
+        GameRegistry.registerItem(MCHeliParts.missileCamera, "missileCamera");
+        GameRegistry.registerItem(MCHeliParts.missilePropellant, "missilePropellant");
+        GameRegistry.registerItem(MCHeliParts.missileFuelCell, "missileFuelCell");
+
+        GameRegistry.registerItem(MCHeliParts.case5_56mm, "case5_56mm");
+        GameRegistry.registerItem(MCHeliParts.case7_62mm, "case7_62mm");
+        GameRegistry.registerItem(MCHeliParts.case7_7mm, "case7_7mm");
+        GameRegistry.registerItem(MCHeliParts.case7_8mm, "case7_8mm");
+        GameRegistry.registerItem(MCHeliParts.case7_9mm, "case7_9mm");
+        GameRegistry.registerItem(MCHeliParts.case7_92mm, "case7_92mm");
+        GameRegistry.registerItem(MCHeliParts.case9mm, "case9mm");
+        GameRegistry.registerItem(MCHeliParts.case10_9mm, "case10_9mm");
+        GameRegistry.registerItem(MCHeliParts.case11_43mm, "case11_43mm");
+        GameRegistry.registerItem(MCHeliParts.case12_7mm, "case12_7mm");
+        GameRegistry.registerItem(MCHeliParts.case12gauge, "case12gauge");
+
+        GameRegistry.registerItem(MCHeliParts.round5_45mm, "round5_45mm");     
         GameRegistry.registerItem(MCHeliParts.round5_56mm, "round5_56mm");
         GameRegistry.registerItem(MCHeliParts.round5_56mm_5x, "round5_56mm_5x");
         GameRegistry.registerItem(MCHeliParts.round5_56mm_30x, "round5_56mm_30x");
         GameRegistry.registerItem(MCHeliParts.round5_56mm_100x, "round5_56mm_100x");
+        GameRegistry.registerItem(MCHeliParts.round5_7mm, "round5_7mm");
+        GameRegistry.registerItem(MCHeliParts.round7_62mm, "round7_62mm");
+        GameRegistry.registerItem(MCHeliParts.round7_62mm_he, "round7_62mm_he");
+        GameRegistry.registerItem(MCHeliParts.round7_62mm_tracer, "round7_62mm_tracer");
+        GameRegistry.registerItem(MCHeliParts.round7_7mm, "round7_7mm");
+        GameRegistry.registerItem(MCHeliParts.round7_92mm, "round7_92mm");
+        GameRegistry.registerItem(MCHeliParts.round9mm, "round9mm");
+        GameRegistry.registerItem(MCHeliParts.round9mm_poison, "round9mm_poison");
+        GameRegistry.registerItem(MCHeliParts.round10_9mm, "round10_9mm");
+        GameRegistry.registerItem(MCHeliParts.round11_43mm, "round11_43mm");
+        GameRegistry.registerItem(MCHeliParts.round12_7mm, "round12_7mm");
+        GameRegistry.registerItem(MCHeliParts.round12_7mm_he, "round12_7mm_he");
+        GameRegistry.registerItem(MCHeliParts.round12_7mm_tracer, "round12_7mm_tracer");
+        GameRegistry.registerItem(MCHeliParts.round12_7mm_explosive, "round12_7mm_explosive");
+        GameRegistry.registerItem(MCHeliParts.round12gauge, "round12gauge");
+        GameRegistry.registerItem(MCHeliParts.round12gauge_incendiary, "round12gauge_incendiary");
+
+        GameRegistry.registerItem(MCHeliParts.emptyMagACR, "emptyMagACR");
+        GameRegistry.registerItem(MCHeliParts.emptyMagAK74, "emptyMagAK74");
+        GameRegistry.registerItem(MCHeliParts.emptyMagAUG, "emptyMagAUG");
+        GameRegistry.registerItem(MCHeliParts.emptyMagBarrett, "emptyMagBarrett");
+        GameRegistry.registerItem(MCHeliParts.emptyMagBizon, "emptyMagBizon");
+        GameRegistry.registerItem(MCHeliParts.emptyMagDesertEagle, "emptyMagDesertEagle");
+        GameRegistry.registerItem(MCHeliParts.emptyMagDragonuv, "emptyMagDragonuv");
+        GameRegistry.registerItem(MCHeliParts.emptyMagScar, "emptyMagScar");
+        GameRegistry.registerItem(MCHeliParts.emptyMagG3, "emptyMagG3");
+        GameRegistry.registerItem(MCHeliParts.emptyMagG36, "emptyMagG36");
+        GameRegistry.registerItem(MCHeliParts.emptyMagGlock, "emptyMagGlock");
+        GameRegistry.registerItem(MCHeliParts.emptyMagGlockHi, "emptyMagGlockHi");
+        GameRegistry.registerItem(MCHeliParts.emptyMagL86, "emptyMagL86");
+        GameRegistry.registerItem(MCHeliParts.emptyMagL96, "emptyMagL96");
+        GameRegistry.registerItem(MCHeliParts.emptyMagM4, "emptyMagM4");
+        GameRegistry.registerItem(MCHeliParts.emptyMagM9, "emptyMagM9");
+        GameRegistry.registerItem(MCHeliParts.emptyMagM14, "emptyMagM14");
+        GameRegistry.registerItem(MCHeliParts.emptyMagM21, "emptyMagM21");
+        GameRegistry.registerItem(MCHeliParts.emptyMagM40A3, "emptyMagM40A3");
+        GameRegistry.registerItem(MCHeliParts.emptyMagM249, "emptyMagM249");
+        GameRegistry.registerItem(MCHeliParts.emptyMagM1911, "emptyMagM1911");
+        GameRegistry.registerItem(MCHeliParts.emptyMagMakarov, "emptyMagMakarov");
+        GameRegistry.registerItem(MCHeliParts.emptyMagMP5, "emptyMagMP5");
+        GameRegistry.registerItem(MCHeliParts.emptyMagMTAR, "emptyMagMTAR");
+        GameRegistry.registerItem(MCHeliParts.emptyMagP90, "emptyMagP90");
+        GameRegistry.registerItem(MCHeliParts.emptyMagRPD, "emptyMagRPD");
+        GameRegistry.registerItem(MCHeliParts.emptyMagSG550, "emptyMagSG550");
+        GameRegistry.registerItem(MCHeliParts.emptyMagSIG_P226, "emptyMagSIG_P226");
+        GameRegistry.registerItem(MCHeliParts.emptyMagSkorpion, "emptyMagSkorpion");
+        GameRegistry.registerItem(MCHeliParts.emptyMagUSP, "emptyMagUSP");
+        GameRegistry.registerItem(MCHeliParts.emptyMagUzi, "emptyMagUzi");
+
+        GameRegistry.registerItem(MCHeliParts.barrelSection, "barrelSection");
+        GameRegistry.registerItem(MCHeliParts.flashHider, "flashHider");
+        GameRegistry.registerItem(MCHeliParts.cheekRest, "cheekRest");
+        GameRegistry.registerItem(MCHeliParts.trigger, "trigger");
+        GameRegistry.registerItem(MCHeliParts.pistolStyleGrip, "pistolStyleGrip");
+        GameRegistry.registerItem(MCHeliParts.magRelease, "magRelease");
+        GameRegistry.registerItem(MCHeliParts.fixedStock, "fixedStock");
+        GameRegistry.registerItem(MCHeliParts.slidingStock, "slidingStock");
+        GameRegistry.registerItem(MCHeliParts.skeletonStock, "skeletonStock");
+
+        GameRegistry.registerItem(MCHeliParts.assaultRifleBarrel, "assaultRifleBarrel");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleBolt, "assaultRifleBolt");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleMagwell, "assaultRifleMagwell");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleFiringPin, "assaultRifleFiringPin");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleFireSelectorSSF, "assaultRifleFireSelectorSSF");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleFireSelectorSSB, "assaultRifleFireSelectorSSB");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleFireSelectorSF, "assaultRifleFireSelectorSF");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleRISRail, "assaultRifleRISRail");
+
+        GameRegistry.registerItem(MCHeliParts.assaultRifleACRReciever, "assaultRifleACRReciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleAUGReciever, "assaultRifleAUGReciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleScarReciever, "assaultRifleScarReciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleG36Reciever, "assaultRifleG36Reciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleL86Reciever, "assaultRifleL86Reciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleM16Reciever, "assaultRifleM16Reciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleSG550Reciever, "assaultRifleSG550Reciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleMTARReciever, "assaultRifleMTARReciever");
+        GameRegistry.registerItem(MCHeliParts.assaultRifleG3Reciever, "assaultRifleG3Reciever");
+
+        GameRegistry.registerItem(MCHeliParts.sniperRifleBarrel, "sniperRifleBarrel");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleBolt, "sniperRifleBolt");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleMagwell, "sniperRifleMagwell");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleFiringPin, "sniperRifleFiringPin");
+        GameRegistry.registerItem(MCHeliParts.sniperRifle1xScope, "sniperRifle1xScope");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleBoltHandle, "sniperRifleBoltHandle");
+
+        GameRegistry.registerItem(MCHeliParts.sniperRifleDragonuvReciever, "sniperRifleDragonuvReciever");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleL96Reciever, "sniperRifleL96Reciever");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleR700Reciever, "sniperRifleR700Reciever");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleM14Reciever, "sniperRifleM14Reciever");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleM21Reciever, "sniperRifleM21Reciever");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleM40A3Reciever, "sniperRifleM40A3Reciever");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleBarrettReciever, "sniperRifleBarrettReciever");
+        GameRegistry.registerItem(MCHeliParts.sniperRifleBarrettFlashHider, "sniperRifleBarrettFlashHider");
+
+        GameRegistry.registerItem(MCHeliParts.lmgBarrel, "lmgBarrel");
+        GameRegistry.registerItem(MCHeliParts.lmgBolt, "lmgBolt");
+        GameRegistry.registerItem(MCHeliParts.lmgFeedSlot, "lmgFeedSlot");
+        GameRegistry.registerItem(MCHeliParts.lmgMagwell, "lmgMagwell");
+        GameRegistry.registerItem(MCHeliParts.lmgFiringPin, "lmgFiringPin");
+        GameRegistry.registerItem(MCHeliParts.lmgBarrelJacket, "lmgBarrelJacket");
+
+        GameRegistry.registerItem(MCHeliParts.lmgM60Reciever, "lmgM60Reciever");
+        GameRegistry.registerItem(MCHeliParts.lmgM249Reciever, "lmgM249Reciever");
+        GameRegistry.registerItem(MCHeliParts.lmgRPDReciever, "lmgRPDReciever");
+        GameRegistry.registerItem(MCHeliParts.lmgMinigunReciever, "lmgMinigunReciever");
+        GameRegistry.registerItem(MCHeliParts.lmgMinigunBarrelSet, "lmgMinigunBarrelSet");
+
+        GameRegistry.registerItem(MCHeliParts.smgBarrel, "smgBarrel");
+        GameRegistry.registerItem(MCHeliParts.smgMagwell, "smgMagwell");
+
+        GameRegistry.registerItem(MCHeliParts.smgAK74Reciever, "smgAK74Reciever");
+        GameRegistry.registerItem(MCHeliParts.smgP90Reciever, "smgP90Reciever");
+        GameRegistry.registerItem(MCHeliParts.smgBizonReciever, "smgBizonReciever");
+        GameRegistry.registerItem(MCHeliParts.smgMP5Reciever, "smgMP5Reciever");
+        GameRegistry.registerItem(MCHeliParts.smgUziReciever, "smgUziReciever");
+        GameRegistry.registerItem(MCHeliParts.smgSkorpionReciever, "smgSkorpionReciever");
+        GameRegistry.registerItem(MCHeliParts.smgP90Magwell, "smgP90Magwell");
+
+        GameRegistry.registerItem(MCHeliParts.pistolBarrel, "pistolBarrel");
+        GameRegistry.registerItem(MCHeliParts.pistolGrip, "pistolGrip");
+        GameRegistry.registerItem(MCHeliParts.pistolHammer, "pistolHammer");
+        GameRegistry.registerItem(MCHeliParts.pistolSlide, "pistolSlide");
+
+        GameRegistry.registerItem(MCHeliParts.pistolGlockFrame, "pistolGlockFrame");
+        GameRegistry.registerItem(MCHeliParts.pistolM9Frame, "pistolM9Frame");
+        GameRegistry.registerItem(MCHeliParts.pistolMakarovFrame, "pistolMakarovFrame");
+        GameRegistry.registerItem(MCHeliParts.pistolP226Frame, "pistolP226Frame");
+        GameRegistry.registerItem(MCHeliParts.pistolUSPFrame, "pistolUSPFrame");
+        GameRegistry.registerItem(MCHeliParts.pistolM1911Frame, "pistolM1911Frame");
+        GameRegistry.registerItem(MCHeliParts.pistolDesertEagleFrame, "pistolDesertEagleFrame");
+
+        GameRegistry.registerItem(MCHeliParts.shotgunBarrel, "shotgunBarrel");
+        GameRegistry.registerItem(MCHeliParts.shotgunShellTube, "shotgunShellTube");
+        GameRegistry.registerItem(MCHeliParts.shotgunShellDoor, "shotgunShellDoor");
+
+        GameRegistry.registerItem(MCHeliParts.shotgunM1014Reciever, "shotgunM1014Reciever");
+        GameRegistry.registerItem(MCHeliParts.shotgunR870Reciever, "shotgunR870Reciever");
+        GameRegistry.registerItem(MCHeliParts.shotgunSPASReciever, "shotgunSPASReciever");
+        GameRegistry.registerItem(MCHeliParts.shotgunW1200Reciever, "shotgunW1200Reciever");
+
+        //----------------
+        // VEHICLES
+        //----------------
+        
+        //round parts
+        GameRegistry.registerItem(MCHeliParts.case20mm, "case20mm");
+        GameRegistry.registerItem(MCHeliParts.case23mm, "case23mm");
+        GameRegistry.registerItem(MCHeliParts.case25mm, "case25mm");
+        GameRegistry.registerItem(MCHeliParts.case30mm, "case30mm");
+        GameRegistry.registerItem(MCHeliParts.case37mm, "case37mm");
+        GameRegistry.registerItem(MCHeliParts.case40mm, "case40mm");
+        GameRegistry.registerItem(MCHeliParts.case47mm, "case47mm");
+        GameRegistry.registerItem(MCHeliParts.case76mm, "case76mm");
+        GameRegistry.registerItem(MCHeliParts.case105mm, "case105mm");
+        GameRegistry.registerItem(MCHeliParts.case125mm, "case125mm");
+
+        GameRegistry.registerItem(MCHeliParts.case12_7cm, "case12_7cm");
+        GameRegistry.registerItem(MCHeliParts.case15_5cm, "case15_5cm");
+        GameRegistry.registerItem(MCHeliParts.case35_6cm, "case35_6cm");
+        GameRegistry.registerItem(MCHeliParts.case46cm, "case45cm");
+
+        GameRegistry.registerItem(MCHeliParts.round12_7cm, "round12_7cm");
+        GameRegistry.registerItem(MCHeliParts.round12_7cm_5x, "round12_7cm_5x");
+        GameRegistry.registerItem(MCHeliParts.round15_5cm, "round15_5cm");
+        GameRegistry.registerItem(MCHeliParts.round15_5cm_5x, "round15_5cm_5x");
+        GameRegistry.registerItem(MCHeliParts.round35_6cm, "round35_6cm");
+        GameRegistry.registerItem(MCHeliParts.round46cm, "round46cm");
+
+        GameRegistry.registerItem(MCHeliParts.round7_62mm_5x, "round7_62mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round7_62mm_25x, "round7_62mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round7_7mm_5x, "round7_7mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round7_7mm_25x, "round7_7mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round7_92_5x, "round7_92mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round7_92_25x, "round7_92mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round12_7mm_5x, "round12_7mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round12_7mm_25x, "round12_7mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round20mm, "round20mm");
+        GameRegistry.registerItem(MCHeliParts.round20mm_5x, "round20mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round20mm_25x, "round20mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round23mm, "round23mm");
+        GameRegistry.registerItem(MCHeliParts.round23mm_5x, "round23mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round23mm_25x, "round23mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round25mm, "round25mm");
+        GameRegistry.registerItem(MCHeliParts.round25mm_5x, "round25mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round25mm_25x, "round25mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round30mm, "round30mm");
+        GameRegistry.registerItem(MCHeliParts.round30mm_5x, "round30mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round30mm_25x, "round30mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round37mm, "round37mm");
+        GameRegistry.registerItem(MCHeliParts.round37mm_5x, "round37mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round37mm_25x, "round37mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round40mm, "round40mm");
+        GameRegistry.registerItem(MCHeliParts.round40mm_5x, "round40mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round40mm_25x, "round40mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round40mm_Grenade, "round40mm_Grenade");
+        GameRegistry.registerItem(MCHeliParts.round40mm_Grenade_5x, "round40mm_Grenade_5x");
+        GameRegistry.registerItem(MCHeliParts.round40mm_Grenade_25x, "round40mm_Grenade_25x");
+        GameRegistry.registerItem(MCHeliParts.round47mm, "round47mm");
+        GameRegistry.registerItem(MCHeliParts.round47mm_5x, "round47mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round47mm_25x, "round47mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round76mm, "round76mm");
+        GameRegistry.registerItem(MCHeliParts.round76mm_5x, "round76mm_5x");
+        GameRegistry.registerItem(MCHeliParts.round76mm_25x, "round76mm_25x");
+        GameRegistry.registerItem(MCHeliParts.round105mm, "round105mm"); //APFSDS
+        GameRegistry.registerItem(MCHeliParts.round105mm_5x, "round125mm_5x"); 
+        GameRegistry.registerItem(MCHeliParts.round125mm, "round125mm"); //APFSDS
+        GameRegistry.registerItem(MCHeliParts.round125mm_he, "round125mm_he");
+        GameRegistry.registerItem(MCHeliParts.roundMk19Grenade, "roundMk19Grenade");
+
+        GameRegistry.registerItem(MCHeliParts.round120mmOrdnance, "round120mmOrdnance");
+        GameRegistry.registerItem(MCHeliParts.round50mmOrdnance, "round50mmOrdnance");
+        GameRegistry.registerItem(MCHeliParts.round152mmOrdnance, "round152mmOrdnance");
+
+        GameRegistry.registerItem(MCHeliParts.round5_25in, "round5_25in");
+        GameRegistry.registerItem(MCHeliParts.round5_25in_5x, "round5_25in_5x");
+        GameRegistry.registerItem(MCHeliParts.round5_25in_25x, "round5_25in_25x");
+
+        GameRegistry.registerItem(MCHeliParts.radioA_10_CAS, "radioA_10_CAS");
+
+        GameRegistry.registerItem(MCHeliParts.missile9M114, "missile9M114");
+        GameRegistry.registerItem(MCHeliParts.missile9M114_TV, "missile9M114_TV");
+        GameRegistry.registerItem(MCHeliParts.missile57mm, "missile57mm");
+        GameRegistry.registerItem(MCHeliParts.missile68mm, "missile68mm");
+        GameRegistry.registerItem(MCHeliParts.missile70mm, "missile70mm");
+        GameRegistry.registerItem(MCHeliParts.missile70mm_TV, "missile70mm_TV");
+        GameRegistry.registerItem(MCHeliParts.missile80mm, "missile80mm");
+        GameRegistry.registerItem(MCHeliParts.missile80mm_thermobaric, "missile80mm_thermobaric");
+        GameRegistry.registerItem(MCHeliParts.missile80mm_marker, "missile80mm_marker");
+        GameRegistry.registerItem(MCHeliParts.missile200mm, "missile200mm");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_65_Maverick, "missileAGM_65_Maverick");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_84_Harpoon, "missileAGM_84_Harpoon");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_114_Hellfire, "missileAGM_114_Hellfire");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_114_Hellfire_TV, "missileAGM_114_Hellfire_TV");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_119B_Penguin, "missileAGM_119B_Penguin");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_130, "missileAGM_130");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_154, "missileAGM_154");
+        GameRegistry.registerItem(MCHeliParts.missileAGM_158_JASSM, "missileAGM_158_JASSM");
+        GameRegistry.registerItem(MCHeliParts.missileAIM_7_Sparrow, "missileAIM_7_Sparrow");
+        GameRegistry.registerItem(MCHeliParts.missileAIM_9_Sidewinder, "missileAIM_9_Sidewinder");
+        GameRegistry.registerItem(MCHeliParts.missileAIM_9x_Sidewinder, "missileAIM_9x_Sidewinder");
+        GameRegistry.registerItem(MCHeliParts.missileAIM_92_Stinger, "missileAIM_92_Stinger");
+        GameRegistry.registerItem(MCHeliParts.missileAIM_120_AMRAAM, "missileAIM_120_AMRAAM");
+        GameRegistry.registerItem(MCHeliParts.missileMIM_23_HAWK, "missileAIM_23_HAWK");
+        GameRegistry.registerItem(MCHeliParts.missileIRIS_T, "missileIRIS_T");
+        GameRegistry.registerItem(MCHeliParts.missileSA_2, "missileSA_2");
+        GameRegistry.registerItem(MCHeliParts.missileGeneric, "missileGeneric");
+        GameRegistry.registerItem(MCHeliParts.missileGenericTV, "missileGenericTV");
+        GameRegistry.registerItem(MCHeliParts.missileGenericLaser, "missileGenericLaser");
+
+        GameRegistry.registerItem(MCHeliParts.bomb50kg, "bomb50kg");
+        GameRegistry.registerItem(MCHeliParts.bomb250kg, "bomb250kg");
+        GameRegistry.registerItem(MCHeliParts.bomb250lb, "bomb250lb");
+        GameRegistry.registerItem(MCHeliParts.bomb500lb, "bomb500lb");
+        GameRegistry.registerItem(MCHeliParts.bomb540lb, "bomb540lb");
+        GameRegistry.registerItem(MCHeliParts.bomb1800kg, "bomb1800kg");
+        GameRegistry.registerItem(MCHeliParts.bombAN_M17, "bombAN_M17");
+        GameRegistry.registerItem(MCHeliParts.bombCluster, "bombCluster");
+        GameRegistry.registerItem(MCHeliParts.bombJDAM, "bombJDAM");
+        GameRegistry.registerItem(MCHeliParts.bomb936kgTorpedo, "bomb936kgTorpedo");
+        GameRegistry.registerItem(MCHeliParts.bombMk46Torpedo, "bombMk46Torpedo");
+        GameRegistry.registerItem(MCHeliParts.bombType91Torpedo, "bombType91Torpedo");
+        GameRegistry.registerItem(MCHeliParts.bombType93Torpedo, "bombType93Torpedo");
+        GameRegistry.registerItem(MCHeliParts.bombType97, "bombType97");
+        GameRegistry.registerItem(MCHeliParts.bombMk62Mine, "bombMk62Mine");
+        GameRegistry.registerItem(MCHeliParts.bombPlastic, "bombPlastic");
+
+        //Weapons
+        GameRegistry.registerItem(MCHeliParts.weaponSmallCannon, "weaponSmallCannon"); //20-50mm rounds
+        GameRegistry.registerItem(MCHeliParts.weaponMediumCannon, "weaponMediumCannon"); //51-100mm rounds
+        GameRegistry.registerItem(MCHeliParts.weaponLargeCannon, "weaponLargeCannon"); //101mm-200mm rounds
+        GameRegistry.registerItem(MCHeliParts.weaponMissileLauncher, "weaponMissileLauncher");
+        GameRegistry.registerItem(MCHeliParts.weaponLaserMissileLauncher, "weaponLaserMissileLauncher");
+        GameRegistry.registerItem(MCHeliParts.weaponTVMissileLauncher, "weaponTVMissileLauncher");
+
+        GameRegistry.registerItem(MCHeliParts.weaponAGM_Launcher, "weaponAGM_Launcher");
+        GameRegistry.registerItem(MCHeliParts.weaponAIM_Launcher, "weaponAIM_Launcher");
+
+        //Weapons (Guns)
+        GameRegistry.registerItem(MCHeliParts.weaponGSh_23_2, "weaponGSh_23_2");
+        GameRegistry.registerItem(MCHeliParts.weaponYakB_12_7, "weaponYakB_12_7");
+        GameRegistry.registerItem(MCHeliParts.weaponGShG_7_62, "weaponGShG_7_62");
+        GameRegistry.registerItem(MCHeliParts.weaponM3M, "weaponM3M");
+        GameRegistry.registerItem(MCHeliParts.weaponM60, "weaponM60");
+        GameRegistry.registerItem(MCHeliParts.weaponM61A1_Vulcan, "weaponM61A1_Vulcan");
+        GameRegistry.registerItem(MCHeliParts.weaponM134, "weaponM134");
+        GameRegistry.registerItem(MCHeliParts.weaponM134D, "weaponM134D");
+        GameRegistry.registerItem(MCHeliParts.weaponM197, "weaponM197");
+        GameRegistry.registerItem(MCHeliParts.weaponM230, "weaponM230");
+        GameRegistry.registerItem(MCHeliParts.weaponM240, "weaponM240");
+        GameRegistry.registerItem(MCHeliParts.weapon12_7_Machine_Gun, "weapon12_7_Machine_Gun");
+        
+
         
         //Towns
         GameRegistry.registerItem(MCHeliParts.valthraxusToken, "valthraxusToken");

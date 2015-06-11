@@ -347,49 +347,175 @@ public class MCHeliParts {
     public static Item missileCamera;
     public static Item missilePropellant;
     public static Item missileFuelCell;
+    public static Item shotgunPrimer; //TODO
     
-    public static Item case5mm;
     public static Item case5_56mm;
-    public static Item case6mm;
-    public static Item case6_35mm;
-    public static Item case6_5mm;
-    public static Item case6_8mm;
-    public static Item case7mm;
+
     public static Item case7_62mm;
     public static Item case7_7mm;
     public static Item case7_8mm;
     public static Item case7_9mm;
     public static Item case7_92mm;
-    public static Item case8mm;
-    public static Item case8_6mm;
     public static Item case9mm;
-    public static Item case10mm;
     public static Item case10_9mm;
     public static Item case11_43mm;
     public static Item case12_7mm;
+    public static Item case12gauge;
     
-    public static Item round5mm;
+    public static Item round5_45mm; 
     public static Item round5_56mm;
     public static Item round5_56mm_5x;
     public static Item round5_56mm_30x;
     public static Item round5_56mm_100x;
-    public static Item round6mm;
-    public static Item round6_35mm;
-    public static Item round6_5mm;
-    public static Item round6_8mm;
-    public static Item round7mm;
+    public static Item round5_7mm;
     public static Item round7_62mm;
+    public static Item round7_62mm_he;
+    public static Item round7_62mm_tracer;
+    public static Item round7_62mm_5x;
+    public static Item round7_62mm_25x;
     public static Item round7_7mm;
-    public static Item round7_8mm;
-    public static Item round7_9mm;
+    public static Item round7_7mm_5x;
+    public static Item round7_7mm_25x;
     public static Item round7_92mm;
-    public static Item round8mm;
-    public static Item round8_6mm;
+    public static Item round7_92_5x;
+    public static Item round7_92_25x;
     public static Item round9mm;
-    public static Item round10mm;
+    public static Item round9mm_poison;
     public static Item round10_9mm;
     public static Item round11_43mm;
     public static Item round12_7mm;
+    public static Item round12_7mm_he;
+    public static Item round12_7mm_tracer;
+    public static Item round12_7mm_explosive;
+    public static Item round12_7mm_5x;
+    public static Item round12_7mm_25x;
+    public static Item round12gauge;
+    public static Item round12gauge_incendiary;
+    
+    public static Item emptyMagACR;
+    public static Item emptyMagAK74;
+    public static Item emptyMagAUG;
+    public static Item emptyMagBarrett;
+    public static Item emptyMagBizon;
+    public static Item emptyMagDesertEagle;
+    public static Item emptyMagDragonuv;
+    public static Item emptyMagScar;
+    public static Item emptyMagG3;
+    public static Item emptyMagG36;
+    public static Item emptyMagGlock;
+    public static Item emptyMagGlockHi;
+    public static Item emptyMagL86;
+    public static Item emptyMagL96;
+    public static Item emptyMagM4;
+    public static Item emptyMagM9;
+    public static Item emptyMagM14;
+    public static Item emptyMagM21;
+    public static Item emptyMagM40A3;
+    public static Item emptyMagM249;
+    public static Item emptyMagM1911;
+    public static Item emptyMagMakarov;
+    public static Item emptyMagMP5;
+    public static Item emptyMagMTAR;
+    public static Item emptyMagP90;
+    public static Item emptyMagRPD;
+    public static Item emptyMagSG550;
+    public static Item emptyMagSIG_P226;
+    public static Item emptyMagSkorpion;
+    public static Item emptyMagUSP;
+    public static Item emptyMagUzi;
+    
+    public static Item barrelSection;
+    public static Item flashHider;
+    public static Item cheekRest;
+    public static Item trigger;
+    public static Item pistolStyleGrip;
+    public static Item magRelease;
+    public static Item fixedStock;
+    public static Item slidingStock;
+    public static Item skeletonStock;
+    
+    public static Item assaultRifleBarrel;
+    public static Item assaultRifleBolt;
+    public static Item assaultRifleMagwell;
+    public static Item assaultRifleFiringPin;
+    public static Item assaultRifleFireSelectorSSF;
+    public static Item assaultRifleFireSelectorSSB;
+    public static Item assaultRifleFireSelectorSF;
+    public static Item assaultRifleRISRail;
+    
+    public static Item assaultRifleACRReciever;
+    public static Item assaultRifleAUGReciever;
+    public static Item assaultRifleScarReciever;
+    public static Item assaultRifleG36Reciever;
+    public static Item assaultRifleL86Reciever;
+    public static Item assaultRifleM16Reciever;
+    public static Item assaultRifleSG550Reciever;
+    public static Item assaultRifleMTARReciever;
+    public static Item assaultRifleG3Reciever;
+    
+    public static Item sniperRifleBarrel;
+    public static Item sniperRifleBolt;
+    public static Item sniperRifleMagwell;
+    public static Item sniperRifleFiringPin;
+    public static Item sniperRifle1xScope;
+    public static Item sniperRifleBoltHandle;
+    
+    public static Item sniperRifleDragonuvReciever;
+    public static Item sniperRifleL96Reciever;
+    public static Item sniperRifleR700Reciever;
+    public static Item sniperRifleM14Reciever;
+    public static Item sniperRifleM21Reciever;
+    public static Item sniperRifleM40A3Reciever;
+    public static Item sniperRifleBarrettReciever;
+    public static Item sniperRifleBarrettFlashHider;
+    
+    public static Item lmgBarrel;
+    public static Item lmgBolt;
+    public static Item lmgFeedSlot;
+    public static Item lmgMagwell;
+    public static Item lmgFiringPin;
+    public static Item lmgBarrelJacket;
+    
+    public static Item lmgM60Reciever;
+    public static Item lmgM249Reciever;
+    public static Item lmgRPDReciever;
+    public static Item lmgMinigunReciever;
+    public static Item lmgMinigunBarrelSet;
+    
+    public static Item smgBarrel;
+    public static Item smgMagwell;
+    
+    public static Item smgAK74Reciever;
+    public static Item smgP90Reciever;
+    public static Item smgBizonReciever;
+    public static Item smgMP5Reciever;
+    public static Item smgUziReciever;
+    public static Item smgSkorpionReciever;
+    public static Item smgP90Magwell;
+    
+    public static Item pistolBarrel;
+    public static Item pistolGrip;
+    public static Item pistolHammer;
+    public static Item pistolSlide;
+    
+    public static Item pistolGlockFrame;
+    public static Item pistolM9Frame;
+    public static Item pistolMakarovFrame;
+    public static Item pistolP226Frame;
+    public static Item pistolUSPFrame;
+    public static Item pistolM1911Frame;
+    public static Item pistolDesertEagleFrame;
+    
+    public static Item shotgunBarrel;
+    public static Item shotgunShellTube;
+    public static Item shotgunShellDoor;
+
+    public static Item shotgunM1014Reciever;
+    public static Item shotgunR870Reciever;
+    public static Item shotgunSPASReciever;
+    public static Item shotgunW1200Reciever;
+    
+    
     
     
     //----------------
@@ -408,26 +534,6 @@ public class MCHeliParts {
     public static Item case105mm;
     public static Item case125mm;
     
-    public static Item case12_7cm;
-    public static Item case15_5cm;
-    public static Item case35_6cm;
-    public static Item case46cm;
-    //round TODO
-    public static Item round12_7cm;
-    public static Item round12_7cm_5x;
-    public static Item round15_5cm;
-    public static Item round15_5cm_5x;
-    public static Item round35_6cm;
-    public static Item round46cm;
-    
-    public static Item round7_62mm_5x;
-    public static Item round7_62mm_25x;
-    public static Item round7_7mm_5x;
-    public static Item round7_7mm_25x;
-    public static Item round7_92_5x;
-    public static Item round7_92_25x;
-    public static Item round12_7mm_5x;
-    public static Item round12_7mm_25x;
     public static Item round20mm;
     public static Item round20mm_5x;
     public static Item round20mm_25x;
@@ -461,6 +567,17 @@ public class MCHeliParts {
     public static Item round125mm_he;
     public static Item roundMk19Grenade;
     
+    public static Item case12_7cm;
+    public static Item case15_5cm;
+    public static Item case35_6cm;
+    public static Item case46cm;
+    public static Item round12_7cm;
+    public static Item round12_7cm_5x;
+    public static Item round15_5cm;
+    public static Item round15_5cm_5x;
+    public static Item round35_6cm;
+    public static Item round46cm;
+    
     public static Item round120mmOrdnance;
     public static Item round50mmOrdnance;
     public static Item round152mmOrdnance;
@@ -473,13 +590,17 @@ public class MCHeliParts {
     
     public static Item missile9M114;
     public static Item missile9M114_TV;
+    public static Item missile40mm; //TODO
     public static Item missile57mm;
+    public static Item missile66mm; //TODO
     public static Item missile68mm;
     public static Item missile70mm;
     public static Item missile70mm_TV;
     public static Item missile80mm;
     public static Item missile80mm_thermobaric;
     public static Item missile80mm_marker;
+    public static Item missile84mm; //TODO
+    public static Item missile149mm; //TODO
     public static Item missile200mm;
     public static Item missileAGM_65_Maverick;
     public static Item missileAGM_84_Harpoon;
@@ -843,10 +964,336 @@ public class MCHeliParts {
         covenantFuelRodCannon = new MCHPItems(1).setUnlocalizedName("covenantFuelRodCannon");
         covenantFuelRod = new MCHPItems(16).setUnlocalizedName("covenantFuelRod");
         
-        round5_56mm = new MCHPTextItem("5.56mm", 1, "round556").setUnlocalizedName("round5_56mm");
+        smallBullet = new MCHPItems(64).setUnlocalizedName("smallBullet");
+        mediumBullet = new MCHPItems(64).setUnlocalizedName("mediumBullet");
+        largeBullet = new MCHPItems(64).setUnlocalizedName("largeBullet");
+        cannonBullet = new MCHPItems(64).setUnlocalizedName("cannonBullet");
+        blackPowder = new MCHPItems(64).setUnlocalizedName("blackPowder");
+        cartridgePrimer = new MCHPItems(64).setUnlocalizedName("cartridgePrimer");
+        grenadePrimer = new MCHPItems(64).setUnlocalizedName("grenadePrimer");
+        bombPrimer = new MCHPItems(64).setUnlocalizedName("bombPrimer");
+        missilePrimer = new MCHPItems(64).setUnlocalizedName("missilePrimer");
+        missilePlating = new MCHPItems(64).setUnlocalizedName("missilePlating");
+        smallMissileHousing = new MCHPItems(64).setUnlocalizedName("smallMissileHousing");
+        mediumMissileHousing = new MCHPItems(64).setUnlocalizedName("mediumMissileHousing");
+        largeMissileHousing = new MCHPItems(64).setUnlocalizedName("largeMissileHousing");
+        missileExplosiveSmall = new MCHPItems(64).setUnlocalizedName("missileExplosiveSmalll");
+        missileExplosiveMedium = new MCHPItems(64).setUnlocalizedName("missileExplosiveMedium");
+        missileExplosiveLarge = new MCHPItems(64).setUnlocalizedName("missileExplosiveLarge");
+        missileFin = new MCHPItems(64).setUnlocalizedName("missileFin");
+        missileLaserGuidance = new MCHPItems(64).setUnlocalizedName("missileLaserGuidance");
+        missileCamera = new MCHPItems(64).setUnlocalizedName("missileCamera");
+        missilePropellant = new MCHPItems(64).setUnlocalizedName("missilePropellant");
+        missileFuelCell = new MCHPItems(64).setUnlocalizedName("missileFuelCell");
+        
+        case5_56mm = new MCHPItems(64).setUnlocalizedName("case5_56mm");
+        case7_62mm = new MCHPItems(64).setUnlocalizedName("case7_62mm");
+        case7_7mm = new MCHPItems(64).setUnlocalizedName("case7_7mm");
+        case7_8mm = new MCHPItems(64).setUnlocalizedName("case7_8mm");
+        case7_9mm = new MCHPItems(64).setUnlocalizedName("case7_9mm");
+        case7_92mm = new MCHPItems(64).setUnlocalizedName("case7_92mm");
+        case9mm = new MCHPItems(64).setUnlocalizedName("case9mm");
+        case10_9mm = new MCHPItems(64).setUnlocalizedName("case10_9mm");
+        case11_43mm = new MCHPItems(64).setUnlocalizedName("case11_43mm");
+        case12_7mm = new MCHPItems(64).setUnlocalizedName("case12_7mm");
+        case12gauge = new MCHPItems(64).setUnlocalizedName("case12gauge");
+        
+        round5_45mm = new MCHPTextItem("5.45mm", 1, "round545mm").setUnlocalizedName("round5_45mm");     
+        round5_56mm = new MCHPTextItem("5.56mm", 1, "round556mm").setUnlocalizedName("round5_56mm");
         round5_56mm_5x = new MCHPTextItem("5.56mm", 5, "round556mm").setUnlocalizedName("round5_56mm_5x");
         round5_56mm_30x = new MCHPTextItem("5.56mm", 30, "round556mm").setUnlocalizedName("round5_56mm_30x");
         round5_56mm_100x = new MCHPTextItem("5.56mm", 100, "round556mm").setUnlocalizedName("round5_56mm_100x");
+        round5_7mm = new MCHPTextItem("5.7mm", 100, "round57mm").setUnlocalizedName("round5_7mm");
+        round7_62mm = new MCHPTextItem("7.62mm", 1, "round762mm").setUnlocalizedName("round7_62mm");
+        round7_62mm_he = new MCHPTextItem("7.62mm", 1, "round762mm").setUnlocalizedName("round7_62mm_he");
+        round7_62mm_tracer = new MCHPTextItem("7.62mm", 1, "round762mm").setUnlocalizedName("round7_62mm_tracer");
+        round7_7mm = new MCHPTextItem("7.7mm", 1, "round762mm").setUnlocalizedName("round7_7mm");
+        round7_92mm = new MCHPTextItem("7.92mm", 1, "round762mm").setUnlocalizedName("round7_92mm");
+        round9mm = new MCHPTextItem("9mm", 1, "round9mm").setUnlocalizedName("round9mm");
+        round9mm_poison = new MCHPTextItem("9mm", 1, "round9mm").setUnlocalizedName("round9mm_poison");
+        round10_9mm = new MCHPTextItem("10.9mm", 1, "round762mm").setUnlocalizedName("round10_9mm");
+        round11_43mm = new MCHPTextItem("11.43mm", 1, "round1143mm").setUnlocalizedName("round11_43mm");
+        round12_7mm = new MCHPTextItem("12.7mm", 1, "round127mm").setUnlocalizedName("round12_7mm");
+        round12_7mm_he = new MCHPTextItem("12.7mm", 1, "round127mm").setUnlocalizedName("round12_7mm_he");
+        round12_7mm_tracer = new MCHPTextItem("12.7mm", 1, "round127mm").setUnlocalizedName("round12_7mm_tracer");
+        round12_7mm_explosive = new MCHPTextItem("12.7mm", 1, "round127mm").setUnlocalizedName("round12_7mm_explosive");
+        round12gauge = new MCHPItems(64).setUnlocalizedName("round12gauge");
+        round12gauge_incendiary = new MCHPItems(64).setUnlocalizedName("round12gauge_incendiary");
+        
+        emptyMagACR = new MCHPItems(64).setUnlocalizedName("emptyMagACR");
+        emptyMagAK74 = new MCHPItems(64).setUnlocalizedName("emptyMagAK74");
+        emptyMagAUG = new MCHPItems(64).setUnlocalizedName("emptyMagAUG");
+        emptyMagBarrett = new MCHPItems(64).setUnlocalizedName("emptyMagBarrett");
+        emptyMagBizon = new MCHPItems(64).setUnlocalizedName("emptyMagBizon");
+        emptyMagDesertEagle = new MCHPItems(64).setUnlocalizedName("emptyMagDesertEagle");
+        emptyMagDragonuv = new MCHPItems(64).setUnlocalizedName("emptyMagDragonuv");
+        emptyMagScar = new MCHPItems(64).setUnlocalizedName("emptyMagScar");
+        emptyMagG3 = new MCHPItems(64).setUnlocalizedName("emptyMagG3");
+        emptyMagG36 = new MCHPItems(64).setUnlocalizedName("emptyMagG36");
+        emptyMagGlock = new MCHPItems(64).setUnlocalizedName("emptyMagGlock");
+        emptyMagGlockHi = new MCHPItems(64).setUnlocalizedName("emptyMagGlockHi");
+        emptyMagL86 = new MCHPItems(64).setUnlocalizedName("emptyMagL86");
+        emptyMagL96 = new MCHPItems(64).setUnlocalizedName("emptyMagL96");
+        emptyMagM4 = new MCHPItems(64).setUnlocalizedName("emptyMagM4");
+        emptyMagM9 = new MCHPItems(64).setUnlocalizedName("emptyMagM9");
+        emptyMagM14 = new MCHPItems(64).setUnlocalizedName("emptyMagM14");
+        emptyMagM21 = new MCHPItems(64).setUnlocalizedName("emptyMagM21");
+        emptyMagM40A3 = new MCHPItems(64).setUnlocalizedName("emptyMagM40A3");
+        emptyMagM249 = new MCHPItems(64).setUnlocalizedName("emptyMagM249");
+        emptyMagM1911 = new MCHPItems(64).setUnlocalizedName("emptyMagM1911");
+        emptyMagMakarov = new MCHPItems(64).setUnlocalizedName("emptyMagMakarov");
+        emptyMagMP5 = new MCHPItems(64).setUnlocalizedName("emptyMagMP5");
+        emptyMagMTAR = new MCHPItems(64).setUnlocalizedName("emptyMagMTAR");
+        emptyMagP90 = new MCHPItems(64).setUnlocalizedName("emptyMagP90");
+        emptyMagRPD = new MCHPItems(64).setUnlocalizedName("emptyMagRPD");
+        emptyMagSG550 = new MCHPItems(64).setUnlocalizedName("emptyMagSG550");
+        emptyMagSIG_P226 = new MCHPItems(64).setUnlocalizedName("emptyMagSIG_P226");
+        emptyMagSkorpion = new MCHPItems(64).setUnlocalizedName("emptyMagSkorpion");
+        emptyMagUSP = new MCHPItems(64).setUnlocalizedName("emptyMagUSP");
+        emptyMagUzi = new MCHPItems(64).setUnlocalizedName("emptyMagUzi");
+        
+        barrelSection = new MCHPItems(64).setUnlocalizedName("barrelSection");
+        flashHider = new MCHPItems(64).setUnlocalizedName("flashHider");
+        cheekRest = new MCHPItems(64).setUnlocalizedName("cheekRest");
+        trigger = new MCHPItems(64).setUnlocalizedName("trigger");
+        pistolStyleGrip = new MCHPItems(64).setUnlocalizedName("pistolStyleGrip");
+        magRelease = new MCHPItems(64).setUnlocalizedName("magRelease");
+        fixedStock = new MCHPItems(64).setUnlocalizedName("fixedStock");
+        slidingStock = new MCHPItems(64).setUnlocalizedName("slidingStock");
+        skeletonStock = new MCHPItems(64).setUnlocalizedName("skeletonStock");
+        
+        assaultRifleBarrel = new MCHPItems(64).setUnlocalizedName("assaultRifleBarrel");
+        assaultRifleBolt = new MCHPItems(64).setUnlocalizedName("assaultRifleBolt");
+        assaultRifleMagwell = new MCHPItems(64).setUnlocalizedName("assaultRifleMagwell");
+        assaultRifleFiringPin = new MCHPItems(64).setUnlocalizedName("assaultRifleFiringPin");
+        assaultRifleFireSelectorSSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSF");
+        assaultRifleFireSelectorSSB = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSB");
+        assaultRifleFireSelectorSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSF");
+        assaultRifleRISRail = new MCHPItems(64).setUnlocalizedName("assaultRifleRISRail");
+        
+        assaultRifleACRReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleACRReciever");
+        assaultRifleAUGReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleAUGReciever");
+        assaultRifleScarReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleScarReciever");
+        assaultRifleG36Reciever = new MCHPItems(64).setUnlocalizedName("assaultRifleG36Reciever");
+        assaultRifleL86Reciever = new MCHPItems(64).setUnlocalizedName("assaultRifleL86Reciever");
+        assaultRifleM16Reciever = new MCHPItems(64).setUnlocalizedName("assaultRifleM16Reciever");
+        assaultRifleSG550Reciever = new MCHPItems(64).setUnlocalizedName("assaultRifleSG550Reciever");
+        assaultRifleMTARReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleMTARReciever");
+        assaultRifleG3Reciever = new MCHPItems(64).setUnlocalizedName("assaultRifleG3Reciever");
+        
+        sniperRifleBarrel = new MCHPItems(64).setUnlocalizedName("sniperRifleBarrel");
+        sniperRifleBolt = new MCHPItems(64).setUnlocalizedName("sniperRifleBolt");
+        sniperRifleMagwell = new MCHPItems(64).setUnlocalizedName("sniperRifleMagwell");
+        sniperRifleFiringPin = new MCHPItems(64).setUnlocalizedName("sniperRifleFiringPin");
+        sniperRifle1xScope = new MCHPItems(64).setUnlocalizedName("sniperRifle1xScope");
+        sniperRifleBoltHandle = new MCHPItems(64).setUnlocalizedName("sniperRifleBoltHandle");
+        
+        sniperRifleDragonuvReciever = new MCHPItems(64).setUnlocalizedName("sniperRifleDragonuvReciever");
+        sniperRifleL96Reciever = new MCHPItems(64).setUnlocalizedName("sniperRifleL96Reciever");
+        sniperRifleR700Reciever = new MCHPItems(64).setUnlocalizedName("sniperRifleR700Reciever");
+        sniperRifleM14Reciever = new MCHPItems(64).setUnlocalizedName("sniperRifleM14Reciever");
+        sniperRifleM21Reciever = new MCHPItems(64).setUnlocalizedName("sniperRifleM21Reciever");
+        sniperRifleM40A3Reciever = new MCHPItems(64).setUnlocalizedName("sniperRifleM40A3Reciever");
+        sniperRifleBarrettReciever = new MCHPItems(64).setUnlocalizedName("sniperRifleBarrettReciever");
+        sniperRifleBarrettFlashHider = new MCHPItems(64).setUnlocalizedName("sniperRifleBarrettFlashHider");
+        
+        lmgBarrel = new MCHPItems(64).setUnlocalizedName("lmgBarrel");
+        lmgBolt = new MCHPItems(64).setUnlocalizedName("lmgBolt");
+        lmgFeedSlot = new MCHPItems(64).setUnlocalizedName("lmgFeedSlot");
+        lmgMagwell = new MCHPItems(64).setUnlocalizedName("lmgMagwell");
+        lmgFiringPin = new MCHPItems(64).setUnlocalizedName("lmgFiringPin");
+        lmgBarrelJacket = new MCHPItems(64).setUnlocalizedName("lmgBarrelJacket");
+        
+        lmgM60Reciever = new MCHPItems(64).setUnlocalizedName("lmgM60Reciever");
+        lmgM249Reciever = new MCHPItems(64).setUnlocalizedName("lmgM249Reciever");
+        lmgRPDReciever = new MCHPItems(64).setUnlocalizedName("lmgRPDReciever");
+        lmgMinigunReciever = new MCHPItems(64).setUnlocalizedName("lmgMinigunReciever");
+        lmgMinigunBarrelSet = new MCHPItems(64).setUnlocalizedName("lmgMinigunBarrelSet");
+        
+        smgBarrel = new MCHPItems(64).setUnlocalizedName("smgBarrel");
+        smgMagwell = new MCHPItems(64).setUnlocalizedName("smgMagwell");
+        
+        smgAK74Reciever = new MCHPItems(64).setUnlocalizedName("smgAK74Reciever");
+        smgP90Reciever = new MCHPItems(64).setUnlocalizedName("smgP90Reciever");
+        smgBizonReciever = new MCHPItems(64).setUnlocalizedName("smgBizonReciever");
+        smgMP5Reciever = new MCHPItems(64).setUnlocalizedName("smgMP5Reciever");
+        smgUziReciever = new MCHPItems(64).setUnlocalizedName("smgUziReciever");
+        smgSkorpionReciever = new MCHPItems(64).setUnlocalizedName("smgSkorpionReciever");
+        smgP90Magwell = new MCHPItems(64).setUnlocalizedName("smgP90Magwell");
+        
+        pistolBarrel = new MCHPItems(64).setUnlocalizedName("pistolBarrel");
+        pistolGrip = new MCHPItems(64).setUnlocalizedName("pistolGrip");
+        pistolHammer = new MCHPItems(64).setUnlocalizedName("pistolHammer");
+        pistolSlide = new MCHPItems(64).setUnlocalizedName("pistolSlide");
+        
+        pistolGlockFrame = new MCHPItems(64).setUnlocalizedName("pistolGlockFrame");
+        pistolM9Frame = new MCHPItems(64).setUnlocalizedName("pistolM9Frame");
+        pistolMakarovFrame = new MCHPItems(64).setUnlocalizedName("pistolMakarovFrame");
+        pistolP226Frame = new MCHPItems(64).setUnlocalizedName("pistolP226Frame");
+        pistolUSPFrame = new MCHPItems(64).setUnlocalizedName("pistolUSPFrame");
+        pistolM1911Frame = new MCHPItems(64).setUnlocalizedName("pistolM1911Frame");
+        pistolDesertEagleFrame = new MCHPItems(64).setUnlocalizedName("pistolDesertEagleFrame");
+        
+        shotgunBarrel = new MCHPItems(64).setUnlocalizedName("shotgunBarrel");
+        shotgunShellTube = new MCHPItems(64).setUnlocalizedName("shotgunShellTube");
+        shotgunShellDoor = new MCHPItems(64).setUnlocalizedName("shotgunShellDoor");
+
+        shotgunM1014Reciever = new MCHPItems(64).setUnlocalizedName("shotgunM1014Reciever");
+        shotgunR870Reciever = new MCHPItems(64).setUnlocalizedName("shotgunR870Reciever");
+        shotgunSPASReciever = new MCHPItems(64).setUnlocalizedName("shotgunSPASReciever");
+        shotgunW1200Reciever = new MCHPItems(64).setUnlocalizedName("shotgunW1200Reciever");
+        
+        
+        //----------------
+        // VEHICLES
+        //----------------
+        
+        //round parts
+        case20mm = new MCHPItems(64).setUnlocalizedName("case20mm");
+        case23mm = new MCHPItems(64).setUnlocalizedName("case23mm");
+        case25mm = new MCHPItems(64).setUnlocalizedName("case25mm");
+        case30mm = new MCHPItems(64).setUnlocalizedName("case30mm");
+        case37mm = new MCHPItems(64).setUnlocalizedName("case37mm");
+        case40mm = new MCHPItems(64).setUnlocalizedName("case40mm");
+        case47mm = new MCHPItems(64).setUnlocalizedName("case47mm");
+        case76mm = new MCHPItems(64).setUnlocalizedName("case76mm");
+        case105mm = new MCHPItems(64).setUnlocalizedName("case105mm");
+        case125mm = new MCHPItems(64).setUnlocalizedName("case125mm");
+        
+        case12_7cm = new MCHPItems(64).setUnlocalizedName("case12_7cm");
+        case15_5cm = new MCHPItems(64).setUnlocalizedName("case15_5cm");
+        case35_6cm = new MCHPItems(64).setUnlocalizedName("case35_6cm");
+        case46cm = new MCHPItems(64).setUnlocalizedName("case45cm");
+        
+        round12_7cm = new MCHPTextItem("12.7cm", 1, "round127cm").setUnlocalizedName("round12_7cm");
+        round12_7cm_5x = new MCHPTextItem("12.7cm", 5, "round127cm").setUnlocalizedName("round12_7cm_5x");
+        round15_5cm = new MCHPTextItem("15.5cm", 1, "round127cm").setUnlocalizedName("round15_5cm");
+        round15_5cm_5x = new MCHPTextItem("15.5cm", 5, "round127cm").setUnlocalizedName("round15_5cm_5x");
+        round35_6cm = new MCHPTextItem("35.6cm", 1, "round35cm").setUnlocalizedName("round35_6cm");
+        round46cm = new MCHPTextItem("46cm", 1, "round46cm").setUnlocalizedName("round46cm");
+        
+        round7_62mm_5x = new MCHPTextItem("7.62mm", 5, "round762mm").setUnlocalizedName("round7_62mm_5x");
+        round7_62mm_25x = new MCHPTextItem("7.62mm", 25, "round762mm").setUnlocalizedName("round7_62mm_25x");
+        round7_7mm_5x = new MCHPTextItem("7.7mm", 5, "round762mm").setUnlocalizedName("round7_7mm_5x");
+        round7_7mm_25x = new MCHPTextItem("7.7mm", 25, "round762mm").setUnlocalizedName("round7_7mm_25x");
+        round7_92_5x = new MCHPTextItem("7.92mm", 5, "round762mm").setUnlocalizedName("round7_92mm_5x");
+        round7_92_25x = new MCHPTextItem("7.92mm", 25, "round762mm").setUnlocalizedName("round7_92mm_25x");
+        round12_7mm_5x = new MCHPTextItem("12.7mm", 5, "round762mm").setUnlocalizedName("round12_7mm_5x");
+        round12_7mm_25x = new MCHPTextItem("12.7mm", 25, "round762mm").setUnlocalizedName("round12_7mm_25x");
+        round20mm = new MCHPTextItem("20mm", 1, "round23mm").setUnlocalizedName("round20mm");
+        round20mm_5x = new MCHPTextItem("20mm", 5, "round23mm").setUnlocalizedName("round20mm_5x");
+        round20mm_25x = new MCHPTextItem("20mm", 25, "round23mm").setUnlocalizedName("round20mm_25x");
+        round23mm = new MCHPTextItem("23mm", 1, "round23mm").setUnlocalizedName("round23mm");
+        round23mm_5x = new MCHPTextItem("23mm", 5, "round23mm").setUnlocalizedName("round23mm_5x");
+        round23mm_25x = new MCHPTextItem("23mm", 25, "round23mm").setUnlocalizedName("round23mm_25x");
+        round25mm = new MCHPTextItem("25mm", 1, "round23mm").setUnlocalizedName("round25mm");
+        round25mm_5x = new MCHPTextItem("25mm", 5, "round23mm").setUnlocalizedName("round25mm_5x");
+        round25mm_25x = new MCHPTextItem("25mm", 25, "round23mm").setUnlocalizedName("round25mm_25x");
+        round30mm = new MCHPTextItem("30mm", 1, "round30mm").setUnlocalizedName("round30mm");
+        round30mm_5x = new MCHPTextItem("30mm", 5, "round30mm").setUnlocalizedName("round30mm_5x");
+        round30mm_25x = new MCHPTextItem("30mm", 25, "round30mm").setUnlocalizedName("round30mm_25x");
+        round37mm = new MCHPTextItem("37mm", 1, "round37mm").setUnlocalizedName("round37mm");
+        round37mm_5x = new MCHPTextItem("37mm", 5, "round37mm").setUnlocalizedName("round37mm_5x");
+        round37mm_25x = new MCHPTextItem("37mm", 25, "round37mm").setUnlocalizedName("round37mm_25x");
+        round40mm = new MCHPTextItem("40mm", 1, "round37mm").setUnlocalizedName("round40mm");
+        round40mm_5x = new MCHPTextItem("40mm", 5, "round37mm").setUnlocalizedName("round40mm_5x");
+        round40mm_25x = new MCHPTextItem("40mm", 25, "round37mm").setUnlocalizedName("round40mm_25x");
+        round40mm_Grenade = new MCHPTextItem("40mm", 1, "grenade40mm").setUnlocalizedName("round40mm_Grenade");
+        round40mm_Grenade_5x = new MCHPTextItem("40mm", 5, "grenade40mm").setUnlocalizedName("round40mm_Grenade_5x");
+        round40mm_Grenade_25x = new MCHPTextItem("40mm", 25, "grenade40mm").setUnlocalizedName("round40mm_Grenade_25x");
+        round47mm = new MCHPTextItem("47mm", 1, "round47mm").setUnlocalizedName("round47mm");
+        round47mm_5x = new MCHPTextItem("47mm", 5, "round47mm").setUnlocalizedName("round47mm_5x");
+        round47mm_25x = new MCHPTextItem("47mm", 25, "round47mm").setUnlocalizedName("round47mm_25x");
+        round76mm = new MCHPTextItem("76mm", 1, "round76mm").setUnlocalizedName("round76mm");
+        round76mm_5x = new MCHPTextItem("76mm", 5, "round76mm").setUnlocalizedName("round76mm_5x");
+        round76mm_25x = new MCHPTextItem("76mm", 25, "round76mm").setUnlocalizedName("round76mm_25x");
+        round105mm = new MCHPTextItem("105mm", 1, "round105mm").setUnlocalizedName("round105mm"); //APFSDS
+        round105mm_5x = new MCHPTextItem("105mm", 5, "round105mm").setUnlocalizedName("round125mm_5x"); 
+        round125mm = new MCHPTextItem("125mm", 1, "round125mm").setUnlocalizedName("round125mm"); //APFSDS
+        round125mm_he = new MCHPTextItem("125mm", 1, "round125mm").setUnlocalizedName("round125mm_he");
+        roundMk19Grenade = new MCHPItems(64).setUnlocalizedName("roundMk19Grenade");
+        
+        round120mmOrdnance = new MCHPTextItem("120mm", 1, "round120mm").setUnlocalizedName("round120mmOrdnance");
+        round50mmOrdnance = new MCHPTextItem("50mm", 1, "round47mm").setUnlocalizedName("round50mmOrdnance");
+        round152mmOrdnance = new MCHPTextItem("152mm", 1, "round152mm").setUnlocalizedName("round152mmOrdnance");
+        
+        round5_25in = new MCHPTextItem("5.25 inch", 1, "round525inch").setUnlocalizedName("round5_25in");
+        round5_25in_5x = new MCHPTextItem("5.25 inch", 5, "round525inch").setUnlocalizedName("round5_25in_5x");
+        round5_25in_25x = new MCHPTextItem("5.25 inch", 25, "round525inch").setUnlocalizedName("round5_25in_25x");
+        
+        radioA_10_CAS = new MCHPItems(64).setUnlocalizedName("radioA_10_CAS");
+        
+        missile9M114 = new MCHPItems(64).setUnlocalizedName("missile9M114");
+        missile9M114_TV = new MCHPItems(64).setUnlocalizedName("missile9M114_TV");
+        missile57mm = new MCHPItems(64).setUnlocalizedName("missile57mm");
+        missile68mm = new MCHPItems(64).setUnlocalizedName("missile68mm");
+        missile70mm = new MCHPItems(64).setUnlocalizedName("missile70mm");
+        missile70mm_TV = new MCHPItems(64).setUnlocalizedName("missile70mm_TV");
+        missile80mm = new MCHPItems(64).setUnlocalizedName("missile80mm");
+        missile80mm_thermobaric = new MCHPItems(64).setUnlocalizedName("missile80mm_thermobaric");
+        missile80mm_marker = new MCHPItems(64).setUnlocalizedName("missile80mm_marker");
+        missile200mm = new MCHPItems(64).setUnlocalizedName("missile200mm");
+        missileAGM_65_Maverick = new MCHPItems(64).setUnlocalizedName("missileAGM_65_Maverick");
+        missileAGM_84_Harpoon = new MCHPItems(64).setUnlocalizedName("missileAGM_84_Harpoon");
+        missileAGM_114_Hellfire = new MCHPItems(64).setUnlocalizedName("missileAGM_114_Hellfire");
+        missileAGM_114_Hellfire_TV = new MCHPItems(64).setUnlocalizedName("missileAGM_114_Hellfire_TV");
+        missileAGM_119B_Penguin = new MCHPItems(64).setUnlocalizedName("missileAGM_119B_Penguin");
+        missileAGM_130 = new MCHPItems(64).setUnlocalizedName("missileAGM_130");
+        missileAGM_154 = new MCHPItems(64).setUnlocalizedName("missileAGM_154");
+        missileAGM_158_JASSM = new MCHPItems(64).setUnlocalizedName("missileAGM_158_JASSM");
+        missileAIM_7_Sparrow = new MCHPItems(64).setUnlocalizedName("missileAIM_7_Sparrow");
+        missileAIM_9_Sidewinder = new MCHPItems(64).setUnlocalizedName("missileAIM_9_Sidewinder");
+        missileAIM_9x_Sidewinder = new MCHPItems(64).setUnlocalizedName("missileAIM_9x_Sidewinder");
+        missileAIM_92_Stinger = new MCHPItems(64).setUnlocalizedName("missileAIM_92_Stinger");
+        missileAIM_120_AMRAAM = new MCHPItems(64).setUnlocalizedName("missileAIM_120_AMRAAM");
+        missileMIM_23_HAWK = new MCHPItems(64).setUnlocalizedName("missileAIM_23_HAWK");
+        missileIRIS_T = new MCHPItems(64).setUnlocalizedName("missileIRIS_T");
+        missileSA_2 = new MCHPItems(64).setUnlocalizedName("missileSA_2");
+        missileGeneric = new MCHPItems(64).setUnlocalizedName("missileGeneric");
+        missileGenericTV = new MCHPItems(64).setUnlocalizedName("missileGenericTV");
+        missileGenericLaser = new MCHPItems(64).setUnlocalizedName("missileGenericLaser");
+        
+        bomb50kg = new MCHPItems(64).setUnlocalizedName("bomb50kg");
+        bomb250kg = new MCHPItems(64).setUnlocalizedName("bomb250kg");
+        bomb250lb = new MCHPItems(64).setUnlocalizedName("bomb250lb");
+        bomb500lb = new MCHPItems(64).setUnlocalizedName("bomb500lb");
+        bomb540lb = new MCHPItems(64).setUnlocalizedName("bomb540lb");
+        bomb1800kg = new MCHPItems(64).setUnlocalizedName("bomb1800kg");
+        bombAN_M17 = new MCHPItems(64).setUnlocalizedName("bombAN_M17");
+        bombCluster = new MCHPItems(64).setUnlocalizedName("bombCluster");
+        bombJDAM = new MCHPItems(64).setUnlocalizedName("bombJDAM");
+        bomb936kgTorpedo = new MCHPItems(64).setUnlocalizedName("bomb936kgTorpedo");
+        bombMk46Torpedo = new MCHPItems(64).setUnlocalizedName("bombMk46Torpedo");
+        bombType91Torpedo = new MCHPItems(64).setUnlocalizedName("bombType91Torpedo");
+        bombType93Torpedo = new MCHPItems(64).setUnlocalizedName("bombType93Torpedo");
+        bombType97 = new MCHPItems(64).setUnlocalizedName("bombType97");
+        bombMk62Mine = new MCHPItems(64).setUnlocalizedName("bombMk62Mine");
+        bombPlastic = new MCHPItems(64).setUnlocalizedName("bombPlastic");
+        
+        //Weapons
+        weaponSmallCannon = new MCHPItems(64).setUnlocalizedName("weaponSmallCannon"); //20-50mm rounds
+        weaponMediumCannon = new MCHPItems(64).setUnlocalizedName("weaponMediumCannon"); //51-100mm rounds
+        weaponLargeCannon = new MCHPItems(64).setUnlocalizedName("weaponLargeCannon"); //101mm-200mm rounds
+        weaponMissileLauncher = new MCHPItems(64).setUnlocalizedName("weaponMissileLauncher");
+        weaponLaserMissileLauncher = new MCHPItems(64).setUnlocalizedName("weaponLaserMissileLauncher");
+        weaponTVMissileLauncher = new MCHPItems(64).setUnlocalizedName("weaponTVMissileLauncher");
+        
+        weaponAGM_Launcher = new MCHPItems(64).setUnlocalizedName("weaponAGM_Launcher");
+        weaponAIM_Launcher = new MCHPItems(64).setUnlocalizedName("weaponAIM_Launcher");
+        
+        //Weapons (Guns)
+        weaponGSh_23_2 = new MCHPItems(64).setUnlocalizedName("weaponGSh_23_2");
+        weaponYakB_12_7 = new MCHPItems(64).setUnlocalizedName("weaponYakB_12_7");
+        weaponGShG_7_62 = new MCHPItems(64).setUnlocalizedName("weaponGShG_7_62");
+        weaponM3M = new MCHPItems(64).setUnlocalizedName("weaponM3M");
+        weaponM60 = new MCHPItems(64).setUnlocalizedName("weaponM60");
+        weaponM61A1_Vulcan = new MCHPItems(64).setUnlocalizedName("weaponM61A1_Vulcan");
+        weaponM134 = new MCHPItems(64).setUnlocalizedName("weaponM134");
+        weaponM134D = new MCHPItems(64).setUnlocalizedName("weaponM134D");
+        weaponM197 = new MCHPItems(64).setUnlocalizedName("weaponM197");
+        weaponM230 = new MCHPItems(64).setUnlocalizedName("weaponM230");
+        weaponM240 = new MCHPItems(64).setUnlocalizedName("weaponM240");
+        weapon12_7_Machine_Gun = new MCHPItems(64).setUnlocalizedName("weapon12_7_Machine_Gun");
         
         //Towns
         valthraxusToken = new TokenItem().setUnlocalizedName("valthraxusToken");
