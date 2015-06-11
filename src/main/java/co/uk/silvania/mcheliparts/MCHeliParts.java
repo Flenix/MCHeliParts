@@ -198,13 +198,7 @@ public class MCHeliParts {
     public static Item lowTorqueJetEngine;
     public static Item medTorqueJetEngine;
     public static Item highTorqueJetEngine;
-    public static Item lowTorqueLPJetEngine;
-    public static Item medTorqueLPJetEngine;
-    public static Item highTorqueLPJetEngine;
     public static Item stealthEngine;
-    public static Item lowTorqueIonThruster;
-    public static Item medTorqueIonThruster;
-    public static Item highTorqueIonThruster;
     public static Item pressurizedCabinGlass;
     public static Item rawPressurizedCabinGlass;
     public static Item oxygenMaskSet;
@@ -254,51 +248,42 @@ public class MCHeliParts {
     //Civillian Planes
     public static Item an2sFuselage;
     public static Item an2sTail;
-    public static Item an2sEngine;
     public static Item an2sWing;
     public static Item t4Fuselage;
     public static Item t4Tail;
-    public static Item t4Engine;
     public static Item t4Wing;
-    public static Item m18Fuselage;
-    public static Item m18Tail;
-    public static Item m18Engine;
-    public static Item m18Wing;
+    public static Item m18Fuselage;//
+    public static Item m18Tail;//
+    public static Item m18Wing;//
     public static Item p180Fuselage;
     public static Item p180Cockpit;
     public static Item p180Tail;
-    public static Item p180Engine;
     public static Item p180Wing;
     public static Item md90Fuselage;
     public static Item md90Cockpit;
     public static Item md90Tail;
-    public static Item md90Engine;
     public static Item md90Wing;
     public static Item mc72Fuselage;
     public static Item mc72Tail;
-    public static Item mc72Engine;
     public static Item mc72Wing;
     public static Item mc72Floater;
     public static Item m33Fuselage;
     public static Item m33Tail;
-    public static Item m33Engine;
     public static Item m33Wing;
-    public static Item m33Floater;
+    public static Item m33Engine;
     public static Item cessna172Fuselage;
     public static Item cessna172Tail;
-    public static Item cessna172Engine;
-    public static Item cessna172Wing;
     public static Item cessna172Floater;
     public static Item cessna152Fuselage;
     public static Item cessna152Tail;
-    public static Item cessna152Engine;
-    public static Item cessna152Wing;
+    public static Item cessnaWing;
     
     //Halo items
     public static Item hornetFuselage;
     public static Item hornetEngine;
     public static Item hornetWing;
     public static Item hornetStandWing;
+    //TODO Texture from here!
     public static Item hornetControlSystem;
     public static Item hornetWeaponSystem;
     public static Item ghostFuselage;
@@ -347,10 +332,9 @@ public class MCHeliParts {
     public static Item missileCamera;
     public static Item missilePropellant;
     public static Item missileFuelCell;
-    public static Item shotgunPrimer; //TODO
+    public static Item shotgunPrimer;
     
     public static Item case5_56mm;
-
     public static Item case7_62mm;
     public static Item case7_7mm;
     public static Item case7_8mm;
@@ -590,17 +574,17 @@ public class MCHeliParts {
     
     public static Item missile9M114;
     public static Item missile9M114_TV;
-    public static Item missile40mm; //TODO
+    public static Item missile40mm;
     public static Item missile57mm;
-    public static Item missile66mm; //TODO
+    public static Item missile66mm;
     public static Item missile68mm;
     public static Item missile70mm;
     public static Item missile70mm_TV;
     public static Item missile80mm;
     public static Item missile80mm_thermobaric;
     public static Item missile80mm_marker;
-    public static Item missile84mm; //TODO
-    public static Item missile149mm; //TODO
+    public static Item missile84mm;
+    public static Item missile149mm;
     public static Item missile200mm;
     public static Item missileAGM_65_Maverick;
     public static Item missileAGM_84_Harpoon;
@@ -809,7 +793,6 @@ public class MCHeliParts {
         
         reinforcedPiston = new MCHPItems(64).setUnlocalizedName("reinforcedPiston");
         titaniumReinforcedPiston = new MCHPItems(64).setUnlocalizedName("titaniumReinforcedPiston");
-        //TODO textures!
         propellorBlade = new MCHPItems(64).setUnlocalizedName("propellorBlade");
         twoBladePropellor = new MCHPItems(64).setUnlocalizedName("twoBladePropellor");
         threeBladePropellor = new MCHPItems(64).setUnlocalizedName("threeBladePropellor");
@@ -830,13 +813,7 @@ public class MCHeliParts {
         lowTorqueJetEngine = new MCHPItems(64).setUnlocalizedName("lowTorqueJetEngine");
         medTorqueJetEngine = new MCHPItems(64).setUnlocalizedName("medTorqueJetEngine");
         highTorqueJetEngine = new MCHPItems(64).setUnlocalizedName("highTorqueJetEngine");
-        lowTorqueLPJetEngine = new MCHPItems(64).setUnlocalizedName("lowTorqueLPJetEngine");
-        medTorqueLPJetEngine = new MCHPItems(64).setUnlocalizedName("medTorqueLPJetEngine");
-        highTorqueLPJetEngine = new MCHPItems(64).setUnlocalizedName("highTorqueLPJetEngine");
         stealthEngine = new MCHPItems(64).setUnlocalizedName("stealthEngine");
-        lowTorqueIonThruster = new MCHPItems(64).setUnlocalizedName("lowTorqueIonThruster");
-        medTorqueIonThruster = new MCHPItems(64).setUnlocalizedName("medTorqueIonThruster");
-        highTorqueIonThruster = new MCHPItems(64).setUnlocalizedName("highTorqueIonThruster");
         pressurizedCabinGlass = new MCHPItems(64).setUnlocalizedName("pressurizedCabinGlass");
         rawPressurizedCabinGlass = new MCHPItems(64).setUnlocalizedName("rawPressurizedCabinGlass");
         oxygenMaskSet = new MCHPItems(64).setUnlocalizedName("oxygenMaskSet");
@@ -896,45 +873,35 @@ public class MCHeliParts {
         //Civillian Planes
         an2sFuselage = new MCHPItems(4).setUnlocalizedName("an2sFuselage");
         an2sTail = new MCHPItems(8).setUnlocalizedName("an2sTail");
-        an2sEngine = new MCHPItems(8).setUnlocalizedName("an2sEngine");
         an2sWing = new MCHPItems(16).setUnlocalizedName("an2sWing");
         t4Fuselage = new MCHPItems(4).setUnlocalizedName("t4Fuselage");
         t4Tail = new MCHPItems(8).setUnlocalizedName("t4Tail");
-        t4Engine = new MCHPItems(8).setUnlocalizedName("t4Engine");
         t4Wing = new MCHPItems(16).setUnlocalizedName("t4Wing");
         m18Fuselage = new MCHPItems(4).setUnlocalizedName("m18Fuselage");
         m18Tail = new MCHPItems(8).setUnlocalizedName("m18Tail");
-        m18Engine = new MCHPItems(8).setUnlocalizedName("m18Engine");
         m18Wing = new MCHPItems(16).setUnlocalizedName("m18Wing");
         p180Fuselage = new MCHPItems(4).setUnlocalizedName("p180Fuselage");
         p180Cockpit = new MCHPItems(4).setUnlocalizedName("p180Cockpit");
         p180Tail = new MCHPItems(8).setUnlocalizedName("p180Tail");
-        p180Engine = new MCHPItems(8).setUnlocalizedName("p180Engine");
         p180Wing = new MCHPItems(16).setUnlocalizedName("p180Wing");
         md90Fuselage = new MCHPItems(4).setUnlocalizedName("md90Fuselage");
         md90Cockpit = new MCHPItems(4).setUnlocalizedName("md90Cockpit");
         md90Tail = new MCHPItems(8).setUnlocalizedName("md90Tail");
-        md90Engine = new MCHPItems(8).setUnlocalizedName("md90Engine");
         md90Wing = new MCHPItems(16).setUnlocalizedName("md90Wing");
         mc72Fuselage = new MCHPItems(4).setUnlocalizedName("mc72Fuselage");
         mc72Tail = new MCHPItems(8).setUnlocalizedName("mc72Tail");
-        mc72Engine = new MCHPItems(8).setUnlocalizedName("mc72Engine");
         mc72Wing = new MCHPItems(16).setUnlocalizedName("mc72Wing");
         mc72Floater = new MCHPItems(16).setUnlocalizedName("mc72Floater");
         m33Fuselage = new MCHPItems(4).setUnlocalizedName("m33Fuselage");
         m33Tail = new MCHPItems(8).setUnlocalizedName("m33Tail");
-        m33Engine = new MCHPItems(8).setUnlocalizedName("m33Engine");
         m33Wing = new MCHPItems(16).setUnlocalizedName("m33Wing");
-        m33Floater = new MCHPItems(16).setUnlocalizedName("m33Floater");
+        m33Engine = new MCHPItems(16).setUnlocalizedName("m33Engine");
         cessna172Fuselage = new MCHPItems(4).setUnlocalizedName("cessna172Fuselage");
         cessna172Tail = new MCHPItems(8).setUnlocalizedName("cessna172Tail");
-        cessna172Engine = new MCHPItems(8).setUnlocalizedName("cessna172Engine");
-        cessna172Wing = new MCHPItems(16).setUnlocalizedName("cessna172Wing");
         cessna172Floater = new MCHPItems(16).setUnlocalizedName("cessna172Floater");
         cessna152Fuselage = new MCHPItems(4).setUnlocalizedName("cessna152Fuselage");
         cessna152Tail = new MCHPItems(8).setUnlocalizedName("cessna152Tail");
-        cessna152Engine = new MCHPItems(8).setUnlocalizedName("cessna152Engine");
-        cessna152Wing = new MCHPItems(16).setUnlocalizedName("cessna152Wing");
+        cessnaWing = new MCHPItems(16).setUnlocalizedName("cessnaWing");
         
         //Halo items
         hornetFuselage = new MCHPItems(4).setUnlocalizedName("hornetFuselage");
@@ -985,6 +952,7 @@ public class MCHeliParts {
         missileCamera = new MCHPItems(64).setUnlocalizedName("missileCamera");
         missilePropellant = new MCHPItems(64).setUnlocalizedName("missilePropellant");
         missileFuelCell = new MCHPItems(64).setUnlocalizedName("missileFuelCell");
+        shotgunPrimer = new MCHPItems(64).setUnlocalizedName("shotgunPrimer");
         
         case5_56mm = new MCHPItems(64).setUnlocalizedName("case5_56mm");
         case7_62mm = new MCHPItems(64).setUnlocalizedName("case7_62mm");
@@ -1225,13 +1193,17 @@ public class MCHeliParts {
         
         missile9M114 = new MCHPItems(64).setUnlocalizedName("missile9M114");
         missile9M114_TV = new MCHPItems(64).setUnlocalizedName("missile9M114_TV");
+        missile40mm = new MCHPItems(64).setUnlocalizedName("missile40mm");
         missile57mm = new MCHPItems(64).setUnlocalizedName("missile57mm");
+        missile66mm = new MCHPItems(64).setUnlocalizedName("missile66mm");
         missile68mm = new MCHPItems(64).setUnlocalizedName("missile68mm");
         missile70mm = new MCHPItems(64).setUnlocalizedName("missile70mm");
         missile70mm_TV = new MCHPItems(64).setUnlocalizedName("missile70mm_TV");
         missile80mm = new MCHPItems(64).setUnlocalizedName("missile80mm");
         missile80mm_thermobaric = new MCHPItems(64).setUnlocalizedName("missile80mm_thermobaric");
         missile80mm_marker = new MCHPItems(64).setUnlocalizedName("missile80mm_marker");
+        missile84mm = new MCHPItems(64).setUnlocalizedName("missile84mm");
+        missile149mm = new MCHPItems(64).setUnlocalizedName("missile149mm");
         missile200mm = new MCHPItems(64).setUnlocalizedName("missile200mm");
         missileAGM_65_Maverick = new MCHPItems(64).setUnlocalizedName("missileAGM_65_Maverick");
         missileAGM_84_Harpoon = new MCHPItems(64).setUnlocalizedName("missileAGM_84_Harpoon");

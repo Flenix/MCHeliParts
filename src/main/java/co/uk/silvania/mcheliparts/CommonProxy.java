@@ -167,13 +167,7 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.lowTorqueJetEngine, "lowTorqueJetEngine");
         GameRegistry.registerItem(MCHeliParts.medTorqueJetEngine, "medTorqueJetEngine");
         GameRegistry.registerItem(MCHeliParts.highTorqueJetEngine, "highTorqueJetEngine");
-        GameRegistry.registerItem(MCHeliParts.lowTorqueLPJetEngine, "lowTorqueLPJetEngine");
-        GameRegistry.registerItem(MCHeliParts.medTorqueLPJetEngine, "medTorqueLPJetEngine");
-        GameRegistry.registerItem(MCHeliParts.highTorqueLPJetEngine, "highTorqueLPJetEngine");
         GameRegistry.registerItem(MCHeliParts.stealthEngine, "stealthEngine");
-        GameRegistry.registerItem(MCHeliParts.lowTorqueIonThruster, "lowTorqueIonThruster");
-        GameRegistry.registerItem(MCHeliParts.medTorqueIonThruster, "medTorqueIonThruster");
-        GameRegistry.registerItem(MCHeliParts.highTorqueIonThruster, "highTorqueIonThruster");
         GameRegistry.registerItem(MCHeliParts.pressurizedCabinGlass, "pressurizedCabinGlass");
         GameRegistry.registerItem(MCHeliParts.rawPressurizedCabinGlass, "rawPressurizedCabinGlass");
         GameRegistry.registerItem(MCHeliParts.oxygenMaskSet, "oxygenMaskSet");
@@ -233,45 +227,35 @@ public class CommonProxy {
         //Civillian Planes
         GameRegistry.registerItem(MCHeliParts.an2sFuselage, "an2sFuselage");
         GameRegistry.registerItem(MCHeliParts.an2sTail, "an2sTail");
-        GameRegistry.registerItem(MCHeliParts.an2sEngine, "an2sEngine");
         GameRegistry.registerItem(MCHeliParts.an2sWing, "an2sWing");
         GameRegistry.registerItem(MCHeliParts.t4Fuselage, "t4Fuselage");
         GameRegistry.registerItem(MCHeliParts.t4Tail, "t4Tail");
-        GameRegistry.registerItem(MCHeliParts.t4Engine, "t4Engine");
         GameRegistry.registerItem(MCHeliParts.t4Wing, "t4Wing");
         GameRegistry.registerItem(MCHeliParts.m18Fuselage, "m18Fuselage");
         GameRegistry.registerItem(MCHeliParts.m18Tail, "m18Tail");
-        GameRegistry.registerItem(MCHeliParts.m18Engine, "m18Engine");
         GameRegistry.registerItem(MCHeliParts.m18Wing, "m18Wing");
         GameRegistry.registerItem(MCHeliParts.p180Fuselage, "p180Fuselage");
         GameRegistry.registerItem(MCHeliParts.p180Cockpit, "p180Cockpit");
         GameRegistry.registerItem(MCHeliParts.p180Tail, "p180Tail");
-        GameRegistry.registerItem(MCHeliParts.p180Engine, "p180Engine");
         GameRegistry.registerItem(MCHeliParts.p180Wing, "p180Wing");
         GameRegistry.registerItem(MCHeliParts.md90Fuselage, "md90Fuselage");
         GameRegistry.registerItem(MCHeliParts.md90Cockpit, "md90Cockpit");
         GameRegistry.registerItem(MCHeliParts.md90Tail, "md90Tail");
-        GameRegistry.registerItem(MCHeliParts.md90Engine, "md90Engine");
         GameRegistry.registerItem(MCHeliParts.md90Wing, "md90Wing");
         GameRegistry.registerItem(MCHeliParts.mc72Fuselage, "mc72Fuselage");
         GameRegistry.registerItem(MCHeliParts.mc72Tail, "mc72Tail");
-        GameRegistry.registerItem(MCHeliParts.mc72Engine, "mc72Engine");
         GameRegistry.registerItem(MCHeliParts.mc72Wing, "mc72Wing");
         GameRegistry.registerItem(MCHeliParts.mc72Floater, "mc72Floater");
         GameRegistry.registerItem(MCHeliParts.m33Fuselage, "m33Fuselage");
         GameRegistry.registerItem(MCHeliParts.m33Tail, "m33Tail");
-        GameRegistry.registerItem(MCHeliParts.m33Engine, "m33Engine");
         GameRegistry.registerItem(MCHeliParts.m33Wing, "m33Wing");
-        GameRegistry.registerItem(MCHeliParts.m33Floater, "m33Floater");
+        GameRegistry.registerItem(MCHeliParts.m33Engine, "m33Engine");
         GameRegistry.registerItem(MCHeliParts.cessna172Fuselage, "cessna172Fuselage");
         GameRegistry.registerItem(MCHeliParts.cessna172Tail, "cessna172Tail");
-        GameRegistry.registerItem(MCHeliParts.cessna172Engine, "cessna172Engine");
-        GameRegistry.registerItem(MCHeliParts.cessna172Wing, "cessna172Wing");
         GameRegistry.registerItem(MCHeliParts.cessna172Floater, "cessna172Floater");
         GameRegistry.registerItem(MCHeliParts.cessna152Fuselage, "cessna152Fuselage");
         GameRegistry.registerItem(MCHeliParts.cessna152Tail, "cessna152Tail");
-        GameRegistry.registerItem(MCHeliParts.cessna152Engine, "cessna152Engine");
-        GameRegistry.registerItem(MCHeliParts.cessna152Wing, "cessna152Wing");
+        GameRegistry.registerItem(MCHeliParts.cessnaWing, "cessnaWing");
         
         //Halo
         GameRegistry.registerItem(MCHeliParts.hornetFuselage, "hornetFuselage");
@@ -322,6 +306,7 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.missileCamera, "missileCamera");
         GameRegistry.registerItem(MCHeliParts.missilePropellant, "missilePropellant");
         GameRegistry.registerItem(MCHeliParts.missileFuelCell, "missileFuelCell");
+        GameRegistry.registerItem(MCHeliParts.shotgunPrimer, "shotgunPrimer");
 
         GameRegistry.registerItem(MCHeliParts.case5_56mm, "case5_56mm");
         GameRegistry.registerItem(MCHeliParts.case7_62mm, "case7_62mm");
@@ -561,13 +546,17 @@ public class CommonProxy {
 
         GameRegistry.registerItem(MCHeliParts.missile9M114, "missile9M114");
         GameRegistry.registerItem(MCHeliParts.missile9M114_TV, "missile9M114_TV");
+        GameRegistry.registerItem(MCHeliParts.missile40mm, "missile40mm");
         GameRegistry.registerItem(MCHeliParts.missile57mm, "missile57mm");
+        GameRegistry.registerItem(MCHeliParts.missile66mm, "missile66mm");
         GameRegistry.registerItem(MCHeliParts.missile68mm, "missile68mm");
         GameRegistry.registerItem(MCHeliParts.missile70mm, "missile70mm");
         GameRegistry.registerItem(MCHeliParts.missile70mm_TV, "missile70mm_TV");
         GameRegistry.registerItem(MCHeliParts.missile80mm, "missile80mm");
         GameRegistry.registerItem(MCHeliParts.missile80mm_thermobaric, "missile80mm_thermobaric");
         GameRegistry.registerItem(MCHeliParts.missile80mm_marker, "missile80mm_marker");
+        GameRegistry.registerItem(MCHeliParts.missile84mm, "missile84mm");
+   		GameRegistry.registerItem(MCHeliParts.missile149mm, "missile149mm");
         GameRegistry.registerItem(MCHeliParts.missile200mm, "missile200mm");
         GameRegistry.registerItem(MCHeliParts.missileAGM_65_Maverick, "missileAGM_65_Maverick");
         GameRegistry.registerItem(MCHeliParts.missileAGM_84_Harpoon, "missileAGM_84_Harpoon");
