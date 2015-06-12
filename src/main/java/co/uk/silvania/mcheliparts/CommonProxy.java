@@ -493,7 +493,7 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.case12_7cm, "case12_7cm");
         GameRegistry.registerItem(MCHeliParts.case15_5cm, "case15_5cm");
         GameRegistry.registerItem(MCHeliParts.case35_6cm, "case35_6cm");
-        GameRegistry.registerItem(MCHeliParts.case46cm, "case45cm");
+        GameRegistry.registerItem(MCHeliParts.case46cm, "case46cm");
         GameRegistry.registerItem(MCHeliParts.case120mm, "case120mm");
         GameRegistry.registerItem(MCHeliParts.case50mm, "case50mm");
         GameRegistry.registerItem(MCHeliParts.case152mm, "case152mm");

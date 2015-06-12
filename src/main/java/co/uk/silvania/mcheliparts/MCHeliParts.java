@@ -1085,19 +1085,18 @@ public class MCHeliParts {
         flashHider = new MCHPItems(64).setUnlocalizedName("flashHider");
         trigger = new MCHPItems(64).setUnlocalizedName("trigger");
         pistolStyleGrip = new MCHPItems(64).setUnlocalizedName("pistolStyleGrip");
-
         fixedStock = new MCHPItems(64).setUnlocalizedName("fixedStock");
         slidingStock = new MCHPItems(64).setUnlocalizedName("slidingStock");
         skeletonStock = new MCHPItems(64).setUnlocalizedName("skeletonStock");
         
         assaultRifleBarrel = new MCHPItems(64).setUnlocalizedName("assaultRifleBarrel");
-        assaultRifleBolt = new MCHPItems(64).setUnlocalizedName("assaultRifleBolt");
-        assaultRifleMagwell = new MCHPItems(64).setUnlocalizedName("assaultRifleMagwell");
-        assaultRifleFiringPin = new MCHPItems(64).setUnlocalizedName("assaultRifleFiringPin");
-        assaultRifleFireSelectorSSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSF");
-        assaultRifleFireSelectorSSB = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSB");
-        assaultRifleFireSelectorSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSF");
-        assaultRifleRISRail = new MCHPItems(64).setUnlocalizedName("assaultRifleRISRail");
+        assaultRifleBolt = new MCHPItems(64).setUnlocalizedName("assaultRifleBolt"); //
+        assaultRifleMagwell = new MCHPItems(64).setUnlocalizedName("assaultRifleMagwell"); //
+        assaultRifleFiringPin = new MCHPItems(64).setUnlocalizedName("assaultRifleFiringPin"); //
+        assaultRifleFireSelectorSSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSF"); //
+        assaultRifleFireSelectorSSB = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSB"); //
+        assaultRifleFireSelectorSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSF"); //
+        assaultRifleRISRail = new MCHPItems(64).setUnlocalizedName("assaultRifleRISRail"); //
         
         assaultRifleACRReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleACRReciever");
         assaultRifleAUGReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleAUGReciever");
@@ -1110,11 +1109,11 @@ public class MCHeliParts {
         assaultRifleG3Reciever = new MCHPItems(64).setUnlocalizedName("assaultRifleG3Reciever");
         
         sniperRifleBarrel = new MCHPItems(64).setUnlocalizedName("sniperRifleBarrel");
-        sniperRifleBolt = new MCHPItems(64).setUnlocalizedName("sniperRifleBolt");
-        sniperRifleMagwell = new MCHPItems(64).setUnlocalizedName("sniperRifleMagwell");
-        sniperRifleFiringPin = new MCHPItems(64).setUnlocalizedName("sniperRifleFiringPin");
-        sniperRifle1xScope = new MCHPItems(64).setUnlocalizedName("sniperRifle1xScope");
-        sniperRifleBoltHandle = new MCHPItems(64).setUnlocalizedName("sniperRifleBoltHandle");
+        sniperRifleBolt = new MCHPItems(64).setUnlocalizedName("sniperRifleBolt"); //
+        sniperRifleMagwell = new MCHPItems(64).setUnlocalizedName("sniperRifleMagwell"); //
+        sniperRifleFiringPin = new MCHPItems(64).setUnlocalizedName("sniperRifleFiringPin"); //
+        sniperRifle1xScope = new MCHPItems(64).setUnlocalizedName("sniperRifle1xScope"); //
+        sniperRifleBoltHandle = new MCHPItems(64).setUnlocalizedName("sniperRifleBoltHandle"); //
         
         sniperRifleDragonuvReciever = new MCHPItems(64).setUnlocalizedName("sniperRifleDragonuvReciever");
         sniperRifleL96Reciever = new MCHPItems(64).setUnlocalizedName("sniperRifleL96Reciever");
@@ -1190,7 +1189,7 @@ public class MCHeliParts {
         case12_7cm = new MCHPItems(64).setUnlocalizedName("case12_7cm");
         case15_5cm = new MCHPItems(64).setUnlocalizedName("case15_5cm");
         case35_6cm = new MCHPItems(64).setUnlocalizedName("case35_6cm");
-        case46cm = new MCHPItems(64).setUnlocalizedName("case45cm");
+        case46cm = new MCHPItems(64).setUnlocalizedName("case46cm");
         case120mm = new MCHPItems(64).setUnlocalizedName("case120mm");
         case50mm = new MCHPItems(64).setUnlocalizedName("case50mm");
         case152mm = new MCHPItems(64).setUnlocalizedName("case152mm");

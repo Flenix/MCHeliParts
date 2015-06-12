@@ -315,6 +315,7 @@ item.case11_43mm_Filled.name=11.43mm Case (Filled)
 item.case12_7mm_Filled.name=12.7mm Case (Filled)
 item.case12gauge_Filled.name=12-Gauge Case (Filled)
         
+item.case5_56mm_Cast.name=5.56mm Cast
 item.case7_62mm_Cast.name=7.62mm Cast
 item.case7_7mm_Cast.name=7.7mm Cast
 item.case7_92mm_Cast.name=7.92mm Cast
@@ -481,7 +482,7 @@ item.case125mm.name=125mm Case
 item.case12_7cm.name=12.7cm Case
 item.case15_5cm.name=15.5cm Case
 item.case35_6cm.name=35.6cm Case
-item.case46cm.name=45cm Case
+item.case46cm.name=46cm Case
 item.case120mm.name=120mm Case
 item.case50mm.name=50mm Case
 item.case152mm.name=152mm Case
