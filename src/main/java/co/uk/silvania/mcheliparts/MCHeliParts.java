@@ -291,17 +291,14 @@ public class MCHeliParts {
     public static Item ghostEngine;
     public static Item ghostExhaust;
     public static Item ghostWeaponSystem;
-    public static Item bansheeLowerFuselage;
-    public static Item bansheeUpperFuselage;
+    public static Item bansheeFuselage;
     public static Item bansheeControlSystem;
     public static Item bansheeWing;
     public static Item bansheeEngine;
     public static Item bansheeWeaponSystem;
     
     public static Item unscVulcan;
-    public static Item unscVulcanRounds;
     public static Item unscRocketLauncher;
-    public static Item unscRocket;
     public static Item covenantPlasmaCannon;
     public static Item covenantPlasmaCharger;
     public static Item covenantFuelRodCannon;
@@ -337,8 +334,6 @@ public class MCHeliParts {
     public static Item case5_56mm;
     public static Item case7_62mm;
     public static Item case7_7mm;
-    public static Item case7_8mm;
-    public static Item case7_9mm;
     public static Item case7_92mm;
     public static Item case9mm;
     public static Item case10_9mm;
@@ -346,12 +341,30 @@ public class MCHeliParts {
     public static Item case12_7mm;
     public static Item case12gauge;
     
-    public static Item round5_45mm; 
+    public static Item case5_56mm_Filled;
+    public static Item case7_62mm_Filled;
+    public static Item case7_7mm_Filled;
+    public static Item case7_92mm_Filled;
+    public static Item case9mm_Filled;
+    public static Item case10_9mm_Filled;
+    public static Item case11_43mm_Filled;
+    public static Item case12_7mm_Filled;
+    public static Item case12gauge_Filled;
+    
+    public static Item case5_56mm_Cast;
+    public static Item case7_62mm_Cast;
+    public static Item case7_7mm_Cast;
+    public static Item case7_92mm_Cast;
+    public static Item case9mm_Cast;
+    public static Item case10_9mm_Cast;
+    public static Item case11_43mm_Cast;
+    public static Item case12_7mm_Cast;
+    public static Item case12gauge_Cast;
+    
     public static Item round5_56mm;
     public static Item round5_56mm_5x;
     public static Item round5_56mm_30x;
     public static Item round5_56mm_100x;
-    public static Item round5_7mm;
     public static Item round7_62mm;
     public static Item round7_62mm_he;
     public static Item round7_62mm_tracer;
@@ -394,7 +407,6 @@ public class MCHeliParts {
     public static Item emptyMagM9;
     public static Item emptyMagM14;
     public static Item emptyMagM21;
-    public static Item emptyMagM40A3;
     public static Item emptyMagM249;
     public static Item emptyMagM1911;
     public static Item emptyMagMakarov;
@@ -410,10 +422,8 @@ public class MCHeliParts {
     
     public static Item barrelSection;
     public static Item flashHider;
-    public static Item cheekRest;
     public static Item trigger;
     public static Item pistolStyleGrip;
-    public static Item magRelease;
     public static Item fixedStock;
     public static Item slidingStock;
     public static Item skeletonStock;
@@ -517,6 +527,52 @@ public class MCHeliParts {
     public static Item case76mm;
     public static Item case105mm;
     public static Item case125mm;
+    public static Item case12_7cm;
+    public static Item case15_5cm;
+    public static Item case35_6cm;
+    public static Item case46cm;
+    public static Item case120mm;
+    public static Item case50mm;
+    public static Item case152mm;
+    public static Item case5_25in;
+    
+    public static Item case20mm_Filled;
+    public static Item case23mm_Filled;
+    public static Item case25mm_Filled;
+    public static Item case30mm_Filled;
+    public static Item case37mm_Filled;
+    public static Item case40mm_Filled;
+    public static Item case47mm_Filled;
+    public static Item case76mm_Filled;
+    public static Item case105mm_Filled;
+    public static Item case125mm_Filled;
+    public static Item case12_7cm_Filled;
+    public static Item case15_5cm_Filled;
+    public static Item case35_6cm_Filled;
+    public static Item case46cm_Filled;
+    public static Item case120mm_Filled;
+    public static Item case50mm_Filled;
+    public static Item case152mm_Filled;
+    public static Item case5_25in_Filled;
+    
+    public static Item case20mm_Cast;
+    public static Item case23mm_Cast;
+    public static Item case25mm_Cast;
+    public static Item case30mm_Cast;
+    public static Item case37mm_Cast;
+    public static Item case40mm_Cast;
+    public static Item case47mm_Cast;
+    public static Item case76mm_Cast;
+    public static Item case105mm_Cast;
+    public static Item case125mm_Cast;
+    public static Item case12_7cm_Cast;
+    public static Item case15_5cm_Cast;
+    public static Item case35_6cm_Cast;
+    public static Item case46cm_Cast;
+    public static Item case120mm_Cast;
+    public static Item case50mm_Cast;
+    public static Item case152mm_Cast;
+    public static Item case5_25in_Cast;
     
     public static Item round20mm;
     public static Item round20mm_5x;
@@ -550,22 +606,15 @@ public class MCHeliParts {
     public static Item round125mm; //APFSDS
     public static Item round125mm_he;
     public static Item roundMk19Grenade;
-    
-    public static Item case12_7cm;
-    public static Item case15_5cm;
-    public static Item case35_6cm;
-    public static Item case46cm;
     public static Item round12_7cm;
     public static Item round12_7cm_5x;
     public static Item round15_5cm;
     public static Item round15_5cm_5x;
     public static Item round35_6cm;
     public static Item round46cm;
-    
     public static Item round120mmOrdnance;
     public static Item round50mmOrdnance;
     public static Item round152mmOrdnance;
-    
     public static Item round5_25in;
     public static Item round5_25in_5x;
     public static Item round5_25in_25x;
@@ -908,27 +957,24 @@ public class MCHeliParts {
         hornetEngine = new MCHPItems(8).setUnlocalizedName("hornetEngine");
         hornetWing = new MCHPItems(16).setUnlocalizedName("hornetWing");
         hornetStandWing = new MCHPItems(16).setUnlocalizedName("hornetStandWing");
-        hornetControlSystem = new MCHPItems(16).setUnlocalizedName("hornetControlSystem");
-        hornetWeaponSystem = new MCHPItems(16).setUnlocalizedName("hornetWeaponSystem");
+        hornetControlSystem = new MCHPItems(16).setUnlocalizedName("hornetControlSystem"); //
+        hornetWeaponSystem = new MCHPItems(16).setUnlocalizedName("hornetWeaponSystem"); //
         ghostFuselage = new MCHPItems(4).setUnlocalizedName("ghostFuselage");
-        ghostControlSystem = new MCHPItems(16).setUnlocalizedName("ghostControlSystem");
-        ghostEngine = new MCHPItems(8).setUnlocalizedName("ghostEngine");
+        ghostControlSystem = new MCHPItems(16).setUnlocalizedName("ghostControlSystem"); //
+        ghostEngine = new MCHPItems(8).setUnlocalizedName("ghostEngine"); //
         ghostExhaust = new MCHPItems(8).setUnlocalizedName("ghostExhaust");
         ghostWeaponSystem = new MCHPItems(16).setUnlocalizedName("ghostWeaponSystem");
-        bansheeLowerFuselage = new MCHPItems(4).setUnlocalizedName("bansheeLowerFuselage");
-        bansheeUpperFuselage = new MCHPItems(4).setUnlocalizedName("bansheeUpperFuselage");
-        bansheeControlSystem = new MCHPItems(16).setUnlocalizedName("bansheeControlSystem");
+        bansheeFuselage = new MCHPItems(4).setUnlocalizedName("bansheeFuselage");
+        bansheeControlSystem = new MCHPItems(16).setUnlocalizedName("bansheeControlSystem"); //
         bansheeWing = new MCHPItems(16).setUnlocalizedName("bansheeWing");
         bansheeEngine = new MCHPItems(8).setUnlocalizedName("bansheeEngine");
         bansheeWeaponSystem = new MCHPItems(16).setUnlocalizedName("bansheeWeaponSystem");
         
-        unscVulcan = new MCHPItems(1).setUnlocalizedName("unscVulcan");
-        unscVulcanRounds = new MCHPItems(64).setUnlocalizedName("unscVulcanRounds");
-        unscRocketLauncher = new MCHPItems(1).setUnlocalizedName("unscRocketLauncher");
-        unscRocket = new MCHPItems(16).setUnlocalizedName("unscRocket");
-        covenantPlasmaCannon = new MCHPItems(1).setUnlocalizedName("covenantPlasmaCannon");
-        covenantPlasmaCharger = new MCHPItems(1).setUnlocalizedName("covenantPlasmaCharger");
-        covenantFuelRodCannon = new MCHPItems(1).setUnlocalizedName("covenantFuelRodCannon");
+        unscVulcan = new MCHPItems(1).setUnlocalizedName("unscVulcan"); //
+        unscRocketLauncher = new MCHPItems(1).setUnlocalizedName("unscRocketLauncher"); //
+        covenantPlasmaCannon = new MCHPItems(1).setUnlocalizedName("covenantPlasmaCannon"); //
+        covenantPlasmaCharger = new MCHPItems(1).setUnlocalizedName("covenantPlasmaCharger"); //
+        covenantFuelRodCannon = new MCHPItems(1).setUnlocalizedName("covenantFuelRodCannon"); //
         covenantFuelRod = new MCHPItems(16).setUnlocalizedName("covenantFuelRod");
         
         smallBullet = new MCHPItems(64).setUnlocalizedName("smallBullet");
@@ -940,46 +986,62 @@ public class MCHeliParts {
         grenadePrimer = new MCHPItems(64).setUnlocalizedName("grenadePrimer");
         bombPrimer = new MCHPItems(64).setUnlocalizedName("bombPrimer");
         missilePrimer = new MCHPItems(64).setUnlocalizedName("missilePrimer");
-        missilePlating = new MCHPItems(64).setUnlocalizedName("missilePlating");
-        smallMissileHousing = new MCHPItems(64).setUnlocalizedName("smallMissileHousing");
-        mediumMissileHousing = new MCHPItems(64).setUnlocalizedName("mediumMissileHousing");
-        largeMissileHousing = new MCHPItems(64).setUnlocalizedName("largeMissileHousing");
-        missileExplosiveSmall = new MCHPItems(64).setUnlocalizedName("missileExplosiveSmalll");
-        missileExplosiveMedium = new MCHPItems(64).setUnlocalizedName("missileExplosiveMedium");
-        missileExplosiveLarge = new MCHPItems(64).setUnlocalizedName("missileExplosiveLarge");
-        missileFin = new MCHPItems(64).setUnlocalizedName("missileFin");
-        missileLaserGuidance = new MCHPItems(64).setUnlocalizedName("missileLaserGuidance");
-        missileCamera = new MCHPItems(64).setUnlocalizedName("missileCamera");
-        missilePropellant = new MCHPItems(64).setUnlocalizedName("missilePropellant");
-        missileFuelCell = new MCHPItems(64).setUnlocalizedName("missileFuelCell");
-        shotgunPrimer = new MCHPItems(64).setUnlocalizedName("shotgunPrimer");
+        missilePlating = new MCHPItems(64).setUnlocalizedName("missilePlating");//
+        smallMissileHousing = new MCHPItems(64).setUnlocalizedName("smallMissileHousing");//
+        mediumMissileHousing = new MCHPItems(64).setUnlocalizedName("mediumMissileHousing");//
+        largeMissileHousing = new MCHPItems(64).setUnlocalizedName("largeMissileHousing");//
+        missileExplosiveSmall = new MCHPItems(64).setUnlocalizedName("missileExplosiveSmalll");//
+        missileExplosiveMedium = new MCHPItems(64).setUnlocalizedName("missileExplosiveMedium");//
+        missileExplosiveLarge = new MCHPItems(64).setUnlocalizedName("missileExplosiveLarge");//
+        missileFin = new MCHPItems(64).setUnlocalizedName("missileFin");//
+        missileLaserGuidance = new MCHPItems(64).setUnlocalizedName("missileLaserGuidance");//
+        missileCamera = new MCHPItems(64).setUnlocalizedName("missileCamera");//
+        missilePropellant = new MCHPItems(64).setUnlocalizedName("missilePropellant");//
+        missileFuelCell = new MCHPItems(64).setUnlocalizedName("missileFuelCell");//
+        shotgunPrimer = new MCHPItems(64).setUnlocalizedName("shotgunPrimer");//
         
         case5_56mm = new MCHPItems(64).setUnlocalizedName("case5_56mm");
         case7_62mm = new MCHPItems(64).setUnlocalizedName("case7_62mm");
         case7_7mm = new MCHPItems(64).setUnlocalizedName("case7_7mm");
-        case7_8mm = new MCHPItems(64).setUnlocalizedName("case7_8mm");
-        case7_9mm = new MCHPItems(64).setUnlocalizedName("case7_9mm");
         case7_92mm = new MCHPItems(64).setUnlocalizedName("case7_92mm");
         case9mm = new MCHPItems(64).setUnlocalizedName("case9mm");
         case10_9mm = new MCHPItems(64).setUnlocalizedName("case10_9mm");
         case11_43mm = new MCHPItems(64).setUnlocalizedName("case11_43mm");
         case12_7mm = new MCHPItems(64).setUnlocalizedName("case12_7mm");
-        case12gauge = new MCHPItems(64).setUnlocalizedName("case12gauge");
+        case12gauge = new MCHPItems(64).setUnlocalizedName("case12gauge"); //
         
-        round5_45mm = new MCHPTextItem("5.45mm", 1, "round545mm").setUnlocalizedName("round5_45mm");     
+        case5_56mm_Filled = new MCHPItems(64).setUnlocalizedName("case5_56mm_Filled");
+        case7_62mm_Filled = new MCHPItems(64).setUnlocalizedName("case7_62mm_Filled");
+        case7_7mm_Filled = new MCHPItems(64).setUnlocalizedName("case7_7mm_Filled");
+        case7_92mm_Filled = new MCHPItems(64).setUnlocalizedName("case7_92mm_Filled");
+        case9mm_Filled = new MCHPItems(64).setUnlocalizedName("case9mm_Filled");
+        case10_9mm_Filled = new MCHPItems(64).setUnlocalizedName("case10_9mm_Filled");
+        case11_43mm_Filled = new MCHPItems(64).setUnlocalizedName("case11_43mm_Filled");
+        case12_7mm_Filled = new MCHPItems(64).setUnlocalizedName("case12_7mm_Filled");
+        case12gauge_Filled = new MCHPItems(64).setUnlocalizedName("case12gauge_Filled");
+        
+        case5_56mm_Cast = new MCHPItems(1).setUnlocalizedName("case5_56mm_Cast");
+        case7_62mm_Cast = new MCHPItems(1).setUnlocalizedName("case7_62mm_Cast");
+        case7_7mm_Cast = new MCHPItems(1).setUnlocalizedName("case7_7mm_Cast");
+        case7_92mm_Cast = new MCHPItems(1).setUnlocalizedName("case7_92mm_Cast");
+        case9mm_Cast = new MCHPItems(1).setUnlocalizedName("case9mm_Cast");
+        case10_9mm_Cast = new MCHPItems(1).setUnlocalizedName("case10_9mm_Cast");
+        case11_43mm_Cast = new MCHPItems(1).setUnlocalizedName("case11_43mm_Cast");
+        case12_7mm_Cast = new MCHPItems(1).setUnlocalizedName("case12_7mm_Cast");
+        case12gauge_Cast = new MCHPItems(1).setUnlocalizedName("case12gauge_Cast");
+
         round5_56mm = new MCHPTextItem("5.56mm", 1, "round556mm").setUnlocalizedName("round5_56mm");
         round5_56mm_5x = new MCHPTextItem("5.56mm", 5, "round556mm").setUnlocalizedName("round5_56mm_5x");
         round5_56mm_30x = new MCHPTextItem("5.56mm", 30, "round556mm").setUnlocalizedName("round5_56mm_30x");
         round5_56mm_100x = new MCHPTextItem("5.56mm", 100, "round556mm").setUnlocalizedName("round5_56mm_100x");
-        round5_7mm = new MCHPTextItem("5.7mm", 100, "round57mm").setUnlocalizedName("round5_7mm");
         round7_62mm = new MCHPTextItem("7.62mm", 1, "round762mm").setUnlocalizedName("round7_62mm");
         round7_62mm_he = new MCHPTextItem("7.62mm", 1, "round762mm").setUnlocalizedName("round7_62mm_he");
         round7_62mm_tracer = new MCHPTextItem("7.62mm", 1, "round762mm").setUnlocalizedName("round7_62mm_tracer");
-        round7_7mm = new MCHPTextItem("7.7mm", 1, "round762mm").setUnlocalizedName("round7_7mm");
-        round7_92mm = new MCHPTextItem("7.92mm", 1, "round762mm").setUnlocalizedName("round7_92mm");
+        round7_7mm = new MCHPTextItem("7.7mm", 1, "round77mm").setUnlocalizedName("round7_7mm");
+        round7_92mm = new MCHPTextItem("7.92mm", 1, "round792mm").setUnlocalizedName("round7_92mm");
         round9mm = new MCHPTextItem("9mm", 1, "round9mm").setUnlocalizedName("round9mm");
         round9mm_poison = new MCHPTextItem("9mm", 1, "round9mm").setUnlocalizedName("round9mm_poison");
-        round10_9mm = new MCHPTextItem("10.9mm", 1, "round762mm").setUnlocalizedName("round10_9mm");
+        round10_9mm = new MCHPTextItem("10.9mm", 1, "round109mm").setUnlocalizedName("round10_9mm");
         round11_43mm = new MCHPTextItem("11.43mm", 1, "round1143mm").setUnlocalizedName("round11_43mm");
         round12_7mm = new MCHPTextItem("12.7mm", 1, "round127mm").setUnlocalizedName("round12_7mm");
         round12_7mm_he = new MCHPTextItem("12.7mm", 1, "round127mm").setUnlocalizedName("round12_7mm_he");
@@ -1006,7 +1068,6 @@ public class MCHeliParts {
         emptyMagM9 = new MCHPItems(64).setUnlocalizedName("emptyMagM9");
         emptyMagM14 = new MCHPItems(64).setUnlocalizedName("emptyMagM14");
         emptyMagM21 = new MCHPItems(64).setUnlocalizedName("emptyMagM21");
-        emptyMagM40A3 = new MCHPItems(64).setUnlocalizedName("emptyMagM40A3");
         emptyMagM249 = new MCHPItems(64).setUnlocalizedName("emptyMagM249");
         emptyMagM1911 = new MCHPItems(64).setUnlocalizedName("emptyMagM1911");
         emptyMagMakarov = new MCHPItems(64).setUnlocalizedName("emptyMagMakarov");
@@ -1022,10 +1083,9 @@ public class MCHeliParts {
         
         barrelSection = new MCHPItems(64).setUnlocalizedName("barrelSection");
         flashHider = new MCHPItems(64).setUnlocalizedName("flashHider");
-        cheekRest = new MCHPItems(64).setUnlocalizedName("cheekRest");
         trigger = new MCHPItems(64).setUnlocalizedName("trigger");
         pistolStyleGrip = new MCHPItems(64).setUnlocalizedName("pistolStyleGrip");
-        magRelease = new MCHPItems(64).setUnlocalizedName("magRelease");
+
         fixedStock = new MCHPItems(64).setUnlocalizedName("fixedStock");
         slidingStock = new MCHPItems(64).setUnlocalizedName("slidingStock");
         skeletonStock = new MCHPItems(64).setUnlocalizedName("skeletonStock");
@@ -1127,17 +1187,58 @@ public class MCHeliParts {
         case76mm = new MCHPItems(64).setUnlocalizedName("case76mm");
         case105mm = new MCHPItems(64).setUnlocalizedName("case105mm");
         case125mm = new MCHPItems(64).setUnlocalizedName("case125mm");
-        
         case12_7cm = new MCHPItems(64).setUnlocalizedName("case12_7cm");
         case15_5cm = new MCHPItems(64).setUnlocalizedName("case15_5cm");
         case35_6cm = new MCHPItems(64).setUnlocalizedName("case35_6cm");
         case46cm = new MCHPItems(64).setUnlocalizedName("case45cm");
+        case120mm = new MCHPItems(64).setUnlocalizedName("case120mm");
+        case50mm = new MCHPItems(64).setUnlocalizedName("case50mm");
+        case152mm = new MCHPItems(64).setUnlocalizedName("case152mm");
+        case5_25in = new MCHPItems(64).setUnlocalizedName("case5_25in");
+        
+        case20mm_Filled = new MCHPItems(64).setUnlocalizedName("case20mm_Filled");
+        case23mm_Filled = new MCHPItems(64).setUnlocalizedName("case23mm_Filled");
+        case25mm_Filled = new MCHPItems(64).setUnlocalizedName("case25mm_Filled");
+        case30mm_Filled = new MCHPItems(64).setUnlocalizedName("case30mm_Filled");
+        case37mm_Filled = new MCHPItems(64).setUnlocalizedName("case37mm_Filled");
+        case40mm_Filled = new MCHPItems(64).setUnlocalizedName("case40mm_Filled");
+        case47mm_Filled = new MCHPItems(64).setUnlocalizedName("case47mm_Filled");
+        case76mm_Filled = new MCHPItems(64).setUnlocalizedName("case76mm_Filled");
+        case105mm_Filled = new MCHPItems(64).setUnlocalizedName("case105mm_Filled");
+        case125mm_Filled = new MCHPItems(64).setUnlocalizedName("case125mm_Filled");
+        case12_7cm_Filled = new MCHPItems(64).setUnlocalizedName("case12_7cm_Filled");
+        case15_5cm_Filled = new MCHPItems(64).setUnlocalizedName("case15_5cm_Filled");
+        case35_6cm_Filled = new MCHPItems(64).setUnlocalizedName("case35_6cm_Filled");
+        case46cm_Filled = new MCHPItems(64).setUnlocalizedName("case46cm_Filled");
+        case120mm_Filled = new MCHPItems(64).setUnlocalizedName("case120mm_Filled");
+        case50mm_Filled = new MCHPItems(64).setUnlocalizedName("case50mm_Filled");
+        case152mm_Filled = new MCHPItems(64).setUnlocalizedName("case152mm_Filled");
+        case5_25in_Filled = new MCHPItems(64).setUnlocalizedName("case5_25in_Filled");
+        
+        case20mm_Cast = new MCHPItems(1).setUnlocalizedName("case20mm_Cast");
+        case23mm_Cast = new MCHPItems(1).setUnlocalizedName("case23mm_Cast");
+        case25mm_Cast = new MCHPItems(1).setUnlocalizedName("case25mm_Cast");
+        case30mm_Cast = new MCHPItems(1).setUnlocalizedName("case30mm_Cast");
+        case37mm_Cast = new MCHPItems(1).setUnlocalizedName("case37mm_Cast");
+        case40mm_Cast = new MCHPItems(1).setUnlocalizedName("case40mm_Cast");
+        case47mm_Cast = new MCHPItems(1).setUnlocalizedName("case47mm_Cast");
+        case76mm_Cast = new MCHPItems(1).setUnlocalizedName("case76mm_Cast");
+        case105mm_Cast = new MCHPItems(1).setUnlocalizedName("case105mm_Cast");
+        case125mm_Cast = new MCHPItems(1).setUnlocalizedName("case125mm_Cast");
+        case12_7cm_Cast = new MCHPItems(1).setUnlocalizedName("case12_7cm_Cast");
+        case15_5cm_Cast = new MCHPItems(1).setUnlocalizedName("case15_5cm_Cast");
+        case35_6cm_Cast = new MCHPItems(1).setUnlocalizedName("case35_6cm_Cast");
+        case46cm_Cast = new MCHPItems(1).setUnlocalizedName("case46cm_Cast");
+        case120mm_Cast = new MCHPItems(1).setUnlocalizedName("case120mm_Cast");
+        case50mm_Cast = new MCHPItems(1).setUnlocalizedName("case50mm_Cast");
+        case152mm_Cast = new MCHPItems(1).setUnlocalizedName("case152mm_Cast");
+        case5_25in_Cast = new MCHPItems(1).setUnlocalizedName("case5_25in_Cast");
         
         round12_7cm = new MCHPTextItem("12.7cm", 1, "round127cm").setUnlocalizedName("round12_7cm");
         round12_7cm_5x = new MCHPTextItem("12.7cm", 5, "round127cm").setUnlocalizedName("round12_7cm_5x");
-        round15_5cm = new MCHPTextItem("15.5cm", 1, "round127cm").setUnlocalizedName("round15_5cm");
-        round15_5cm_5x = new MCHPTextItem("15.5cm", 5, "round127cm").setUnlocalizedName("round15_5cm_5x");
-        round35_6cm = new MCHPTextItem("35.6cm", 1, "round35cm").setUnlocalizedName("round35_6cm");
+        round15_5cm = new MCHPTextItem("15.5cm", 1, "round155cm").setUnlocalizedName("round15_5cm");
+        round15_5cm_5x = new MCHPTextItem("15.5cm", 5, "round155cm").setUnlocalizedName("round15_5cm_5x");
+        round35_6cm = new MCHPTextItem("35.6cm", 1, "round356cm").setUnlocalizedName("round35_6cm");
         round46cm = new MCHPTextItem("46cm", 1, "round46cm").setUnlocalizedName("round46cm");
         
         round7_62mm_5x = new MCHPTextItem("7.62mm", 5, "round762mm").setUnlocalizedName("round7_62mm_5x");
@@ -1148,27 +1249,27 @@ public class MCHeliParts {
         round7_92_25x = new MCHPTextItem("7.92mm", 25, "round762mm").setUnlocalizedName("round7_92mm_25x");
         round12_7mm_5x = new MCHPTextItem("12.7mm", 5, "round762mm").setUnlocalizedName("round12_7mm_5x");
         round12_7mm_25x = new MCHPTextItem("12.7mm", 25, "round762mm").setUnlocalizedName("round12_7mm_25x");
-        round20mm = new MCHPTextItem("20mm", 1, "round23mm").setUnlocalizedName("round20mm");
-        round20mm_5x = new MCHPTextItem("20mm", 5, "round23mm").setUnlocalizedName("round20mm_5x");
-        round20mm_25x = new MCHPTextItem("20mm", 25, "round23mm").setUnlocalizedName("round20mm_25x");
+        round20mm = new MCHPTextItem("20mm", 1, "round20mm").setUnlocalizedName("round20mm");
+        round20mm_5x = new MCHPTextItem("20mm", 5, "round20mm").setUnlocalizedName("round20mm_5x");
+        round20mm_25x = new MCHPTextItem("20mm", 25, "round20mm").setUnlocalizedName("round20mm_25x");
         round23mm = new MCHPTextItem("23mm", 1, "round23mm").setUnlocalizedName("round23mm");
         round23mm_5x = new MCHPTextItem("23mm", 5, "round23mm").setUnlocalizedName("round23mm_5x");
         round23mm_25x = new MCHPTextItem("23mm", 25, "round23mm").setUnlocalizedName("round23mm_25x");
-        round25mm = new MCHPTextItem("25mm", 1, "round23mm").setUnlocalizedName("round25mm");
-        round25mm_5x = new MCHPTextItem("25mm", 5, "round23mm").setUnlocalizedName("round25mm_5x");
-        round25mm_25x = new MCHPTextItem("25mm", 25, "round23mm").setUnlocalizedName("round25mm_25x");
+        round25mm = new MCHPTextItem("25mm", 1, "round25mm").setUnlocalizedName("round25mm");
+        round25mm_5x = new MCHPTextItem("25mm", 5, "round25mm").setUnlocalizedName("round25mm_5x");
+        round25mm_25x = new MCHPTextItem("25mm", 25, "round25mm").setUnlocalizedName("round25mm_25x");
         round30mm = new MCHPTextItem("30mm", 1, "round30mm").setUnlocalizedName("round30mm");
         round30mm_5x = new MCHPTextItem("30mm", 5, "round30mm").setUnlocalizedName("round30mm_5x");
         round30mm_25x = new MCHPTextItem("30mm", 25, "round30mm").setUnlocalizedName("round30mm_25x");
         round37mm = new MCHPTextItem("37mm", 1, "round37mm").setUnlocalizedName("round37mm");
         round37mm_5x = new MCHPTextItem("37mm", 5, "round37mm").setUnlocalizedName("round37mm_5x");
         round37mm_25x = new MCHPTextItem("37mm", 25, "round37mm").setUnlocalizedName("round37mm_25x");
-        round40mm = new MCHPTextItem("40mm", 1, "round37mm").setUnlocalizedName("round40mm");
-        round40mm_5x = new MCHPTextItem("40mm", 5, "round37mm").setUnlocalizedName("round40mm_5x");
-        round40mm_25x = new MCHPTextItem("40mm", 25, "round37mm").setUnlocalizedName("round40mm_25x");
-        round40mm_Grenade = new MCHPTextItem("40mm", 1, "grenade40mm").setUnlocalizedName("round40mm_Grenade");
-        round40mm_Grenade_5x = new MCHPTextItem("40mm", 5, "grenade40mm").setUnlocalizedName("round40mm_Grenade_5x");
-        round40mm_Grenade_25x = new MCHPTextItem("40mm", 25, "grenade40mm").setUnlocalizedName("round40mm_Grenade_25x");
+        round40mm = new MCHPTextItem("40mm", 1, "round40mm").setUnlocalizedName("round40mm");
+        round40mm_5x = new MCHPTextItem("40mm", 5, "round40mm").setUnlocalizedName("round40mm_5x");
+        round40mm_25x = new MCHPTextItem("40mm", 25, "round40mm").setUnlocalizedName("round40mm_25x");
+        round40mm_Grenade = new MCHPTextItem("40mm", 1, "grenade40mm").setUnlocalizedName("round40mm_Grenade");//
+        round40mm_Grenade_5x = new MCHPTextItem("40mm", 5, "grenade40mm").setUnlocalizedName("round40mm_Grenade_5x");//
+        round40mm_Grenade_25x = new MCHPTextItem("40mm", 25, "grenade40mm").setUnlocalizedName("round40mm_Grenade_25x");//
         round47mm = new MCHPTextItem("47mm", 1, "round47mm").setUnlocalizedName("round47mm");
         round47mm_5x = new MCHPTextItem("47mm", 5, "round47mm").setUnlocalizedName("round47mm_5x");
         round47mm_25x = new MCHPTextItem("47mm", 25, "round47mm").setUnlocalizedName("round47mm_25x");
@@ -1182,7 +1283,7 @@ public class MCHeliParts {
         roundMk19Grenade = new MCHPItems(64).setUnlocalizedName("roundMk19Grenade");
         
         round120mmOrdnance = new MCHPTextItem("120mm", 1, "round120mm").setUnlocalizedName("round120mmOrdnance");
-        round50mmOrdnance = new MCHPTextItem("50mm", 1, "round47mm").setUnlocalizedName("round50mmOrdnance");
+        round50mmOrdnance = new MCHPTextItem("50mm", 1, "round50mm").setUnlocalizedName("round50mmOrdnance");
         round152mmOrdnance = new MCHPTextItem("152mm", 1, "round152mm").setUnlocalizedName("round152mmOrdnance");
         
         round5_25in = new MCHPTextItem("5.25 inch", 1, "round525inch").setUnlocalizedName("round5_25in");

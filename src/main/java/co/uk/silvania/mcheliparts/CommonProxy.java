@@ -269,17 +269,14 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.ghostEngine, "ghostEngine");
         GameRegistry.registerItem(MCHeliParts.ghostExhaust, "ghostExhaust");
         GameRegistry.registerItem(MCHeliParts.ghostWeaponSystem, "ghostWeaponSystem");
-        GameRegistry.registerItem(MCHeliParts.bansheeLowerFuselage, "bansheeLowerFuselage");
-        GameRegistry.registerItem(MCHeliParts.bansheeUpperFuselage, "bansheeUpperFuselage");
+        GameRegistry.registerItem(MCHeliParts.bansheeFuselage, "bansheeFuselage");
         GameRegistry.registerItem(MCHeliParts.bansheeControlSystem, "bansheeControlSystem");
         GameRegistry.registerItem(MCHeliParts.bansheeWing, "bansheeWing");
         GameRegistry.registerItem(MCHeliParts.bansheeEngine, "bansheeEngine");
         GameRegistry.registerItem(MCHeliParts.bansheeWeaponSystem, "bansheeWeaponSystem");
         
         GameRegistry.registerItem(MCHeliParts.unscVulcan, "unscVulcan");
-        GameRegistry.registerItem(MCHeliParts.unscVulcanRounds, "unscVulcanRounds");
         GameRegistry.registerItem(MCHeliParts.unscRocketLauncher, "unscRocketLauncher");
-        GameRegistry.registerItem(MCHeliParts.unscRocket, "unscRocket");
         GameRegistry.registerItem(MCHeliParts.covenantPlasmaCannon, "covenantPlasmaCannon");
         GameRegistry.registerItem(MCHeliParts.covenantPlasmaCharger, "covenantPlasmaCharger");
         GameRegistry.registerItem(MCHeliParts.covenantFuelRodCannon, "covenantFuelRodCannon");
@@ -311,21 +308,37 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.case5_56mm, "case5_56mm");
         GameRegistry.registerItem(MCHeliParts.case7_62mm, "case7_62mm");
         GameRegistry.registerItem(MCHeliParts.case7_7mm, "case7_7mm");
-        GameRegistry.registerItem(MCHeliParts.case7_8mm, "case7_8mm");
-        GameRegistry.registerItem(MCHeliParts.case7_9mm, "case7_9mm");
         GameRegistry.registerItem(MCHeliParts.case7_92mm, "case7_92mm");
         GameRegistry.registerItem(MCHeliParts.case9mm, "case9mm");
         GameRegistry.registerItem(MCHeliParts.case10_9mm, "case10_9mm");
         GameRegistry.registerItem(MCHeliParts.case11_43mm, "case11_43mm");
         GameRegistry.registerItem(MCHeliParts.case12_7mm, "case12_7mm");
         GameRegistry.registerItem(MCHeliParts.case12gauge, "case12gauge");
+        
+        GameRegistry.registerItem(MCHeliParts.case5_56mm_Filled, "case5_56mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case7_62mm_Filled, "case7_62mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case7_7mm_Filled, "case7_7mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case7_92mm_Filled, "case7_92mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case9mm_Filled, "case9mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case10_9mm_Filled, "case10_9mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case11_43mm_Filled, "case11_43mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case12_7mm_Filled, "case12_7mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case12gauge_Filled, "case12gauge_Filled");
+        
+        GameRegistry.registerItem(MCHeliParts.case5_56mm_Cast, "case5_56mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case7_62mm_Cast, "case7_62mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case7_7mm_Cast, "case7_7mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case7_92mm_Cast, "case7_92mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case9mm_Cast, "case9mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case10_9mm_Cast, "case10_9mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case11_43mm_Cast, "case11_43mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case12_7mm_Cast, "case12_7mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case12gauge_Cast, "case12gauge_Cast");
 
-        GameRegistry.registerItem(MCHeliParts.round5_45mm, "round5_45mm");     
         GameRegistry.registerItem(MCHeliParts.round5_56mm, "round5_56mm");
         GameRegistry.registerItem(MCHeliParts.round5_56mm_5x, "round5_56mm_5x");
         GameRegistry.registerItem(MCHeliParts.round5_56mm_30x, "round5_56mm_30x");
         GameRegistry.registerItem(MCHeliParts.round5_56mm_100x, "round5_56mm_100x");
-        GameRegistry.registerItem(MCHeliParts.round5_7mm, "round5_7mm");
         GameRegistry.registerItem(MCHeliParts.round7_62mm, "round7_62mm");
         GameRegistry.registerItem(MCHeliParts.round7_62mm_he, "round7_62mm_he");
         GameRegistry.registerItem(MCHeliParts.round7_62mm_tracer, "round7_62mm_tracer");
@@ -360,7 +373,6 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.emptyMagM9, "emptyMagM9");
         GameRegistry.registerItem(MCHeliParts.emptyMagM14, "emptyMagM14");
         GameRegistry.registerItem(MCHeliParts.emptyMagM21, "emptyMagM21");
-        GameRegistry.registerItem(MCHeliParts.emptyMagM40A3, "emptyMagM40A3");
         GameRegistry.registerItem(MCHeliParts.emptyMagM249, "emptyMagM249");
         GameRegistry.registerItem(MCHeliParts.emptyMagM1911, "emptyMagM1911");
         GameRegistry.registerItem(MCHeliParts.emptyMagMakarov, "emptyMagMakarov");
@@ -376,10 +388,8 @@ public class CommonProxy {
 
         GameRegistry.registerItem(MCHeliParts.barrelSection, "barrelSection");
         GameRegistry.registerItem(MCHeliParts.flashHider, "flashHider");
-        GameRegistry.registerItem(MCHeliParts.cheekRest, "cheekRest");
         GameRegistry.registerItem(MCHeliParts.trigger, "trigger");
         GameRegistry.registerItem(MCHeliParts.pistolStyleGrip, "pistolStyleGrip");
-        GameRegistry.registerItem(MCHeliParts.magRelease, "magRelease");
         GameRegistry.registerItem(MCHeliParts.fixedStock, "fixedStock");
         GameRegistry.registerItem(MCHeliParts.slidingStock, "slidingStock");
         GameRegistry.registerItem(MCHeliParts.skeletonStock, "skeletonStock");
@@ -480,11 +490,52 @@ public class CommonProxy {
         GameRegistry.registerItem(MCHeliParts.case76mm, "case76mm");
         GameRegistry.registerItem(MCHeliParts.case105mm, "case105mm");
         GameRegistry.registerItem(MCHeliParts.case125mm, "case125mm");
-
         GameRegistry.registerItem(MCHeliParts.case12_7cm, "case12_7cm");
         GameRegistry.registerItem(MCHeliParts.case15_5cm, "case15_5cm");
         GameRegistry.registerItem(MCHeliParts.case35_6cm, "case35_6cm");
         GameRegistry.registerItem(MCHeliParts.case46cm, "case45cm");
+        GameRegistry.registerItem(MCHeliParts.case120mm, "case120mm");
+        GameRegistry.registerItem(MCHeliParts.case50mm, "case50mm");
+        GameRegistry.registerItem(MCHeliParts.case152mm, "case152mm");
+        GameRegistry.registerItem(MCHeliParts.case5_25in, "case5_25in");
+
+        GameRegistry.registerItem(MCHeliParts.case20mm_Filled, "case20mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case23mm_Filled, "case23mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case25mm_Filled, "case25mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case30mm_Filled, "case30mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case37mm_Filled, "case37mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case40mm_Filled, "case40mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case47mm_Filled, "case47mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case76mm_Filled, "case76mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case105mm_Filled, "case105mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case125mm_Filled, "case125mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case12_7cm_Filled, "case12_7cm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case15_5cm_Filled, "case15_5cm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case35_6cm_Filled, "case35_6cm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case46cm_Filled, "case46cm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case120mm_Filled, "case120mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case50mm_Filled, "case50mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case152mm_Filled, "case152mm_Filled");
+        GameRegistry.registerItem(MCHeliParts.case5_25in_Filled, "case5_25in_Filled");
+
+        GameRegistry.registerItem(MCHeliParts.case20mm_Cast, "case20mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case23mm_Cast, "case23mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case25mm_Cast, "case25mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case30mm_Cast, "case30mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case37mm_Cast, "case37mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case40mm_Cast, "case40mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case47mm_Cast, "case47mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case76mm_Cast, "case76mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case105mm_Cast, "case105mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case125mm_Cast, "case125mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case12_7cm_Cast, "case12_7cm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case15_5cm_Cast, "case15_5cm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case35_6cm_Cast, "case35_6cm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case46cm_Cast, "case46cm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case120mm_Cast, "case120mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case50mm_Cast, "case50mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case152mm_Cast, "case152mm_Cast");
+        GameRegistry.registerItem(MCHeliParts.case5_25in_Cast, "case5_25in_Cast");
 
         GameRegistry.registerItem(MCHeliParts.round12_7cm, "round12_7cm");
         GameRegistry.registerItem(MCHeliParts.round12_7cm_5x, "round12_7cm_5x");
