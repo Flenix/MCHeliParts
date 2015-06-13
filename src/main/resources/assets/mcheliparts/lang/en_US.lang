@@ -195,13 +195,13 @@ item.longRangerTail.name=Bell Long Ranger Tail
 item.fl282Fuselage.name=FL 282 Fuselage
 item.fl282Tail.name=FL 282 Tail
 item.bell47gFuselage.name=Bell 47G Fuselage
-item.bell47gTail.name=Bell 47G Tail
-item.bell47gWeaponSystem.name=Bell 47G Weapon System
+item.bell47GTail.name=Bell 47G Tail
+item.bell47GWeaponSystem.name=Bell 47G Weapon System
 item.robinsonFuselage.name=Robinson Fuselage
 item.robinsonTail.name=Robinson Tail
 item.s76Fuselage.name=S76 Fuselage
 item.s76Tail.name=S76 Tail
-item.s76FancyShit.name=S-76 Fancy Shit
+item.s76FancyShit.name=S-76 Interior
         
         
         //Civillian Planes
