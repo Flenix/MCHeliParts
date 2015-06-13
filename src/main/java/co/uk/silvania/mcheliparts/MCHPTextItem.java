@@ -41,10 +41,9 @@ public class MCHPTextItem extends Item {
 	
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IIconRegister iconRegister) {
-		System.out.println("Registering items! Texture value read: " + texture);
-		itemIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture);
-		multiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture + "_5x");
-		superMultiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture + "_25x");
+		itemIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + (this.getUnlocalizedName().substring(5)));
+		multiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + (this.getUnlocalizedName().substring(5)) + "_5x");
+		superMultiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + (this.getUnlocalizedName().substring(5)) + "_25x");
 	}
 	
     @SideOnly(Side.CLIENT)

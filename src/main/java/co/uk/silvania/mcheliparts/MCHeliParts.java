@@ -1030,23 +1030,23 @@ public class MCHeliParts {
         case12_7mm_Cast = new MCHPItems(1).setUnlocalizedName("case12_7mm_Cast");
         case12gauge_Cast = new MCHPItems(1).setUnlocalizedName("case12gauge_Cast");
 
-        ammo5_56mm = new MCHPTextItem("5.56mm", 1, "ammo556mm").setUnlocalizedName("ammo5_56mm");
-        ammo5_56mm_5x = new MCHPTextItem("5.56mm", 5, "ammo556mm").setUnlocalizedName("ammo5_56mm_5x");
-        ammo5_56mm_30x = new MCHPTextItem("5.56mm", 30, "ammo556mm").setUnlocalizedName("ammo5_56mm_30x");
-        ammo5_56mm_100x = new MCHPTextItem("5.56mm", 100, "ammo556mm").setUnlocalizedName("ammo5_56mm_100x");
-        ammo7_62mm = new MCHPTextItem("7.62mm", 1, "ammo762mm").setUnlocalizedName("ammo7_62mm");
-        ammo7_62mm_he = new MCHPTextItem("7.62mm", 1, "ammo762mm").setUnlocalizedName("ammo7_62mm_he");
-        ammo7_62mm_tracer = new MCHPTextItem("7.62mm", 1, "ammo762mm").setUnlocalizedName("ammo7_62mm_tracer");
-        ammo7_7mm = new MCHPTextItem("7.7mm", 1, "ammo77mm").setUnlocalizedName("ammo7_7mm");
-        ammo7_92mm = new MCHPTextItem("7.92mm", 1, "ammo792mm").setUnlocalizedName("ammo7_92mm");
+        ammo5_56mm = new MCHPTextItem("5.56mm", 1, "ammo5_56mm").setUnlocalizedName("ammo5_56mm");
+        ammo5_56mm_5x = new MCHPTextItem("5.56mm", 5, "ammo5_56mm").setUnlocalizedName("ammo5_56mm_5x");
+        ammo5_56mm_30x = new MCHPTextItem("5.56mm", 30, "ammo5_56mm").setUnlocalizedName("ammo5_56mm_30x");
+        ammo5_56mm_100x = new MCHPTextItem("5.56mm", 100, "ammo5_56mm").setUnlocalizedName("ammo5_56mm_100x");
+        ammo7_62mm = new MCHPTextItem("7.62mm", 1, "ammo7_62mm").setUnlocalizedName("ammo7_62mm");
+        ammo7_62mm_he = new MCHPTextItem("7.62mm", 1, "ammo7_62mm").setUnlocalizedName("ammo7_62mm_he");
+        ammo7_62mm_tracer = new MCHPTextItem("7.62mm", 1, "ammo7_62mm").setUnlocalizedName("ammo7_62mm_tracer");
+        ammo7_7mm = new MCHPTextItem("7.7mm", 1, "ammo7_7mm").setUnlocalizedName("ammo7_7mm");
+        ammo7_92mm = new MCHPTextItem("7.92mm", 1, "ammo79_2mm").setUnlocalizedName("ammo7_92mm");
         ammo9mm = new MCHPTextItem("9mm", 1, "ammo9mm").setUnlocalizedName("ammo9mm");
         ammo9mm_poison = new MCHPTextItem("9mm", 1, "ammo9mm").setUnlocalizedName("ammo9mm_poison");
-        ammo10_9mm = new MCHPTextItem("10.9mm", 1, "ammo109mm").setUnlocalizedName("ammo10_9mm");
-        ammo11_43mm = new MCHPTextItem("11.43mm", 1, "ammo1143mm").setUnlocalizedName("ammo11_43mm");
-        ammo12_7mm = new MCHPTextItem("12.7mm", 1, "ammo127mm").setUnlocalizedName("ammo12_7mm");
-        ammo12_7mm_he = new MCHPTextItem("12.7mm", 1, "ammo127mm").setUnlocalizedName("ammo12_7mm_he");
-        ammo12_7mm_tracer = new MCHPTextItem("12.7mm", 1, "ammo127mm").setUnlocalizedName("ammo12_7mm_tracer");
-        ammo12_7mm_explosive = new MCHPTextItem("12.7mm", 1, "ammo127mm").setUnlocalizedName("ammo12_7mm_explosive");
+        ammo10_9mm = new MCHPTextItem("10.9mm", 1, "ammo10_9mm").setUnlocalizedName("ammo10_9mm");
+        ammo11_43mm = new MCHPTextItem("11.43mm", 1, "ammo11_43mm").setUnlocalizedName("ammo11_43mm");
+        ammo12_7mm = new MCHPTextItem("12.7mm", 1, "ammo12_7mm").setUnlocalizedName("ammo12_7mm");
+        ammo12_7mm_he = new MCHPTextItem("12.7mm", 1, "ammo12_7mm").setUnlocalizedName("ammo12_7mm_he");
+        ammo12_7mm_tracer = new MCHPTextItem("12.7mm", 1, "ammo12_7mm").setUnlocalizedName("ammo12_7mm_tracer");
+        ammo12_7mm_explosive = new MCHPTextItem("12.7mm", 1, "ammo12_7mm").setUnlocalizedName("ammo12_7mm_explosive");
         ammo12gauge = new MCHPItems(64).setUnlocalizedName("ammo12gauge");
         ammo12gauge_incendiary = new MCHPItems(64).setUnlocalizedName("ammo12gauge_incendiary");
         
@@ -1233,21 +1233,21 @@ public class MCHeliParts {
         case152mm_Cast = new MCHPItems(1).setUnlocalizedName("case152mm_Cast");
         case5_25in_Cast = new MCHPItems(1).setUnlocalizedName("case5_25in_Cast");
         
-        ammo12_7cm = new MCHPTextItem("12.7cm", 1, "ammo127cm").setUnlocalizedName("ammo12_7cm");
-        ammo12_7cm_5x = new MCHPTextItem("12.7cm", 5, "ammo127cm").setUnlocalizedName("ammo12_7cm_5x");
-        ammo15_5cm = new MCHPTextItem("15.5cm", 1, "ammo155cm").setUnlocalizedName("ammo15_5cm");
-        ammo15_5cm_5x = new MCHPTextItem("15.5cm", 5, "ammo155cm").setUnlocalizedName("ammo15_5cm_5x");
-        ammo35_6cm = new MCHPTextItem("35.6cm", 1, "ammo356cm").setUnlocalizedName("ammo35_6cm");
+        ammo12_7cm = new MCHPTextItem("12.7cm", 1, "ammo12_7cm").setUnlocalizedName("ammo12_7cm");
+        ammo12_7cm_5x = new MCHPTextItem("12.7cm", 5, "ammo12_7cm").setUnlocalizedName("ammo12_7cm_5x");
+        ammo15_5cm = new MCHPTextItem("15.5cm", 1, "ammo15_5cm").setUnlocalizedName("ammo15_5cm");
+        ammo15_5cm_5x = new MCHPTextItem("15.5cm", 5, "ammo15_5cm").setUnlocalizedName("ammo15_5cm_5x");
+        ammo35_6cm = new MCHPTextItem("35.6cm", 1, "ammo35_6cm").setUnlocalizedName("ammo35_6cm");
         ammo46cm = new MCHPTextItem("46cm", 1, "ammo46cm").setUnlocalizedName("ammo46cm");
         
-        ammo7_62mm_5x = new MCHPTextItem("7.62mm", 5, "ammo762mm").setUnlocalizedName("ammo7_62mm_5x");
-        ammo7_62mm_25x = new MCHPTextItem("7.62mm", 25, "ammo762mm").setUnlocalizedName("ammo7_62mm_25x");
-        ammo7_7mm_5x = new MCHPTextItem("7.7mm", 5, "ammo762mm").setUnlocalizedName("ammo7_7mm_5x");
-        ammo7_7mm_25x = new MCHPTextItem("7.7mm", 25, "ammo762mm").setUnlocalizedName("ammo7_7mm_25x");
-        ammo7_92_5x = new MCHPTextItem("7.92mm", 5, "ammo762mm").setUnlocalizedName("ammo7_92mm_5x");
-        ammo7_92_25x = new MCHPTextItem("7.92mm", 25, "ammo762mm").setUnlocalizedName("ammo7_92mm_25x");
-        ammo12_7mm_5x = new MCHPTextItem("12.7mm", 5, "ammo762mm").setUnlocalizedName("ammo12_7mm_5x");
-        ammo12_7mm_25x = new MCHPTextItem("12.7mm", 25, "ammo762mm").setUnlocalizedName("ammo12_7mm_25x");
+        ammo7_62mm_5x = new MCHPTextItem("7.62mm", 5, "ammo7_62mm").setUnlocalizedName("ammo7_62mm_5x");
+        ammo7_62mm_25x = new MCHPTextItem("7.62mm", 25, "ammo7_62mm").setUnlocalizedName("ammo7_62mm_25x");
+        ammo7_7mm_5x = new MCHPTextItem("7.7mm", 5, "ammo7_7mm").setUnlocalizedName("ammo7_7mm_5x");
+        ammo7_7mm_25x = new MCHPTextItem("7.7mm", 25, "ammo7_7mm").setUnlocalizedName("ammo7_7mm_25x");
+        ammo7_92_5x = new MCHPTextItem("7.92mm", 5, "ammo7_92mm").setUnlocalizedName("ammo7_92mm_5x");
+        ammo7_92_25x = new MCHPTextItem("7.92mm", 25, "ammo7_92mm").setUnlocalizedName("ammo7_92mm_25x");
+        ammo12_7mm_5x = new MCHPTextItem("12.7mm", 5, "ammo12_7mm").setUnlocalizedName("ammo12_7mm_5x");
+        ammo12_7mm_25x = new MCHPTextItem("12.7mm", 25, "ammo12_7mm").setUnlocalizedName("ammo12_7mm_25x");
         ammo20mm = new MCHPTextItem("20mm", 1, "ammo20mm").setUnlocalizedName("ammo20mm");
         ammo20mm_5x = new MCHPTextItem("20mm", 5, "ammo20mm").setUnlocalizedName("ammo20mm_5x");
         ammo20mm_25x = new MCHPTextItem("20mm", 25, "ammo20mm").setUnlocalizedName("ammo20mm_25x");
@@ -1285,9 +1285,9 @@ public class MCHeliParts {
         ammo50mmOrdnance = new MCHPTextItem("50mm", 1, "ammo50mm").setUnlocalizedName("ammo50mmOrdnance");
         ammo152mmOrdnance = new MCHPTextItem("152mm", 1, "ammo152mm").setUnlocalizedName("ammo152mmOrdnance");
         
-        ammo5_25in = new MCHPTextItem("5.25 inch", 1, "ammo525inch").setUnlocalizedName("ammo5_25in");
-        ammo5_25in_5x = new MCHPTextItem("5.25 inch", 5, "ammo525inch").setUnlocalizedName("ammo5_25in_5x");
-        ammo5_25in_25x = new MCHPTextItem("5.25 inch", 25, "ammo525inch").setUnlocalizedName("ammo5_25in_25x");
+        ammo5_25in = new MCHPTextItem("5.25 inch", 1, "ammo5_25in").setUnlocalizedName("ammo5_25in");
+        ammo5_25in_5x = new MCHPTextItem("5.25 inch", 5, "ammo5_25in").setUnlocalizedName("ammo5_25in_5x");
+        ammo5_25in_25x = new MCHPTextItem("5.25 inch", 25, "ammo5_25in").setUnlocalizedName("ammo5_25in_25x");
         
         radioA_10_CAS = new MCHPItems(64).setUnlocalizedName("radioA_10_CAS");
         
