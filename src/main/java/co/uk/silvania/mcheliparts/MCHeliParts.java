@@ -1090,13 +1090,13 @@ public class MCHeliParts {
         skeletonStock = new MCHPItems(64).setUnlocalizedName("skeletonStock");
         
         assaultRifleBarrel = new MCHPItems(64).setUnlocalizedName("assaultRifleBarrel");
-        assaultRifleBolt = new MCHPItems(64).setUnlocalizedName("assaultRifleBolt"); //
-        assaultRifleMagwell = new MCHPItems(64).setUnlocalizedName("assaultRifleMagwell"); //
-        assaultRifleFiringPin = new MCHPItems(64).setUnlocalizedName("assaultRifleFiringPin"); //
-        assaultRifleFireSelectorSSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSF"); //
-        assaultRifleFireSelectorSSB = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSB"); //
-        assaultRifleFireSelectorSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSF"); //
-        assaultRifleRISRail = new MCHPItems(64).setUnlocalizedName("assaultRifleRISRail"); //
+        assaultRifleBolt = new MCHPItems(64).setUnlocalizedName("assaultRifleBolt");
+        assaultRifleMagwell = new MCHPItems(64).setUnlocalizedName("assaultRifleMagwell");
+        assaultRifleFiringPin = new MCHPItems(64).setUnlocalizedName("assaultRifleFiringPin");
+        assaultRifleFireSelectorSSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSF");
+        assaultRifleFireSelectorSSB = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSSB");
+        assaultRifleFireSelectorSF = new MCHPItems(64).setUnlocalizedName("assaultRifleFireSelectorSF");
+        assaultRifleRISRail = new MCHPItems(64).setUnlocalizedName("assaultRifleRISRail");
         
         assaultRifleACRReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleACRReciever");
         assaultRifleAUGReciever = new MCHPItems(64).setUnlocalizedName("assaultRifleAUGReciever");
@@ -1109,11 +1109,11 @@ public class MCHeliParts {
         assaultRifleG3Reciever = new MCHPItems(64).setUnlocalizedName("assaultRifleG3Reciever");
         
         sniperRifleBarrel = new MCHPItems(64).setUnlocalizedName("sniperRifleBarrel");
-        sniperRifleBolt = new MCHPItems(64).setUnlocalizedName("sniperRifleBolt"); //
-        sniperRifleMagwell = new MCHPItems(64).setUnlocalizedName("sniperRifleMagwell"); //
-        sniperRifleFiringPin = new MCHPItems(64).setUnlocalizedName("sniperRifleFiringPin"); //
-        sniperRifle1xScope = new MCHPItems(64).setUnlocalizedName("sniperRifle1xScope"); //
-        sniperRifleBoltHandle = new MCHPItems(64).setUnlocalizedName("sniperRifleBoltHandle"); //
+        sniperRifleBolt = new MCHPItems(64).setUnlocalizedName("sniperRifleBolt");
+        sniperRifleMagwell = new MCHPItems(64).setUnlocalizedName("sniperRifleMagwell");
+        sniperRifleFiringPin = new MCHPItems(64).setUnlocalizedName("sniperRifleFiringPin");
+        sniperRifle1xScope = new MCHPItems(64).setUnlocalizedName("sniperRifle1xScope");
+        sniperRifleBoltHandle = new MCHPItems(64).setUnlocalizedName("sniperRifleBoltHandle");
         
         sniperRifleDragonuvReciever = new MCHPItems(64).setUnlocalizedName("sniperRifleDragonuvReciever");
         sniperRifleL96Reciever = new MCHPItems(64).setUnlocalizedName("sniperRifleL96Reciever");
