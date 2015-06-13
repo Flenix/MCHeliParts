@@ -35,8 +35,22 @@ public class MCHPTextItem extends Item {
 	}
 	
 	@SideOnly(Side.CLIENT)
+	private IIcon multiIcon;
+	
+	@SideOnly(Side.CLIENT)
 	public void registerIcons(IIconRegister iconRegister) {
 		System.out.println("Registering items! Texture value read: " + texture);
-		itemIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + (this.getUnlocalizedName().substring(5)));
+		itemIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture);
+		multiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + texture + "_multi");
 	}
+	
+    @SideOnly(Side.CLIENT)
+    @Override
+    public IIcon getIconIndex(ItemStack item) {
+    	if (this.stack > 1) {
+    		return multiIcon;
+    	}
+        return itemIcon;
+    }
+
 }
