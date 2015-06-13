@@ -17,7 +17,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class MCHeliParts {
 	
 	public static final String modid = "mcheliparts";
-    public static final String version = "1.0";
+    public static final String version = "1.3";
     
     @Instance(MCHeliParts.modid)
     public static MCHeliParts instance;
