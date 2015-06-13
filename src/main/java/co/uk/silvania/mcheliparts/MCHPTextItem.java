@@ -35,26 +35,8 @@ public class MCHPTextItem extends Item {
 	}
 	
 	@SideOnly(Side.CLIENT)
-	private IIcon multiIcon;
-	@SideOnly(Side.CLIENT)
-	private IIcon superMultiIcon;
-	
-	@SideOnly(Side.CLIENT)
 	public void registerIcons(IIconRegister iconRegister) {
 		itemIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + (this.getUnlocalizedName().substring(5)));
-		multiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + (this.getUnlocalizedName().substring(5)) + "_5x");
-		superMultiIcon = iconRegister.registerIcon(MCHeliParts.modid + ":" + (this.getUnlocalizedName().substring(5)) + "_25x");
 	}
-	
-    @SideOnly(Side.CLIENT)
-    @Override
-    public IIcon getIconIndex(ItemStack item) {
-    	if (this.stack > 1 && this.stack < 25) {
-    		return multiIcon;
-    	} else if (this.stack >= 25) {
-    		return superMultiIcon;
-    	} else
-        return itemIcon;
-    }
 
 }
