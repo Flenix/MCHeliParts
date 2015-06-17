@@ -420,6 +420,68 @@ public class MCHeliParts {
     public static Item emptyMagUSP;
     public static Item emptyMagUzi;
     
+    public static Item rawMagACR;
+    public static Item rawMagAK74;
+    public static Item rawMagAUG;
+    public static Item rawMagBarrett;
+    public static Item rawMagBizon;
+    public static Item rawMagDesertEagle;
+    public static Item rawMagDragonuv;
+    public static Item rawMagScar;
+    public static Item rawMagG3;
+    public static Item rawMagG36;
+    public static Item rawMagGlock;
+    public static Item rawMagGlockHi;
+    public static Item rawMagL86;
+    public static Item rawMagL96;
+    public static Item rawMagM4;
+    public static Item rawMagM9;
+    public static Item rawMagM14;
+    public static Item rawMagM21;
+    public static Item rawMagM249;
+    public static Item rawMagM1911;
+    public static Item rawMagMakarov;
+    public static Item rawMagMP5;
+    public static Item rawMagMTAR;
+    public static Item rawMagP90;
+    public static Item rawMagRPD;
+    public static Item rawMagSG550;
+    public static Item rawMagSIG_P226;
+    public static Item rawMagSkorpion;
+    public static Item rawMagUSP;
+    public static Item rawMagUzi;
+    
+    public static Item magShapeACR;
+    public static Item magShapeAK74;
+    public static Item magShapeAUG;
+    public static Item magShapeBarrett;
+    public static Item magShapeBizon;
+    public static Item magShapeDesertEagle;
+    public static Item magShapeDragonuv;
+    public static Item magShapeScar;
+    public static Item magShapeG3;
+    public static Item magShapeG36;
+    public static Item magShapeGlock;
+    public static Item magShapeGlockHi;
+    public static Item magShapeL86;
+    public static Item magShapeL96;
+    public static Item magShapeM4;
+    public static Item magShapeM9;
+    public static Item magShapeM14;
+    public static Item magShapeM21;
+    public static Item magShapeM249;
+    public static Item magShapeM1911;
+    public static Item magShapeMakarov;
+    public static Item magShapeMP5;
+    public static Item magShapeMTAR;
+    public static Item magShapeP90;
+    public static Item magShapeRPD;
+    public static Item magShapeSG550;
+    public static Item magShapeSIG_P226;
+    public static Item magShapeSkorpion;
+    public static Item magShapeUSP;
+    public static Item magShapeUzi;
+    
     public static Item barrelSection;
     public static Item flashHider;
     public static Item trigger;
@@ -517,24 +579,24 @@ public class MCHeliParts {
     //----------------
     
     //ammo parts
-    public static Item case20mm;
-    public static Item case23mm;
-    public static Item case25mm;
-    public static Item case30mm;
-    public static Item case37mm;
-    public static Item case40mm;
-    public static Item case47mm;
-    public static Item case76mm;
-    public static Item case105mm;
-    public static Item case125mm;
-    public static Item case12_7cm;
-    public static Item case15_5cm;
-    public static Item case35_6cm;
-    public static Item case46cm;
-    public static Item case120mm;
-    public static Item case50mm;
-    public static Item case152mm;
-    public static Item case5_25in;
+    public static Item case20mm; //76
+    public static Item case23mm; //80
+    public static Item case25mm; //84
+    public static Item case30mm; //90
+    public static Item case37mm; //96
+    public static Item case40mm; //100
+    public static Item case47mm; //104
+    public static Item case76mm; //112
+    public static Item case105mm; //120
+    public static Item case125mm; //124
+    public static Item case12_7cm; //144
+    public static Item case15_5cm; //188
+    public static Item case35_6cm; //288
+    public static Item case46cm; //432
+    public static Item case120mm; //122
+    public static Item case50mm; //106
+    public static Item case152mm; //180
+    public static Item case5_25in; //172
     
     public static Item case20mm_Filled;
     public static Item case23mm_Filled;
@@ -1080,6 +1142,68 @@ public class MCHeliParts {
         emptyMagSkorpion = new MCHPItems(64).setUnlocalizedName("emptyMagSkorpion");
         emptyMagUSP = new MCHPItems(64).setUnlocalizedName("emptyMagUSP");
         emptyMagUzi = new MCHPItems(64).setUnlocalizedName("emptyMagUzi");
+        
+        rawMagACR = new MCHPItems(64).setUnlocalizedName("rawMagACR");
+        rawMagAK74 = new MCHPItems(64).setUnlocalizedName("rawMagAK74");
+        rawMagAUG = new MCHPItems(64).setUnlocalizedName("rawMagAUG");
+        rawMagBarrett = new MCHPItems(64).setUnlocalizedName("rawMagBarrett");
+        rawMagBizon = new MCHPItems(64).setUnlocalizedName("rawMagBizon");
+        rawMagDesertEagle = new MCHPItems(64).setUnlocalizedName("rawMagDesertEagle");
+        rawMagDragonuv = new MCHPItems(64).setUnlocalizedName("rawMagDragonuv");
+        rawMagScar = new MCHPItems(64).setUnlocalizedName("rawMagScar");
+        rawMagG3 = new MCHPItems(64).setUnlocalizedName("rawMagG3");
+        rawMagG36 = new MCHPItems(64).setUnlocalizedName("rawMagG36");
+        rawMagGlock = new MCHPItems(64).setUnlocalizedName("rawMagGlock");
+        rawMagGlockHi = new MCHPItems(64).setUnlocalizedName("rawMagGlockHi");
+        rawMagL86 = new MCHPItems(64).setUnlocalizedName("rawMagL86");
+        rawMagL96 = new MCHPItems(64).setUnlocalizedName("rawMagL96");
+        rawMagM4 = new MCHPItems(64).setUnlocalizedName("rawMagM4");
+        rawMagM9 = new MCHPItems(64).setUnlocalizedName("rawMagM9");
+        rawMagM14 = new MCHPItems(64).setUnlocalizedName("rawMagM14");
+        rawMagM21 = new MCHPItems(64).setUnlocalizedName("rawMagM21");
+        rawMagM249 = new MCHPItems(64).setUnlocalizedName("rawMagM249");
+        rawMagM1911 = new MCHPItems(64).setUnlocalizedName("rawMagM1911");
+        rawMagMakarov = new MCHPItems(64).setUnlocalizedName("rawMagMakarov");
+        rawMagMP5 = new MCHPItems(64).setUnlocalizedName("rawMagMP5");
+        rawMagMTAR = new MCHPItems(64).setUnlocalizedName("rawMagMTAR");
+        rawMagP90 = new MCHPItems(64).setUnlocalizedName("rawMagP90");
+        rawMagRPD = new MCHPItems(64).setUnlocalizedName("rawMagRPD");
+        rawMagSG550 = new MCHPItems(64).setUnlocalizedName("rawMagSG550");
+        rawMagSIG_P226 = new MCHPItems(64).setUnlocalizedName("rawMagSIG_P226");
+        rawMagSkorpion = new MCHPItems(64).setUnlocalizedName("rawMagSkorpion");
+        rawMagUSP = new MCHPItems(64).setUnlocalizedName("rawMagUSP");
+        rawMagUzi = new MCHPItems(64).setUnlocalizedName("rawMagUzi");
+        
+        magShapeACR = new MCHPItems(64).setUnlocalizedName("magShapeACR");
+        magShapeAK74 = new MCHPItems(64).setUnlocalizedName("magShapeAK74");
+        magShapeAUG = new MCHPItems(64).setUnlocalizedName("magShapeAUG");
+        magShapeBarrett = new MCHPItems(64).setUnlocalizedName("magShapeBarrett");
+        magShapeBizon = new MCHPItems(64).setUnlocalizedName("magShapeBizon");
+        magShapeDesertEagle = new MCHPItems(64).setUnlocalizedName("magShapeDesertEagle");
+        magShapeDragonuv = new MCHPItems(64).setUnlocalizedName("magShapeDragonuv");
+        magShapeScar = new MCHPItems(64).setUnlocalizedName("magShapeScar");
+        magShapeG3 = new MCHPItems(64).setUnlocalizedName("magShapeG3");
+        magShapeG36 = new MCHPItems(64).setUnlocalizedName("magShapeG36");
+        magShapeGlock = new MCHPItems(64).setUnlocalizedName("magShapeGlock");
+        magShapeGlockHi = new MCHPItems(64).setUnlocalizedName("magShapeGlockHi");
+        magShapeL86 = new MCHPItems(64).setUnlocalizedName("magShapeL86");
+        magShapeL96 = new MCHPItems(64).setUnlocalizedName("magShapeL96");
+        magShapeM4 = new MCHPItems(64).setUnlocalizedName("magShapeM4");
+        magShapeM9 = new MCHPItems(64).setUnlocalizedName("magShapeM9");
+        magShapeM14 = new MCHPItems(64).setUnlocalizedName("magShapeM14");
+        magShapeM21 = new MCHPItems(64).setUnlocalizedName("magShapeM21");
+        magShapeM249 = new MCHPItems(64).setUnlocalizedName("magShapeM249");
+        magShapeM1911 = new MCHPItems(64).setUnlocalizedName("magShapeM1911");
+        magShapeMakarov = new MCHPItems(64).setUnlocalizedName("magShapeMakarov");
+        magShapeMP5 = new MCHPItems(64).setUnlocalizedName("magShapeMP5");
+        magShapeMTAR = new MCHPItems(64).setUnlocalizedName("magShapeMTAR");
+        magShapeP90 = new MCHPItems(64).setUnlocalizedName("magShapeP90");
+        magShapeRPD = new MCHPItems(64).setUnlocalizedName("magShapeRPD");
+        magShapeSG550 = new MCHPItems(64).setUnlocalizedName("magShapeSG550");
+        magShapeSIG_P226 = new MCHPItems(64).setUnlocalizedName("magShapeSIG_P226");
+        magShapeSkorpion = new MCHPItems(64).setUnlocalizedName("magShapeSkorpion");
+        magShapeUSP = new MCHPItems(64).setUnlocalizedName("magShapeUSP");
+        magShapeUzi = new MCHPItems(64).setUnlocalizedName("magShapeUzi");
         
         barrelSection = new MCHPItems(64).setUnlocalizedName("barrelSection");
         flashHider = new MCHPItems(64).setUnlocalizedName("flashHider");
